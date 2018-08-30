@@ -1,0 +1,83 @@
+
+// Colors
+$default: #4A4A4A;
+
+$gray-1: #777777;
+$gray-2: #929292;
+$gray-3: #ADADAD;
+$gray-4: #C9C9C9;
+$gray-5: #F0F0F0;
+
+$purple-1: #655484;
+$purple-2: #83769C;
+$purple-3: #A298B5;
+
+$blue-1: #3F627A;
+$blue-2: #658194;
+$blue-3: #8BA0AF;
+
+$teal-1: #479AA6;
+$teal-2: #6BAEB7;
+$teal-3: #90C2C9;
+
+$green-1: #478D7A;
+$green-2: #6BA394;
+$green-3: #90BAAF;
+
+$red-1: #B85454;
+$red-2: #C67676;
+$red-3: #D49898;
+
+$gold-1: #B89654;
+$gold-2: #C6AB76;
+$gold-3: #D4C098;
+
+// Fonts
+$sans: 'Roboto Condensed', Helvetica, sans-serif;
+$serif: 'EB Garamond', Georgia, serif;
+
+// Media Queries
+$s: 480px;
+$m: 720px;
+$l: 840px;
+
+$header-shadow: 0 2px 0 rgba($gray-3, .6);
+
+// Mixins
+@mixin icon($name) {
+  background-image: url(../img/icons/icn-#{$name}.svg);
+}
+
+@mixin pattern($name: 'zig-zag-white.svg') {
+  background-image: url(../img/patterns/#{$name});
+}
+
+@mixin flex($align: null) {
+  display: flex;
+  flex-flow: row wrap;
+  @if $align == center or $align == v-center  {
+    align-items: center;
+  }
+  @if $align == center or $align == h-center  {
+    justify-content: center;
+  }
+}
+
+// Animations
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

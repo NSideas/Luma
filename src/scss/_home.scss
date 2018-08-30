@@ -1,0 +1,43 @@
+
+// Home Page
+
+.template-home {
+  .main-content-wrapper {
+    background-color: $gray-5;
+    padding-top: 0;
+  }
+  .page-title {
+    line-height: 1.1;
+  }
+  .title-container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+// Luma Shout Out
+.luma-logo {
+  margin-bottom: 1em;
+}
+
+.luma-shout-out p {
+  font-family: $sans;
+  font-size: 1.125em;
+  color: $default;
+  margin-bottom: .5em;
+  a {
+    color: #A9AE00;
+  }
+}
+
+
+// Recent News
+.recent-news-header {
+  h5 {
+    display: inline-block;
+  }
+  a {
+    color: $gold-1;
+    text-decoration: underline;
+  }
+}

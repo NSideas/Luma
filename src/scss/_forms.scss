@@ -1,0 +1,223 @@
+
+@mixin ui-input {
+  font-family: $sans;
+  font-size: inherit;
+  border: solid 1px;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  border-radius: 3px;
+  line-height: inherit;
+  &:focus {
+    outline: none;
+  }
+}
+
+@mixin ui-input--text {
+  display: block;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: inherit;
+  background: white;
+  box-shadow: none;
+  border-color: $gray-3;
+  -webkit-appearance: none;
+  &:focus {
+    border-color: $gray-2;
+    box-shadow: 0 0 3px rgba($gray-2, .65);
+  }
+  &.input-white {
+    background: rgba(white, .05);
+    border-color: rgba(white, .5);
+    &::placeholder {
+      color: rgba(white, .66);
+    }
+    &:focus {
+      border-color: rgba(white, .85);
+      background: rgba(white, .1);
+      box-shadow: none;
+    }
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="password"],
+textarea {
+  @include ui-input;
+  @include ui-input--text;
+  margin-bottom: .75em;
+}
+
+textarea {
+  min-height: 48px;
+  max-width: 100%;
+}
+
+.form-field {
+  padding-bottom: .5em;
+  width: 100%;
+  @media (min-width: $m) {
+    padding-bottom: 1em;
+  }
+}
+
+.form-submit {
+  padding-top: .75em;
+}
+
+form .label {
+  @include header-5;
+  display: block;
+  margin-left: 1px;
+  margin-bottom: 5px;
+}
+
+.form-field.required label {
+  &:after {
+    content: '*';
+  }
+}
+
+
+// Radio Buttons and Check Boxes
+%input-choice-container {
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+%input-choice-item {
+  position: relative;
+}
+
+%input-choice-element {
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border: solid 2px white;
+  box-shadow: 0 0 0 2px $gray-4;
+  &:checked {
+    background: $gold-3;
+    box-shadow: 0 0 0 2px $gold-3;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px $gold-1;
+  }
+}
+
+%input-choice-label {
+  display: block;
+  margin-bottom: 1em;
+  padding-left: 26px;
+}
+
+.radio-container,
+.checkbox-container {
+  @extend %input-choice-container;
+}
+.radio-choice,
+.checkbox-choice {
+  @extend %input-choice-item;
+}
+.custom-radio{
+  @extend %input-choice-element;
+  border-radius: 50%;
+}
+.custom-checkbox {
+  @extend %input-choice-element;
+  border-radius: 2px;
+}
+.custom-radio + label,
+.custom-checkbox + label {
+  @extend %input-choice-label;
+}
+
+
+
+
+input:invalid + input[type="submit"],
+input:invalid + input[type="submit"].btn--solid-white {
+  opacity: .5;
+  cursor: default;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.search-site {
+  position: relative;
+  margin-bottom: 2em;
+  .search-input:focus {
+    box-shadow: none;
+  }
+  .search-submit {
+    text-indent: -1000px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    border: none;
+    padding: 0;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    background-image: url(../img/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    opacity: .4;
+    &:hover {
+      background-color: transparent;
+    }
+    &:focus,
+    &:active {
+      outline: none;
+      background-color: transparent;
+    }
+  }
+}
+
+@media (min-width: $l) {
+  .search-site {
+    margin-bottom: 0;
+    width: 52px;
+    float: right;
+  }
+  .search-site .search-input {
+    position: absolute;
+    margin-bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+    width: 200px;
+    height: 45px;
+    background: $gray-5;
+    border: none;
+    border-radius: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease;
+  }
+  .search-site.active {
+    .search-input {
+      pointer-events: all;
+      opacity: 1;
+    }
+  }
+  .search-site .search-submit {
+    cursor: pointer;
+  }
+  .search-site {
+    .search-input:focus + .search-submit,
+    .search-submit:focus {
+      opacity: .6;
+    }
+  }
+}

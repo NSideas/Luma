@@ -1,0 +1,94 @@
+
+
+// Footer
+#footer {
+  background-color: $default;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  @media (min-width: $m) {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+.footer-section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: .5em;
+  .grid-item {
+    margin: 1em 0;
+  }
+  p {
+    margin-bottom: .5em;
+  }
+  a {
+    color: white;
+  }
+  .content-area a {
+    text-decoration: underline;
+  }
+}
+
+$footer-border: solid 2px rgba(black, .25);
+
+.footer-section--top {
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom: $footer-border;
+  @media (min-width: $m) {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.footer-home-link {
+  width: 50%;
+  margin-bottom: 1em;
+  text-align: center;
+  @media (min-width: $m) {
+    width: 160px;
+    margin-bottom: 0;
+  }
+}
+
+.footer-home-link img {
+  max-width: 100%;
+}
+
+.sm-link-list {
+  margin: 0;
+  padding: .5em 0;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  @media (min-width: $m) {
+    width: 160px;
+  }
+}
+
+.sm-link-list li {
+  display: inline-block;
+  margin: 0 .25em;
+  @media (min-width: $m) {
+    margin: 0 .1em;
+  }
+}
+
+.sm-link img {
+  opacity: .35;
+}
+
+.form-title {
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+.newsletter-signup label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.footer-sub-nav {
+  border-top: $footer-border;
+}

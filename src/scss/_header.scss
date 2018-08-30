@@ -1,0 +1,175 @@
+
+$hh: 140px; // Header height
+
+// Header
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 58px;
+  z-index: 10;
+  transform: translateY(0);
+
+  &.fixed {
+    position: fixed;
+    transition: transform .2s ease;
+    top: -58px;
+    &.header-visible {
+      transform: translateY(58px);
+    }
+  }
+
+  @media (min-width: $l) {
+    height: $hh;
+    padding-top: 10px;
+    @media (min-height: 960px) {
+      position: fixed;
+    }
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: white;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      box-shadow: $header-shadow;
+      // border-bottom: solid 2px $gray-4;
+    }
+  }
+}
+
+body {
+  padding-top: 58px;
+  @media (min-width: $l) {
+    padding-top: $hh;
+  }
+}
+
+.header-outer-wrap {
+  @media (min-width: $l) {
+    margin: 0 auto;
+    max-width: 720px;
+  }
+}
+
+.header-container-top {
+  position: relative;
+  z-index: 10;
+  padding: .75em 1em;
+  border-bottom: solid 2px lighten($gray-4, 10%);
+  background: white;
+  @media (min-width: $l) {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 28px;
+    padding-bottom: .5em;
+    max-width: 720px;
+    background: transparent;
+    border-bottom: solid 1px $gray-4;
+  }
+}
+
+.logo {
+  display: inline-flex;
+  margin: 0;
+  vertical-align: top;
+  align-items: center;
+  height: 32px;
+  background-image: url(../img/fairport-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.site-title {
+  margin-bottom: 0;
+  margin-left: 38px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: $gray-1;
+}
+
+#menu-toggle {
+  @include flex;
+  width: 32px;
+  height: 32px;
+  padding: 8px 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  align-content: space-between;
+}
+
+#menu-toggle div {
+  height: 2px;
+  width: 100%;
+  background: $gray-2;
+  @media (min-width: $l) {
+    display: none;
+  }
+}
+
+#main-nav {
+  display: none;
+  position: fixed;
+  background: white;
+  height: 100vh;
+  padding-top: 58px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  opacity: 0;
+  &.open {
+    display: block;
+    animation: fade-in .2s forwards;
+    &.nav-out {
+      animation: fade-out .2s forwards;
+    }
+  }
+}
+
+#main-nav:after {
+  content: '';
+  display: block;
+  height: 100px;
+
+}
+
+@media (min-width: $l) {
+  .subscribe-link-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;
+  }
+  #main-nav {
+    display: block;
+    position: static;
+    opacity: 1;
+    height: auto;
+    overflow-y: hidden;
+    padding-top: 0;
+    background: transparent;
+  }
+  #main-nav:after {
+    display: none;
+    content: none;
+  }
+  .logo {
+    background-image: url(../img/fairport-logo.svg);
+    width: 215px;
+    height: 48px;
+  }
+  .site-title {
+    @include visuallyhidden;
+  }
+}
