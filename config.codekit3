@@ -447,21 +447,21 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/js\/fairport.min.js": {
+	"\/dist\/js\/luma.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/js\/fairport.min.min.js",
+		"oAP": "\/dist\/js\/luma.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/dist\/js\/fairport.min.js.map": {
+	"\/dist\/js\/luma.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/js\/fairport.min.js.map",
+		"oAP": "\/dist\/js\/luma.min.js.map",
 		"oF": 0
 		},
 	"\/dist\/js\/plugins.min.js": {
@@ -524,6 +524,13 @@
 		"oAP": "\/site\/404.html",
 		"oF": 0
 		},
+	"\/site\/default-template.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/default-template.html",
+		"oF": 0
+		},
 	"\/site\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -531,32 +538,12 @@
 		"oAP": "\/site\/index.html",
 		"oF": 0
 		},
-	"\/src\/js\/fairport.js": {
+	"\/src\/js\/luma.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/js\/fairport.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/js\/partials\/dropdown.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/js\/dropdown.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/js\/partials\/fam-circles.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/js\/fam-circles.min.js",
+		"oAP": "\/dist\/js\/luma.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -568,26 +555,6 @@
 		"oA": 1,
 		"oAP": "\/dist\/js\/global.min.js",
 		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/js\/partials\/hero-swiper.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/js\/hero-swiper.min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/js\/partials\/staff-list.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/dist\/js\/staff-list.min.js",
-		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
