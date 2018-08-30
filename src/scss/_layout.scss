@@ -1,0 +1,82 @@
+
+@mixin contain {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@mixin flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#header {
+  padding-top: 12px;
+}
+
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  @include contain;
+}
+
+.logo {
+  display: inline-block;
+  img {
+    width: 180px;
+  }
+}
+
+#menu-toggle {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  background: $red-1;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+#menu-toggle > div {
+  width: 20px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 8px;
+  &:first-child {
+    top: 0;
+    transform: translateY(10px);
+  }
+  &:nth-child(2) {
+    top: 50%;
+    margin-top: -1px;
+  }
+  &:last-child {
+    bottom: 0;
+    transform: translateY(-10px);
+  }
+}
+
+#main-nav {
+  display: none;
+  background-color: $brown;
+  color: white;
+}
+
+.main-nav-list {
+  @include contain;
+  margin: 0;
+  
+}
+
+.main-nav-item a {
+  color: white;
+  &:hover {
+    color: $red-1;
+  }
+}
+
+.header-top-container {
+  display: none;
+}
