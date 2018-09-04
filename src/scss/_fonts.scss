@@ -24,26 +24,33 @@
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
-       url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
-       url('../fonts/RobotoCondensed-Regular.otf') format('opentype');
+  font-family: 'Heebo';
+  src: url('../fonts/Heebo-Regular.woff2') format('woff2'),
+       url('../fonts/Heebo-Regular.woff') format('woff'),
+       url('../fonts/Heebo-Regular.otf') format('opentype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url('../fonts/RobotoCondensed-Light.woff2') format('woff2'),
-       url('../fonts/RobotoCondensed-Light.woff') format('woff'),
-       url('../fonts/RobotoCondensed-Light.otf') format('opentype');
-  font-weight: 300;
+  font-family: 'Heebo';
+  src: url('../fonts/Heebo-Bold.woff2') format('woff2'),
+       url('../fonts/Heebo-Bold.woff') format('woff'),
+       url('../fonts/Heebo-Bold.otf') format('opentype');
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Roboto Condensed';
-  src: url('../fonts/RobotoCondensed-LightItalic.woff2') format('woff2'),
-       url('../fonts/RobotoCondensed-LightItalic.woff') format('woff'),
-       url('../fonts/RobotoCondensed-LightItalic.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
+  font-family: 'Heebo';
+  src: url('../fonts/Heebo-Medium.woff2') format('woff2'),
+       url('../fonts/Heebo-Medium.woff') format('woff'),
+       url('../fonts/Heebo-Medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url('../fonts/Heebo-Light.woff2') format('woff2'),
+       url('../fonts/Heebo-Light.woff') format('woff'),
+       url('../fonts/Heebo-Light.otf') format('opentype');
+  font-weight: 200;
 }
