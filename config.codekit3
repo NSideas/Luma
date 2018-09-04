@@ -549,6 +549,17 @@
 		"oAP": "\/site\/index.html",
 		"oF": 0
 		},
+	"\/site\/uploads\/talking-ladies.png": {
+		"ft": 32768,
+		"iS": 24759,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/talking-ladies.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/src\/js\/luma.js": {
 		"ft": 64,
 		"ma": 1,
