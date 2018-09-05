@@ -2,7 +2,6 @@
 #footer p,
 #footer li {
   color: $gray-1;
-  // font-size: 15px;
   @media (min-width: $l) {
     font-size: 15px;
   }
@@ -22,10 +21,6 @@
 
 #footer-nav .main-nav-list {
   padding-bottom: .75em;
-}
-
-#footer-nav .sub-nav {
-  padding-top: 3px;
 }
 
 #footer-nav .main-nav-item {
