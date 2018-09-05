@@ -9,11 +9,10 @@ if (bowser.msie) {
 }
 
 $('#menu-toggle').click(function() {
-  if (!$('#main-nav').hasClass('open')) {
-    $('#main-nav').slideDown(300);
-    $('#main-nav').addClass('open');
+  var $nav = $('#header-nav');
+  if (!$nav.hasClass('open')) {
+    $nav.slideDown(300).addClass('open');
   } else {
-    $('#main-nav').slideUp(300);
-    $('#main-nav').removeClass('open');
+    $nav.slideUp(300).removeClass('open');
   }
 });

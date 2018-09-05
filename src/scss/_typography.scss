@@ -30,7 +30,7 @@ h3 {
   line-height: 1.25;
   font-weight: 400;
   margin-bottom: .5em;
-  @media (min-width: $xs) {
+  @media (min-width: $s) {
     font-size: 1.875em;
   }
 }
@@ -51,14 +51,11 @@ p {
 }
 
 p.large {
-  font-size: 1.125em;
+  font-size: 1.15em;
   font-weight: 200;
   line-height: 1.5;
   color: $red-2;
   margin-bottom: 1em;
-  strong {
-    font-weight: 500;
-  }
 }
 
 a {
