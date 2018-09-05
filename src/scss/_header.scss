@@ -5,7 +5,11 @@
   display: flex;
   align-items: center;
   height: 60px;
-  padding: 12px 5%;
+  padding: 12px 6%;
+  @media (min-width: $s) {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
 }
 
 .logo {
@@ -14,7 +18,7 @@
 
 .logo img {
   width: 180px;
-  @media (min-width: $xs) {
+  @media (min-width: $s) {
     width: 224px;
   }
 }
@@ -22,12 +26,15 @@
 #menu-toggle {
   position: absolute;
   top: 12px;
-  right: 5%;
+  right: 14px;
   background: $red-1;
   width: 36px;
   height: 36px;
   padding: 6px;
   cursor: pointer;
+  @media (min-width: $s) {
+    // right: 24px;
+  }
 }
 
 #menu-toggle > div {
@@ -78,14 +85,18 @@ nav ul {
 
 .main-nav-item a,
 .secondary-nav-item a {
+  color: white;
   display: inline-block;
   &:hover {
     color: $red-1;
   }
 }
 
-#header-nav .main-nav-item a {
-  color: white;
+#footer-nav .main-nav-item a {
+  color: inherit;
+  &:hover {
+    color: $red-1;
+  }
 }
 
 .main-nav-item > a {
@@ -105,7 +116,7 @@ nav ul {
 
 #header-nav .sub-nav {
   padding-left: 2em;
-  padding-top: .5em;
+  padding-top: .3em;
   border-left: solid 1px transparent;
 }
 

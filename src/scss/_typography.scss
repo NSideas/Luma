@@ -27,7 +27,7 @@ h2,
 h3 {
   font-family: $serif;
   font-size: 1.75em;
-  line-height: 1.25;
+  line-height: 1.33;
   font-weight: 400;
   margin-bottom: .5em;
   @media (min-width: $s) {
@@ -55,7 +55,6 @@ p.large {
   font-weight: 200;
   line-height: 1.5;
   color: $red-2;
-  margin-bottom: 1em;
 }
 
 a {

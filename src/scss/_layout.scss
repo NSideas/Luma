@@ -1,7 +1,17 @@
 
 @mixin contain {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  @media (min-width: $s) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  @media (min-width: $l) {
+    max-width: 1100px;
+  }
 }
 
 @mixin flex {
@@ -13,13 +23,13 @@
   @include contain;
 }
 
-.main-content {
-  margin-top: 1em;
-}
-
 .main-section {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  @media (min-width: $m) {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
 }
 
 %dark_bg {
@@ -42,11 +52,27 @@ img {
 
 // Grid
 
+.grid-container {
+  @include flex;
+  justify-content: space-between;
+}
+
+.v-align-center {
+  align-items: center;
+}
+
 $column-count: 12;
+$gutter: 30px;
 
 %grid_item {
-  margin-top: .5em;
+  width: 100%;
   margin-bottom: 1.75em;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @media (min-width: $l) {
+    margin-bottom: 0;
+  }
 }
 
 @for $i from 1 through $column-count {
@@ -55,13 +81,18 @@ $column-count: 12;
   }
 }
 
+@media (min-width: $l) {
+  .grid-6 {
+    width: calc(50% - #{$gutter});
+  }
+}
 
 // Block Lists
 
 .block-list {
   list-style: none;
   margin: 0;
-  padding: .75em 0;
+  padding: 0 0 .5em 0;
 }
 
 .block-list-item {
