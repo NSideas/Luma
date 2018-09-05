@@ -12,7 +12,12 @@
 }
 
 #footer .logo {
-  margin-bottom: 1em;
+  margin-bottom: 16px;
+  @media (min-width: $l) {
+    position: relative;
+    top: -5px;
+    margin-bottom: 11px;
+  }
 }
 
 #footer-nav ul {
@@ -32,6 +37,7 @@
     width: 78%;
     column-count: 2;
     column-gap: 0;
+    padding-bottom: 0;
   }
   #footer-nav .main-nav-item {
     padding-right: 1em;

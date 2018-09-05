@@ -567,6 +567,46 @@
 		"oAP": "\/site\/index.html",
 		"oF": 0
 		},
+	"\/site\/understanding-women.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/understanding-women.html",
+		"oF": 0
+		},
+	"\/site\/uploads\/comm.png": {
+		"ft": 32768,
+		"iS": 19202,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/comm.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/site\/uploads\/gear.png": {
+		"ft": 32768,
+		"iS": 22023,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/gear.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/site\/uploads\/sunset-jogger.jpg": {
+		"ft": 16384,
+		"iS": 186409,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/sunset-jogger.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/site\/uploads\/talking-ladies.png": {
 		"ft": 32768,
 		"iS": 24759,
@@ -575,6 +615,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/site\/uploads\/users.png": {
+		"ft": 32768,
+		"iS": 20593,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/users.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -672,6 +723,20 @@
 		"oAP": "\/site\/_main-nav.html",
 		"oF": 0
 		},
+	"\/src\/kit\/modules\/_pre-footer-simple.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_pre-footer-simple.html",
+		"oF": 0
+		},
+	"\/src\/kit\/modules\/_pre-footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_pre-footer.html",
+		"oF": 0
+		},
 	"\/src\/kit\/partials\/_footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -691,6 +756,13 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/site\/default-template.html",
+		"oF": 0
+		},
+	"\/src\/kit\/understanding-women.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/site\/understanding-women.html",
 		"oF": 0
 		},
 	"\/src\/scss\/_buttons.scss": {

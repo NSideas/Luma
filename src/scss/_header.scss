@@ -23,6 +23,12 @@
   }
 }
 
+#header .logo img {
+  @media (min-width: $l) {
+    width: auto;
+  }
+}
+
 #menu-toggle {
   position: absolute;
   top: 12px;
