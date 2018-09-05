@@ -1,14 +1,47 @@
 
 #footer p,
 #footer li {
-  font-size: 16px;
   color: $gray-1;
+  // font-size: 15px;
+  @media (min-width: $l) {
+    font-size: 15px;
+  }
 }
+
 #footer p {
   margin-bottom: .5em;
 }
 
-
 #footer .logo {
   margin-bottom: 1em;
+}
+
+#footer-nav ul {
+  width: 100%;
+}
+
+#footer-nav .main-nav-list {
+  padding-bottom: .75em;
+}
+
+#footer-nav .sub-nav {
+  padding-top: 3px;
+}
+
+#footer-nav .main-nav-item {
+  break-inside: avoid;
+}
+
+@media (min-width: 600px) {
+  #footer-nav .main-nav-list {
+    width: 78%;
+    column-count: 2;
+    column-gap: 0;
+  }
+  #footer-nav .main-nav-item {
+    padding-right: 1em;
+  }
+  #footer-nav .secondary-nav-list {
+    width: 22%;
+  }
 }

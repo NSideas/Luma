@@ -92,7 +92,8 @@ nav ul {
   }
 }
 
-#footer-nav .main-nav-item a {
+#footer-nav .main-nav-item a,
+#footer-nav .secondary-nav-item a {
   color: inherit;
   &:hover {
     color: $red-1;
@@ -112,6 +113,7 @@ nav ul {
 .sub-nav,
 .secondary-nav-list {
   padding: 0;
+  margin: 0;
 }
 
 #header-nav .sub-nav {
@@ -122,7 +124,7 @@ nav ul {
 
 .sub-nav-item a,
 .secondary-nav-item a {
-  margin: 2px 0;
+  margin-bottom: 2px;
 }
 
 #footer-nav .sub-nav-item a,

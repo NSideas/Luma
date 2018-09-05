@@ -3,7 +3,7 @@
 
 body {
   font-family: $sans;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -31,7 +31,10 @@ h3 {
   font-weight: 400;
   margin-bottom: .5em;
   @media (min-width: $s) {
-    font-size: 1.875em;
+    font-size: 2em;
+  }
+  @media (min-width: $m) {
+    font-size: 2.25em;
   }
 }
 
@@ -44,17 +47,26 @@ h5 {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.66;
   &:last-of-type {
     margin-bottom: 0;
   }
 }
 
-p.large {
-  font-size: 1.15em;
+p.intro {
+  font-size: 1.25em;
   font-weight: 200;
   line-height: 1.5;
   color: $red-2;
+  @media (min-width: $m) {
+    font-size: 1.375em;
+  }
+}
+
+p.large {
+  @media (min-width: $s) {
+    font-size: 1.125em;
+  }
 }
 
 a {
@@ -68,7 +80,6 @@ a {
 .cta-link {
   display: inline-block;
   text-transform: uppercase;
-  font-size: .9em;
   font-weight: 200;
   line-height: 1.2;
   color: $brown;

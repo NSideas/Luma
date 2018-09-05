@@ -4,7 +4,6 @@
   padding-right: 6%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 600px;
   @media (min-width: $s) {
     padding-left: 2em;
     padding-right: 2em;
@@ -21,6 +20,11 @@
 
 .contain {
   @include contain;
+  max-width: 600px;
+}
+
+.contain--wide {
+  @include contain;
 }
 
 .main-section {
@@ -34,7 +38,8 @@
 
 %dark_bg {
   color: white;
-  a {
+  a,
+  .cta-link {
     color: inherit;
   }
 }
@@ -54,7 +59,7 @@ img {
 
 .grid-container {
   @include flex;
-  justify-content: space-between;
+  // justify-content: space-between;
 }
 
 .v-align-center {
@@ -67,23 +72,34 @@ $gutter: 30px;
 %grid_item {
   width: 100%;
   margin-bottom: 1.75em;
-  &:last-child {
-    margin-bottom: 0;
-  }
   @media (min-width: $l) {
     margin-bottom: 0;
+    margin-right: $gutter;
+  }
+}
+
+%grid_item:last-child {
+  margin-bottom: 0;
+  @media (min-width: $l) {
+    margin-right: 0;
+  }
+}
+
+@mixin grid($col) {
+  // Number of columns
+  $n: $column-count / $col;
+  // Total gutter space
+  $g: ($column-count / $col - 1) * $gutter;
+
+  @media (min-width: $l) {
+    width: calc( (100% - #{$g}) / #{$n} );
   }
 }
 
 @for $i from 1 through $column-count {
   .grid-#{$i} {
     @extend %grid_item;
-  }
-}
-
-@media (min-width: $l) {
-  .grid-6 {
-    width: calc(50% - #{$gutter});
+    @include grid($i);
   }
 }
 
@@ -106,8 +122,4 @@ $gutter: 30px;
 .block-list-item h3 {
   color: $red-2;
   margin-bottom: .25em;
-}
-
-.block-list .content {
-  font-size: 16px;
 }
