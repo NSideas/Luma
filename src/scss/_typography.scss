@@ -49,16 +49,24 @@ h5 {
   font-weight: 400;
 }
 
-.section-title {
-  color: $brown;
-  margin-bottom: .5em;
-}
-
 p {
   line-height: 1.66;
   &:last-of-type {
     margin-bottom: 0;
   }
+}
+
+a {
+  color: $red-2;
+  text-decoration: none;
+  &:hover {
+    color: $red-1;
+  }
+}
+
+.section-title {
+  color: $brown;
+  margin-bottom: .5em;
 }
 
 p.intro,
@@ -81,20 +89,18 @@ p.large {
   }
 }
 
-a {
+span.highlight {
   color: $red-2;
-  text-decoration: none;
-  &:hover {
-    color: $red-1;
-  }
+  font-weight: bold;
 }
 
 .cta-link {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 200;
-  line-height: 1.2;
+  // line-height: 1.2;
   color: $brown;
+  margin-top: 1em;
   &:hover {
     color: $brown;
   }
@@ -102,17 +108,13 @@ a {
 
 .cta-link:after {
   display: inline-block;
+  line-height: 0;
   content: '\2192';
   font-size: 1.6em;
   position: relative;
   top: .12em;
   left: .07em;
 }
-
-p + .cta-link {
-  margin-top: .5em;
-}
-
 
 .align-right {
   text-align: right;

@@ -91,7 +91,7 @@ img {
 }
 
 $column-count: 12;
-$gutter: 36px;
+$gutter: 42px;
 
 %grid_item {
   width: 100%;
@@ -126,6 +126,8 @@ $gutter: 36px;
   }
 }
 
+
+
 // Block Lists
 
 .block-list {
@@ -136,18 +138,36 @@ $gutter: 36px;
 
 .block-list-item {
   display: block;
+  margin-bottom: 2em;
+  @media (min-width: $l) {
+    margin-bottom: 0;
+  }
 }
 
 .block-list-item header {
   margin-bottom: .75em;
+  .cta-link {
+    display: block;
+    margin-top: 0;
+  }
 }
 
 .block-list-item h3 {
   color: $red-2;
   margin-bottom: .25em;
+  line-height: 1.125;
 }
 
 .block-list-item img {
   display: block;
   margin: auto;
+}
+
+
+// Pre Footer
+.pre-footer--simple li {
+  margin-bottom: 1.5em;
+  @media (min-width: $l) {
+    margin-bottom: 0;
+  }
 }
