@@ -72,6 +72,7 @@ nav ul {
   @media (min-width: $l) {
     display: inline-block;
     margin-bottom: 0;
+    position: relative;
     &:not(:last-child) {
       margin-right: 1em;
     }
@@ -81,6 +82,9 @@ nav ul {
 #header-nav .main-nav-item a {
   @media (min-width: $l) {
     color: $red-2;
+    &:hover {
+      color: $red-1;
+    }
   }
 }
 
@@ -89,9 +93,8 @@ nav ul {
   border-left: solid 1px;
   @media (min-width: $l) {
     border-color: transparent;
-    &:hover {
-      border-color: $red-2;
-    }
+    position: relative;
+    z-index: 2;
   }
 }
 
@@ -100,9 +103,30 @@ nav ul {
   padding-top: .3em;
   border-left: solid 1px transparent;
   @media (min-width: $l) {
-    display: none;
+    // display: none;
+    transform: translateY(-100%);
+    // z-index: -1;
+    position: absolute;
+    width: 200px;
+    padding-left: .5em;
+    border-left: solid 1px $red-2;
+    background-color: white;
+    transition: transform .2s 1s ease;
   }
 }
+
+@media (min-width: $l) {
+  #header-nav .main-nav-item:hover {
+    & > a {
+      border-color: $red-2;
+    }
+    .sub-nav {
+      // display: block;
+      transform: translateY(0);
+    }
+  }
+}
+
 
 
 
