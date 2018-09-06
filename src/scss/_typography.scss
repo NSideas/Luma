@@ -100,7 +100,10 @@ span.highlight {
   font-weight: 200;
   // line-height: 1.2;
   color: $brown;
-  margin-top: 1em;
+  margin-top: 1.5em;
+  @media (min-width: $l) {
+    margin-top: 2em;
+  }
   &:hover {
     color: $brown;
   }

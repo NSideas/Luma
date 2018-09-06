@@ -35,8 +35,8 @@
     padding-bottom: 3em;
   }
   @media (min-width: $l) {
-    padding-top: 3.5em;
-    padding-bottom: 4.5em;
+    padding-top: 4em;
+    padding-bottom: 4em;
   }
 }
 
@@ -133,7 +133,7 @@ $gutter: 42px;
 .block-list {
   list-style: none;
   margin: 0;
-  padding: 0 0 .5em 0;
+  padding: 0;
 }
 
 .block-list-item {
@@ -169,5 +169,32 @@ $gutter: 42px;
   margin-bottom: 1.5em;
   @media (min-width: $l) {
     margin-bottom: 0;
+  }
+}
+
+
+
+@mixin top_shadow($width, $height) {
+  top: -$height;
+  left: (100% - $width)/2;
+  width: $width;
+  height: $height;
+  box-shadow: 0 $height/2 $height rgba(black, .3);
+}
+
+.top-shadow {
+  position: relative;
+  overflow: hidden;
+}
+
+.top-shadow:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: transparent;
+  border-radius: 50%;
+  @include top_shadow(120%, 12px);
+  @media (min-width: $l) {
+    @include top_shadow(100%, 16px);
   }
 }
