@@ -1,9 +1,5 @@
 
-#header-nav {
-  display: none;
-  background-color: $brown;
-  color: white;
-}
+// Global Nav Styles
 
 nav ul {
   list-style: none;
@@ -15,28 +11,17 @@ nav ul {
   padding: 0;
 }
 
-#header-nav .main-nav-list {
-  @include contain;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
 .main-nav-item {
   margin-bottom: 1.25em;
 }
 
-.main-nav-item a,
 .secondary-nav-item a {
-  color: white;
   display: inline-block;
-  &:hover {
-    color: $red-1;
-  }
 }
 
-#footer-nav .main-nav-item a,
-#footer-nav .secondary-nav-item a {
-  color: inherit;
+.main-nav-item a {
+  color: white;
+  display: inline-block;
   &:hover {
     color: $red-1;
   }
@@ -47,30 +32,91 @@ nav ul {
   font-weight: 500;
 }
 
-#header-nav .main-nav-item > a {
-  padding-left: .5em;
-  border-left: solid 1px;
-}
-
 .sub-nav,
 .secondary-nav-list {
   padding: 0;
   margin: 0;
 }
 
-#footer-nav .sub-nav {
-  padding-top: 3px;
+.sub-nav-item a,
+.secondary-nav-item a {
+  margin-bottom: 2px;
+}
+
+
+
+// Header Nav Styles
+
+#header-nav {
+  display: none;
+  background-color: $brown;
+  color: white;
+  @media (min-width: $l) {
+    display: block;
+    background-color: transparent;
+  }
+}
+
+#header-nav .main-nav-list {
+  @include contain;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  @media (min-width: $l) {
+    padding: 1em 0 0 0;
+    position: relative;
+    left: calc(-.5em - 1px);
+  }
+}
+
+#header-nav .main-nav-item {
+  @media (min-width: $l) {
+    display: inline-block;
+    margin-bottom: 0;
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+}
+
+#header-nav .main-nav-item a {
+  @media (min-width: $l) {
+    color: $red-2;
+  }
+}
+
+#header-nav .main-nav-item > a {
+  padding-left: .5em;
+  border-left: solid 1px;
+  @media (min-width: $l) {
+    border-color: transparent;
+    &:hover {
+      border-color: $red-2;
+    }
+  }
 }
 
 #header-nav .sub-nav {
   padding-left: 2em;
   padding-top: .3em;
   border-left: solid 1px transparent;
+  @media (min-width: $l) {
+    display: none;
+  }
 }
 
-.sub-nav-item a,
-.secondary-nav-item a {
-  margin-bottom: 2px;
+
+
+// Footer Nav Styles
+
+#footer-nav .sub-nav {
+  padding-top: 3px;
+}
+
+#footer-nav .main-nav-item a {
+  color: inherit;
+  &:hover {
+    color: $red-1;
+  }
 }
 
 #footer-nav .sub-nav-item a,

@@ -5,8 +5,8 @@
   margin-left: auto;
   margin-right: auto;
   @media (min-width: $s) {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
   }
   @media (min-width: $l) {
     max-width: 1140px;
@@ -35,7 +35,7 @@
     padding-bottom: 3em;
   }
   @media (min-width: $l) {
-    padding-top: 4em;
+    padding-top: 3.5em;
     padding-bottom: 4em;
   }
 }

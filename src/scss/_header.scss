@@ -1,15 +1,25 @@
 
 // Header
 
+.header-container {
+  @media (min-width: $l) {
+    @include contain;
+    padding-top: 1em;
+  }
+}
+
 .logo-wrap {
   display: flex;
   align-items: center;
   height: 60px;
-  padding: 12px 6%;
+  padding: 0 6%;
   @media (min-width: $s) {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding: 0 22px;
   }
+  @media (min-width: $l) {
+    padding: 0;
+  }
+
 }
 
 .logo {
@@ -24,8 +34,9 @@
 }
 
 #header .logo img {
+  margin-top: 1%;
   @media (min-width: $l) {
-    width: auto;
+    // width: auto;
   }
 }
 
@@ -40,6 +51,9 @@
   cursor: pointer;
   @media (min-width: $s) {
     // right: 24px;
+  }
+  @media (min-width: $l) {
+    display: none;
   }
 }
 
