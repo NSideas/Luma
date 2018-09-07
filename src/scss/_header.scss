@@ -79,5 +79,28 @@
 }
 
 .header-top-container {
-  display: none;
+  // display: none;
+  position: relative;
+  z-index: 5;
+}
+
+
+
+.sm-link-list a {
+  display: block;
+  font-size: 0;
+  width: 36px;
+  height: 36px;
+}
+
+.sm-link--facebook {
+  background-image: url(../img/icn-facebook.svg);
+}
+
+.sm-link--twitter {
+  background-image: url(../img/icn-twitter.svg);
+}
+
+.sm-link--linkedin {
+  background-image: url(../img/icn-linkedin.svg);
 }

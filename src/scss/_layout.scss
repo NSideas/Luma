@@ -139,6 +139,18 @@ $gutter: 42px;
 .block-list-item {
   display: block;
   margin-bottom: 2em;
+  h3 {
+    color: $red-2;
+    margin-bottom: .25em;
+    line-height: 1.125;
+  }
+  img {
+    display: block;
+    margin: auto;
+  }
+  p {
+    margin-bottom: .6em;
+  }
   @media (min-width: $l) {
     margin-bottom: 0;
   }
@@ -152,18 +164,6 @@ $gutter: 42px;
   }
 }
 
-.block-list-item h3 {
-  color: $red-2;
-  margin-bottom: .25em;
-  line-height: 1.125;
-}
-
-.block-list-item img {
-  display: block;
-  margin: auto;
-}
-
-
 // Pre Footer
 .pre-footer--simple li {
   margin-bottom: 1.5em;
@@ -174,13 +174,6 @@ $gutter: 42px;
 
 
 
-@mixin top_shadow($width, $height) {
-  top: -$height;
-  left: (100% - $width)/2;
-  width: $width;
-  height: $height;
-  box-shadow: 0 $height/2 $height rgba(black, .3);
-}
 
 .top-shadow {
   position: relative;

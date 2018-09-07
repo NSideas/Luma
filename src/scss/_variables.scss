@@ -28,3 +28,11 @@ $xl: 1100px;
   left: 0;
   top: 0;
 }
+
+@mixin top_shadow($width, $height) {
+  top: -$height;
+  left: (100% - $width)/2;
+  width: $width;
+  height: $height;
+  box-shadow: 0 $height/2 $height rgba(black, .3);
+}

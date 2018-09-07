@@ -73,7 +73,7 @@ nav ul {
   @media (min-width: $l) {
     @include screen_mask;
     top: 1em;
-    height: 100px;
+    height: 200px;
     transform: translateY(-100%);
     z-index: 3;
   }

@@ -384,11 +384,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/dist\/img\/icn-facebook-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/img\/icn-facebook-solid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/dist\/img\/icn-facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/dist\/img\/icn-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/img\/icn-linkedin-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/img\/icn-linkedin-solid.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -404,6 +424,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/dist\/img\/icn-twitter-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/img\/icn-twitter-solid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/dist\/img\/icn-twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -414,11 +444,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-youtube.svg": {
+	"\/dist\/img\/icn-youtube-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-youtube.svg",
+		"oAP": "\/dist\/img\/icn-youtube-solid.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
