@@ -16,3 +16,13 @@ $('#menu-toggle').click(function() {
     $nav.slideUp(300).removeClass('open');
   }
 });
+
+
+$('#toggle-top-menu').click(function() {
+  var $topMenu = $(this).prev('.header-top-container');
+  if (!$topMenu.hasClass('open')) {
+    $topMenu.slideDown(300).addClass('open');
+  } else {
+    $topMenu.slideUp(300).removeClass('open');
+  }
+});

@@ -12,12 +12,6 @@
     max-width: 1140px;
   }
 }
-
-@mixin flex {
-  display: flex;
-  flex-flow: row wrap;
-}
-
 .contain {
   @include contain;
   max-width: 600px;

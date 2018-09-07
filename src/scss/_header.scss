@@ -2,6 +2,7 @@
 // Header
 
 .header-container {
+  margin-top: 14px;
   @media (min-width: $l) {
     @include contain;
     padding-top: 1em;
@@ -11,7 +12,7 @@
 .logo-wrap {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 36px;
   padding: 0 6%;
   @media (min-width: $s) {
     padding: 0 22px;
@@ -35,7 +36,7 @@
 }
 
 #header .logo img {
-  margin-top: 1%;
+  // margin-top: 1%;
   @media (min-width: $l) {
     // width: auto;
   }
@@ -43,7 +44,7 @@
 
 #menu-toggle {
   position: absolute;
-  top: 12px;
+  top: 0;
   right: 14px;
   background: $red-1;
   width: 36px;
@@ -78,19 +79,80 @@
   }
 }
 
+
+
+
 .header-top-container {
-  // display: none;
+  display: none;
   position: relative;
   z-index: 5;
+  @media (min-width: $l) {
+    display: block;
+  }
 }
 
+#toggle-top-menu {
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  cursor: pointer;
+  @media (min-width: $s) {
+    // height: 40px;
+  }
+}
 
+#toggle-top-menu span {
+  color: rgba($brown, .7);
+  font-size: .875em;
+  margin-top: 3px;
+}
+
+.header-top-container.open + #toggle-top-menu span {
+  transform: rotate(180deg);
+}
+
+.header-top-container ul {
+  @include flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  li {
+    display: inline-block;
+  }
+}
+
+.header-top-menu {
+  padding-top: 1.75em;
+  margin-bottom: 1em;
+  li {
+    margin: 0 .4em;
+  }
+}
+
+.header-top-menu a {
+  font-weight: 200;
+  color: $brown;
+  text-transform: uppercase;
+}
+
+.sm-link-list {
+  margin-bottom: 0;
+  padding-bottom: .75em;
+  li {
+    margin: 0 .2em;
+  }
+}
 
 .sm-link-list a {
   display: block;
   font-size: 0;
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
+  @media (min-width: $l) {
+    width: 36px;
+    height: 36px;
+  }
 }
 
 .sm-link--facebook {

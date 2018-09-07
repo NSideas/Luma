@@ -71,11 +71,14 @@ a {
 
 p.intro,
 .intro-section p {
-  font-size: 1.25em;
+  font-size: 1.125em;
   font-weight: 200;
   color: $red-2;
   strong {
     font-weight: 500;
+  }
+  @media (min-width: $s) {
+    font-size: 1.25em;
   }
   @media (min-width: $m) {
     font-size: 1.375em;

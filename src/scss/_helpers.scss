@@ -62,3 +62,7 @@
 .no-scroll {
   overflow: hidden;
 }
+
+.flex {
+  @include flex;
+}
