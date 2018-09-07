@@ -17,3 +17,14 @@ $s: 480px;
 $m: 720px;
 $l: 860px;
 $xl: 1100px;
+
+
+@mixin screen_mask($color: white) {
+  content: '';
+  display: block;
+  background: $color;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
