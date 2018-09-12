@@ -2,11 +2,18 @@
 // Header
 
 .header-container {
+  @include contain;
   margin-top: 14px;
+  @media (max-width: $l - 1) {
+    padding: 0;
+  }
   @media (min-width: $l) {
-    @include contain;
     padding-top: 1em;
-    // margin-top: 0;
+  }
+  @media (min-width: $xl) {
+    @include flex;
+    justify-content: space-between;
+    margin-top: 26px;
   }
 }
 
@@ -23,6 +30,9 @@
     position: relative;
     z-index: 10;
   }
+  @media (min-width: $xl) {
+    top: 2px;
+  }
 }
 
 .logo {
@@ -37,9 +47,8 @@
 }
 
 #header .logo img {
-  // margin-top: 1%;
-  @media (min-width: $l) {
-    // width: auto;
+  @media (min-width: $xl) {
+    width: auto;
   }
 }
 
@@ -52,9 +61,6 @@
   height: 36px;
   padding: 6px;
   cursor: pointer;
-  @media (min-width: $s) {
-    // right: 24px;
-  }
   @media (min-width: $l) {
     display: none;
   }
@@ -79,9 +85,6 @@
     transform: translateY(-10px);
   }
 }
-
-
-
 
 .header-top-container {
   display: none;
@@ -140,9 +143,6 @@
   font-weight: 200;
   color: $brown;
   text-transform: uppercase;
-  @media (min-width: $l) {
-    // font-size: 1.125em;
-  }
 }
 
 .sm-link-list {

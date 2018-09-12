@@ -146,11 +146,7 @@ nav ul {
 
 @media (min-width: $l) {
   #header-nav .main-nav-item:hover {
-    & > a {
-      // border-color: $red-2;
-    }
     .sub-nav {
-      // display: block;
       transform: translateY(0);
     }
   }
