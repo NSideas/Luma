@@ -679,6 +679,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/src\/js\/partials\/header.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/dist\/js\/header.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/src\/js\/plugins.js": {
 		"ft": 64,
 		"ma": 1,

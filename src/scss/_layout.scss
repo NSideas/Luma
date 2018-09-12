@@ -34,6 +34,16 @@
   }
 }
 
+.intro-section {
+  padding-top: 1em;
+  @media (min-width: $m) {
+    padding-top: 2em;
+  }
+  @media (min-width: $l) {
+    padding-top: 3.5em;
+  }
+}
+
 .sub-section:not(:last-child) {
   padding-bottom: 2.5em;
   @media (min-width: $m) {

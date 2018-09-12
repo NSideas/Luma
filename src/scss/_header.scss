@@ -22,11 +22,13 @@
   align-items: center;
   height: 36px;
   padding: 0 6%;
+  margin-bottom: 1em;
   @media (min-width: $s) {
     padding: 0 22px;
   }
   @media (min-width: $l) {
     padding: 0;
+    margin-bottom: 0;
     position: relative;
     z-index: 10;
   }
@@ -72,17 +74,38 @@
   background: white;
   position: absolute;
   left: 8px;
+  transition: transform .2s ease;
   &:first-child {
     top: 0;
     transform: translateY(10px);
   }
   &:nth-child(2) {
-    top: 50%;
-    margin-top: -1px;
+    top: calc(50% - 1px);
   }
   &:last-child {
     bottom: 0;
     transform: translateY(-10px);
+  }
+}
+
+#menu-toggle.animating > div {
+  &:first-child {
+    transform: translateY(17px);
+  }
+  &:last-child {
+    transform: translateY(-17px);
+  }
+}
+
+#menu-toggle.nav-open > div {
+  &:first-child {
+    transform: translateY(17px) rotate(45deg);
+  }
+  &:nth-child(2) {
+    visibility: hidden;
+  }
+  &:last-child {
+    transform: translateY(-17px) rotate(135deg);
   }
 }
 
