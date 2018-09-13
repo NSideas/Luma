@@ -1,6 +1,8 @@
 
+
+// Main Nav hide/show
+
 var nav_is_open = false;
-var top_menu_is_open = false;
 
 $('#menu-toggle').click(function() {
   var $nav = $('#header-nav');
@@ -22,6 +24,11 @@ $('#menu-toggle').click(function() {
   }
 });
 
+
+// Header Top Menu hide/show
+
+var top_menu_is_open = false;
+
 $('#toggle-top-menu').click(function() {
   var $topMenu = $(this).prev('.header-top-container');
   if (!top_menu_is_open) {
@@ -32,6 +39,9 @@ $('#toggle-top-menu').click(function() {
     top_menu_is_open = false;
   }
 });
+
+
+// Handle menu open/close states on resize
 
 function headerResize() {
   if (mq_large.matches) {

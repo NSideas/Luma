@@ -42,7 +42,10 @@ h3 {
 }
 
 h4 {
-  font-weight: 500;
+  color: $red-2;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 h5 {
@@ -103,9 +106,12 @@ span.highlight {
   font-weight: 200;
   // line-height: 1.2;
   color: $brown;
-  margin-top: 1.5em;
+  margin-top: 1em;
   @media (min-width: $l) {
-    margin-top: 2em;
+    // margin-top: 1.5em;
+  }
+  &:first-child {
+    margin-top: 0;
   }
   &:hover {
     color: $brown;

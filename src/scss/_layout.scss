@@ -29,7 +29,7 @@
     padding-bottom: 3em;
   }
   @media (min-width: $l) {
-    padding-top: 3.5em;
+    padding-top: 4em;
     padding-bottom: 4em;
   }
 }
@@ -45,12 +45,12 @@
 }
 
 .sub-section:not(:last-child) {
-  padding-bottom: 2.5em;
+  padding-bottom: 1.5em;
   @media (min-width: $m) {
-    padding-bottom: 3em;
+    padding-bottom: 2em;
   }
   @media (min-width: $l) {
-    padding-bottom: 4em;
+    padding-bottom: 2.5em;
   }
 }
 
@@ -134,15 +134,29 @@ $gutter: 42px;
 
 // Block Lists
 
-.block-list {
+%block_list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
+  @media (min-width: $l) {
+    padding-top: .5em;
+  }
+}
+
+%block_list_item {
+  display: block;
+  margin-bottom: 2em;
+  @media (min-width: $l) {
+    margin-bottom: 0;
+  }
+}
+
+.block-list {
+  @extend %block_list;
 }
 
 .block-list-item {
-  display: block;
-  margin-bottom: 2em;
+  @extend %block_list_item;
   h3 {
     color: $red-2;
     margin-bottom: .25em;
@@ -155,9 +169,6 @@ $gutter: 42px;
   p {
     margin-bottom: .6em;
   }
-  @media (min-width: $l) {
-    margin-bottom: 0;
-  }
 }
 
 .block-list-item header {
@@ -167,6 +178,60 @@ $gutter: 42px;
     margin-top: 0;
   }
 }
+
+
+
+// Process Diagram
+
+.process-diagram {
+  @extend %block_list;
+}
+
+.process-item {
+  @extend %block_list_item;
+}
+
+.process-item header {
+  background: $red-1;
+  padding: .5em 1.25em;
+  position: relative;
+  @include flex;
+  align-items: center;
+  background-image: url(../img/icn-chevron.svg);
+  background-repeat: no-repeat;
+  background-position: top 50% right .5em;
+  background-size: 46px;
+  @media (min-width: $l) {
+    padding: .75em 1.25em;
+  }
+}
+
+.process-item h4 {
+  color: white;
+  text-transform: uppercase;
+  width: calc(100% - 30px);
+  @media (min-width: $l) {
+    // font-size: 1.125em;
+  }
+}
+
+.process-item .content {
+  background: #EEE;
+  padding: 1.25em;
+  @media (min-width: $l) {
+    padding: 1.75em;
+  }
+}
+
+.process-item p {
+  color: rgba(black, .7);
+  @media (min-width: $s) {
+    font-size: 1.125em;
+  }
+}
+
+
+
 
 // Pre Footer
 .pre-footer--simple li {
