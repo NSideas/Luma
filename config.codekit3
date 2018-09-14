@@ -650,6 +650,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/site\/uploads\/luma-advisors-chart.png": {
+		"ft": 32768,
+		"iS": 50588,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/luma-advisors-chart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/site\/uploads\/luma-advisors-chart_narrow.png": {
+		"ft": 32768,
+		"iS": 32099,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/luma-advisors-chart_narrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/site\/uploads\/luma-helping-you.jpg": {
 		"ft": 16384,
 		"iS": 208594,
