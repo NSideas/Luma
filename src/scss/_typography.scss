@@ -48,6 +48,15 @@ h4 {
   margin-bottom: 0;
 }
 
+h4.large {
+  font-size: 1.125em;
+  margin-bottom: .5em;
+  font-weight: 500;
+  @media (min-width: $l) {
+    font-size: 2.5em;
+  }
+}
+
 h5 {
   font-weight: 400;
 }

@@ -614,6 +614,13 @@
 		"oAP": "\/site\/index.html",
 		"oF": 0
 		},
+	"\/site\/styleguide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/styleguide.html",
+		"oF": 0
+		},
 	"\/site\/understanding-women.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -824,6 +831,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/site\/_header.html",
+		"oF": 0
+		},
+	"\/src\/kit\/styleguide.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/site\/styleguide.html",
 		"oF": 0
 		},
 	"\/src\/kit\/templates\/default-template.kit": {

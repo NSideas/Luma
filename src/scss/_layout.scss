@@ -34,7 +34,8 @@
   }
 }
 
-.intro-section {
+.intro-section,
+.main-section:first-child {
   padding-top: 1em;
   @media (min-width: $m) {
     padding-top: 2em;
