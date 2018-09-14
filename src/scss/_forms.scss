@@ -3,15 +3,19 @@
 // Forms
 
 form {
-  margin: 1em 0;
+  margin-bottom: 1em;
+  width: 100%;
 }
 
-form label {
-  display: block;
-  font-size: .8em;
-  text-transform: uppercase;
-  color: $gray-3;
-  font-weight: 500;
+h4.form-title {
+  margin-bottom: .75em;
+  width: 100%;
+}
+
+form.single-column {
+  @media (min-width: $l) {
+    max-width: 500px;
+  }
 }
 
 form.two-column .grid-6 {
@@ -22,11 +26,18 @@ form.two-column .grid-6 {
   padding-bottom: 1em;
 }
 
+form label {
+  display: block;
+  font-size: .8em;
+  text-transform: uppercase;
+  color: $gray-3;
+  font-weight: 500;
+}
+
 $placeholder-text: rgba(black, .4);
 
 @mixin ui_input {
   font-family: inherit;
-  padding: .5em;
   border-radius: 3px;
   -webkit-appearance: none;
   &:focus {
@@ -41,32 +52,13 @@ $placeholder-text: rgba(black, .4);
   font-weight: inherit;
   font-size: inherit;
   background: white;
+  padding: .75em;
   border: solid 1px $gray-2;
   &:focus {
     border-color: $gray-3;
   }
   &::placeholder {
     color: $placeholder-text;
-  }
-}
-
-@mixin ui_button {
-  @include ui_input;
-  color: white;
-  font-size: .875em;
-  font-weight: 500;
-  text-transform: uppercase;
-  background: $red-2;
-  border: none;
-  padding: .75em 1em;
-  margin-bottom: 1.15em;
-  transition: background .125s;
-  &:focus {
-    outline: none;
-    background: $red-1;
-  }
-  &:hover {
-    background: $red-1;
   }
 }
 
@@ -79,10 +71,9 @@ select {
   @include ui_input_text;
 }
 
-button,
-input[type="submit"] {
-  @include ui_button;
-}
+
+
+// Custom select dropdown
 
 .custom-dropdown {
   position: relative;

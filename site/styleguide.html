@@ -87,29 +87,31 @@
 
     <h2 class="section-title">Forms</h2>
 
-    <section>
-      <h4 class="large">Single Column Form</h4>
+    <section class="sub-section flex center-x">
       <form class="single-column">
-        <div class="form-field">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Name">
+        <h4 class="form-title large">Single Column Form</h4>
+        <div class="form-group">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name">
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" rows="3" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn-arrow">Submit</button>
         </div>
-        <div class="form-field">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Email">
-        </div>
-        <div class="form-field">
-          <label for="message">Message</label>
-          <textarea id="message" rows="3" placeholder="Message"></textarea>
-        </div>
-        <button type="submit">Submit</button>
       </form>
     </section>
 
-    <section>
-      <h4 class="large">Two Column Form</h4>
+    <section class="sub-section">
       <form class="two-column grid-container">
-        <div class="grid-6">
+        <h4 class="form-title large">Two Column Form</h4>
+        <div class="form-group grid-6">
           <div class="form-field">
             <label for="your-name">Your Name</label>
             <input type="text" id="your-name" name="your-name" placeholder="Your Name">
@@ -130,7 +132,7 @@
             </div>
           </div>
         </div>
-        <div class="grid-6">
+        <div class="form-group grid-6">
           <div class="form-field">
             <label for="friend-name">Your Friend's Name</label>
             <input type="text" id="friend-name" name="friend-name" placeholder="Your Friend's Name">
@@ -143,7 +145,7 @@
             <label for="additional-info">Additional Information</label>
             <textarea id="additional-info" rows="3" placeholder="Additional Information"></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit" class="btn">Submit</button>
         </div>
       </form>
     </section>

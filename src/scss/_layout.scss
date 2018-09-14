@@ -55,6 +55,10 @@
   }
 }
 
+.section-title + .sub-section {
+  padding-top: 1em;
+}
+
 %dark_bg {
   color: white;
   a,

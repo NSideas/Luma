@@ -1,0 +1,77 @@
+
+// Buttons
+
+@mixin ui_button_primary {
+  @include ui_input;
+  color: white;
+  font-size: .875em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  background: $red-2;
+  min-width: 100px;
+  border: none;
+  padding: 1em;
+  margin-bottom: 1.15em;
+  transition: all .125s;
+  &:focus {
+    outline: none;
+    background: $red-1;
+  }
+  &:hover {
+    background: $red-1;
+  }
+}
+
+@mixin full_width_button {
+  @media (max-width: $s - 1) {
+    width: 100%;
+  }
+}
+
+@mixin arrow_link {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: $brown;
+  line-height: inherit;
+  &:after {
+    display: inline-block;
+    line-height: 0;
+    content: '\2192';
+    font-size: 1.6em;
+    position: relative;
+    top: .12em;
+    left: .07em;
+  }
+  &:focus {
+    outline: none;
+    color: black;
+  }
+  &:hover {
+    color: $brown;
+  }
+}
+
+button,
+button[type="submit"]
+input[type="submit"] {
+  &.btn {
+    @include ui_button_primary;
+  }
+  &.btn-arrow {
+    @include arrow_link;
+    font-family: inherit;
+    -webkit-appearance: none;
+    border: none;
+    padding: 0;
+  }
+}
+
+.cta-link {
+  @include arrow_link;
+  margin-top: 1em;
+  &:first-child {
+    margin-top: 0;
+  }
+}

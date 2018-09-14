@@ -65,4 +65,12 @@
 
 .flex {
   @include flex;
+  &.center-x,
+  &.center-both {
+    justify-content: center;
+  }
+  &.center-y,
+  &.center-both {
+    align-items: center;
+  }
 }
