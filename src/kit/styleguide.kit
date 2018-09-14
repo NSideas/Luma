@@ -8,9 +8,7 @@
     <h2 class="section-title">Forms</h2>
 
     <section>
-
       <h4 class="large">Single Column Form</h4>
-
       <form class="single-column">
         <div class="form-field">
           <label for="name">Name</label>
@@ -22,31 +20,52 @@
         </div>
         <div class="form-field">
           <label for="message">Message</label>
-          <textarea id="message" placeholder="Message"></textarea>
+          <textarea id="message" rows="3" placeholder="Message"></textarea>
         </div>
+        <button type="submit">Submit</button>
       </form>
-
     </section>
 
     <section>
-
       <h4 class="large">Two Column Form</h4>
-
-      <form class="two-column">
-        <div class="form-field">
-          <label for="your-name">Your Name</label>
-          <input type="text" id="your-name" name="your-name" placeholder="Your Name">
+      <form class="two-column grid-container">
+        <div class="grid-6">
+          <div class="form-field">
+            <label for="your-name">Your Name</label>
+            <input type="text" id="your-name" name="your-name" placeholder="Your Name">
+          </div>
+          <div class="form-field">
+            <label for="your-email">Your Email</label>
+            <input type="email" id="your-email" name="your-email" placeholder="Your Email">
+          </div>
+          <div class="form-field">
+            <label for="select">Select an option</label>
+            <div class="custom-dropdown">
+              <select id="select" name="select" required>
+                <option value="" disabled selected>Select One</option>
+                <option value="1">Option One</option>
+                <option value="2">Option Two</option>
+                <option value="3">Option Three</option>
+              </select>
+            </div>
+          </div>
         </div>
-        <div class="form-field">
-          <label for="your-email">Your Email</label>
-          <input type="email" id="your-email" name="your-email" placeholder="Your Email">
-        </div>
-        <div class="form-field">
-          <label for="additional-info">Additional Information</label>
-          <textarea id="additional-info" placeholder="Additional Information"></textarea>
+        <div class="grid-6">
+          <div class="form-field">
+            <label for="friend-name">Your Friend's Name</label>
+            <input type="text" id="friend-name" name="friend-name" placeholder="Your Friend's Name">
+          </div>
+          <div class="form-field">
+            <label for="friend-email">Your Friend's Email</label>
+            <input type="email" id="friend-email" name="friend-email" placeholder="Your Friend's Email">
+          </div>
+          <div class="form-field">
+            <label for="additional-info">Additional Information</label>
+            <textarea id="additional-info" rows="3" placeholder="Additional Information"></textarea>
+          </div>
+          <button type="submit">Submit</button>
         </div>
       </form>
-
     </section>
 
   </div>
