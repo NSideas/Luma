@@ -260,19 +260,31 @@ $gutter: 42px;
 
 
 
-.top-shadow {
+.top-shadow,
+.bottom-shadow {
   position: relative;
   overflow: hidden;
 }
 
-.top-shadow:before {
+.top-shadow:before,
+.bottom-shadow:after {
   content: '';
   display: block;
   position: absolute;
   background: transparent;
   border-radius: 50%;
+}
+
+.top-shadow:before {
   @include top_shadow(120%, 12px);
   @media (min-width: $l) {
     @include top_shadow(100%, 16px);
+  }
+}
+
+.bottom-shadow:after {
+  @include bottom_shadow(120%, 12px);
+  @media (min-width: $l) {
+    @include bottom_shadow(100%, 16px);
   }
 }

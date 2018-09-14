@@ -37,10 +37,20 @@ $xl: 1100px;
   top: 0;
 }
 
-@mixin top_shadow($width, $height) {
-  top: -$height;
+
+@mixin section_shadow($width, $height, $position) {
+  #{$position}: -$height;
   left: (100% - $width)/2;
   width: $width;
   height: $height;
   box-shadow: 0 $height/2 $height rgba(black, .3);
+}
+
+@mixin top_shadow($width, $height) {
+  @include section_shadow($width, $height, 'top');
+}
+
+@mixin bottom_shadow($width, $height) {
+  @include section_shadow($width, $height, 'bottom');
+  transform: rotate(180deg);
 }
