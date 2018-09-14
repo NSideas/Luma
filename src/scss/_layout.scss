@@ -12,6 +12,7 @@
     max-width: 1140px;
   }
 }
+
 .contain {
   @include contain;
   max-width: 600px;
@@ -189,7 +190,6 @@ $gutter: 42px;
 .block-list-item header {
   margin-bottom: .75em;
   .cta-link {
-    display: block;
     margin-top: 0;
   }
 }
@@ -287,4 +287,31 @@ $gutter: 42px;
   @media (min-width: $l) {
     @include bottom_shadow(100%, 16px);
   }
+}
+
+
+
+// Overlay modules
+
+.overlay-module {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(black, .5);
+}
+
+.overlay-module--outer-wrap {
+  width: 100%;
+  height: 100%;
+  @include flex__center;
+}
+
+.overlay-module--inner-wrap {
+  background: $gray-1;
+  padding: 1.5em;
+
 }

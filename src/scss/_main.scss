@@ -12,6 +12,15 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  position: relative;
+}
+
+.no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;

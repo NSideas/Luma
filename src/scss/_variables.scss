@@ -27,6 +27,22 @@ $xl: 1100px;
   flex-flow: row wrap;
 }
 
+@mixin flex__center_x {
+  @include flex;
+  justify-content: center;
+}
+
+@mixin flex__center_y {
+  @include flex;
+  align-items: center;
+}
+
+@mixin flex__center {
+  @include flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @mixin screen_mask($color: white) {
   content: '';
   display: block;
