@@ -614,6 +614,13 @@
 		"oAP": "\/site\/index.html",
 		"oF": 0
 		},
+	"\/site\/luma-leadership.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/site\/luma-leadership.html",
+		"oF": 0
+		},
 	"\/site\/styleguide.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -628,6 +635,17 @@
 		"oAP": "\/site\/understanding-women.html",
 		"oF": 0
 		},
+	"\/site\/uploads\/Andrew-Connors.jpg": {
+		"ft": 16384,
+		"iS": 11738,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/Andrew-Connors.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/site\/uploads\/comm.png": {
 		"ft": 32768,
 		"iS": 19202,
@@ -639,6 +657,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/site\/uploads\/Emily-Drake.jpg": {
+		"ft": 16384,
+		"iS": 11724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/Emily-Drake.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/site\/uploads\/Emily-Shacklett.jpg": {
+		"ft": 16384,
+		"iS": 13056,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/Emily-Shacklett.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/site\/uploads\/gear.png": {
 		"ft": 32768,
 		"iS": 22023,
@@ -648,6 +688,39 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/site\/uploads\/Heather-Ettinger.jpg": {
+		"ft": 16384,
+		"iS": 13271,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/Heather-Ettinger.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/site\/uploads\/Kenneth-Coleman.jpg": {
+		"ft": 16384,
+		"iS": 12868,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/Kenneth-Coleman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/site\/uploads\/Kristen-Lucas.jpg": {
+		"ft": 16384,
+		"iS": 17150,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/Kristen-Lucas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/site\/uploads\/luma-advisors-chart.png": {
@@ -820,6 +893,13 @@
 		"oAP": "\/site\/index.html",
 		"oF": 0
 		},
+	"\/src\/kit\/luma-leadership.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/site\/luma-leadership.html",
+		"oF": 0
+		},
 	"\/src\/kit\/modules\/_form-overlay.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -846,6 +926,55 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/site\/_pre-footer.html",
+		"oF": 0
+		},
+	"\/src\/kit\/modules\/_staff-list.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_staff-list.html",
+		"oF": 0
+		},
+	"\/src\/kit\/modules\/team-members\/_andrew-connors.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_andrew-connors.html",
+		"oF": 0
+		},
+	"\/src\/kit\/modules\/team-members\/_emily-drake.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_emily-drake.html",
+		"oF": 0
+		},
+	"\/src\/kit\/modules\/team-members\/_emily-shacklett.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_emily-shacklett.html",
+		"oF": 0
+		},
+	"\/src\/kit\/modules\/team-members\/_heather-ettinger.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_heather-ettinger.html",
+		"oF": 0
+		},
+	"\/src\/kit\/modules\/team-members\/_kenneth-coleman.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_kenneth-coleman.html",
+		"oF": 0
+		},
+	"\/src\/kit\/modules\/team-members\/_kristen-lucas.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/site\/_kristen-lucas.html",
 		"oF": 0
 		},
 	"\/src\/kit\/partials\/_footer.kit": {
@@ -1048,6 +1177,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/dist\/css\/_print.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"\/src\/scss\/_team.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/dist\/css\/_team.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1

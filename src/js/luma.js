@@ -33,6 +33,21 @@ $('.overlay-module--outer-wrap').click(function(e) {
   }
 });
 
+
+
+// Team
+
+$('.team-member-link').click(function(e) {
+  e.preventDefault();
+  $(this).parent().siblings().removeClass('active');
+  $(this).parent().toggleClass('active');
+});
+
+$('.team-member .btn-close').click(function() {
+  $(this).closest('.team-member').removeClass('active');
+});
+
+
 function globalResizeHandler() {
   headerResize();
 }

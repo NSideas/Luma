@@ -78,23 +78,31 @@ a {
 
 .section-title {
   color: $brown;
-  margin-bottom: .5em;
+  margin-bottom: .75em;
 }
 
-p.intro,
-.intro-section p {
+%intro_paragraph {
   font-size: 1.125em;
   font-weight: 200;
   color: $red-2;
   strong {
     font-weight: 500;
   }
-  @media (min-width: $s) {
-    font-size: 1.25em;
+  a {
+    color: $red-1;
+    &:hover {
+      color: $red-2;
+      text-decoration: underline;
+    }
   }
   @media (min-width: $m) {
-    font-size: 1.375em;
+    font-size: 1.25em;
   }
+}
+
+p.intro,
+.intro-section p {
+  @extend %intro_paragraph;
 }
 
 p.large {

@@ -1,0 +1,56 @@
+
+// Team
+
+#staff-list {
+  padding-top: 1em;
+}
+
+.team-member {
+  padding-bottom: 1em;
+}
+
+.team-member-link {
+  display: block;
+  text-align: center;
+  color: $red-1;
+  &:hover,
+  .team-member.active & {
+    .team-member-photo {
+      border-color: $red-1;
+    }
+  }
+}
+
+.team-member-photo {
+  max-width: 260px;
+  border: solid 3px $green;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.team-member-name {
+  color: $red-1;
+}
+
+.team-member-title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.team-member-bio {
+  position: relative;
+  padding-top: 1em;
+  display: none;
+  .team-member.active & {
+    display: block;
+  }
+}
+
+.team-member .btn-close {
+  position: absolute;
+  top: -8px;
+  right: 5px;
+  width: 16px;
+  height: 16px;
+  opacity: .5;
+}
