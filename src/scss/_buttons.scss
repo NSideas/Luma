@@ -71,7 +71,7 @@ input[type="submit"] {
 
 .cta-link {
   @include arrow_link;
-  margin-top: 1em;
+  margin-top: 1.5em;
   &:first-child {
     margin-top: 0;
   }

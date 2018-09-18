@@ -723,6 +723,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/site\/uploads\/lady-icon_blue.jpg": {
+		"ft": 16384,
+		"iS": 5428,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/lady-icon_blue.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/site\/uploads\/lady-icon_dark-red.jpg": {
+		"ft": 16384,
+		"iS": 4893,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/lady-icon_dark-red.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/site\/uploads\/lady-icon_green.jpg": {
+		"ft": 16384,
+		"iS": 5121,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/lady-icon_green.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/site\/uploads\/lady-icon_light-red.jpg": {
+		"ft": 16384,
+		"iS": 5482,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/lady-icon_light-red.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/site\/uploads\/lady-icon_purple.jpg": {
+		"ft": 16384,
+		"iS": 5790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/lady-icon_purple.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/site\/uploads\/luma-advisors-chart.png": {
 		"ft": 32768,
 		"iS": 50588,
@@ -751,6 +806,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/site\/uploads\/luma-helping-you.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/site\/uploads\/luma-wealth-planning.jpg": {
+		"ft": 16384,
+		"iS": 354235,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/site\/uploads\/luma-wealth-planning.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1030,6 +1096,13 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/site\/understanding-women.html",
+		"oF": 0
+		},
+	"\/src\/kit\/wealth-planning.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/site\/wealth-planning.html",
 		"oF": 0
 		},
 	"\/src\/scss\/_buttons.scss": {
