@@ -14,9 +14,10 @@ function closeFormOverlay($form) {
   $('body').removeClass('no-scroll');
 }
 
-$('#refer-a-friend-btn').click(function(e) {
+$('.overlay-trigger').click(function(e) {
   e.preventDefault();
-  openFormOverlay($('#refer-a-friend'));
+  var overlay = $(this).attr('href');
+  openFormOverlay($(overlay));
 });
 
 $('.overlay-module .btn-close').click(function() {
