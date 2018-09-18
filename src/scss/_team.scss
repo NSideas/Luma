@@ -57,14 +57,9 @@
   height: 1px;
   visibility: hidden;
   .team-member.active & {
-    display: block;
     visibility: visible;
     height: auto;
   }
-}
-
-.team-member-bio:nth-child(2n) {
-
 }
 
 .team-member .btn-close {

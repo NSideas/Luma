@@ -42,6 +42,7 @@ function staffList() {
   var containWidth = $('#staff-list').width();
   var containLeft = $('#staff-list')[0].getBoundingClientRect().x;
   $('.team-member-bio').each(function() {
+    $(this).css('left', '0');
     $(this).width(containWidth);
     var leftOffset = $(this)[0].getBoundingClientRect().x;
     if (leftOffset !== containLeft) {
@@ -51,28 +52,26 @@ function staffList() {
   });
 }
 
+if ($('#staff-list').length) {
+  staffList();
+}
 
-$(document).ready(function() {
+$('.team-member-link').click(function(e) {
+  e.preventDefault();
+  $(this).parent().siblings().removeClass('active');
+  $(this).parent().toggleClass('active');
+});
 
-  if ($('#staff-list').length) {
-    staffList();
-  }
-
-  $('.team-member-link').click(function(e) {
-    e.preventDefault();
-    $(this).parent().siblings().removeClass('active');
-    $(this).parent().toggleClass('active');
-  });
-
-  $('.team-member .btn-close').click(function() {
-    $(this).closest('.team-member').removeClass('active');
-  });
-
+$('.team-member .btn-close').click(function() {
+  $(this).closest('.team-member').removeClass('active');
 });
 
 
 function globalResizeHandler() {
   headerResize();
+  if ($('#staff-list').length) {
+    staffList();
+  }
 }
 
-window.addEventListener('resize', throttle(globalResizeHandler, 200));
+window.addEventListener('resize', debounce(globalResizeHandler, 100));
