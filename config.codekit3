@@ -819,6 +819,26 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/src\/js\/partials\/overlay.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/dist\/js\/overlay.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/js\/partials\/staff-list.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/dist\/js\/staff-list.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/src\/js\/plugins.js": {
 		"ft": 64,
 		"ma": 1,
