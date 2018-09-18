@@ -134,15 +134,15 @@ $gutter: 42px;
   $n: $column-count / $col;
   // Total gutter space
   $g: ($column-count / $col - 1) * $gutter;
-  @media (min-width: $l) {
-    width: calc( (100% - #{$g}) / #{$n} );
-  }
+  width: calc( (100% - #{$g}) / #{$n} );
 }
 
 @for $i from 1 through $column-count {
   .grid-#{$i} {
     @extend %grid_item;
-    @include grid($i);
+    @media (min-width: $l) {
+      @include grid($i);
+    }
   }
 }
 

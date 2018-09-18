@@ -3,11 +3,24 @@
 
 #staff-list {
   padding-top: 1em;
+  justify-content: center;
+  @media (min-width: $m) {
+    justify-content: space-between;
+  }
 }
 
 .team-member {
-  padding-bottom: 1em;
+  width: 100%;
+  margin-bottom: .5em;
+  @media (min-width: $m) {
+    @include grid(6);
+  }
+  @media (min-width: $l) {
+    @include grid(4);
+    margin-bottom: 1em;
+  }
 }
+
 
 .team-member-link {
   display: block;
@@ -22,6 +35,7 @@
 }
 
 .team-member-photo {
+  width: 100%;
   max-width: 260px;
   border: solid 3px $green;
   border-radius: 50%;
@@ -40,10 +54,17 @@
 .team-member-bio {
   position: relative;
   padding-top: 1em;
-  display: none;
+  height: 1px;
+  visibility: hidden;
   .team-member.active & {
     display: block;
+    visibility: visible;
+    height: auto;
   }
+}
+
+.team-member-bio:nth-child(2n) {
+
 }
 
 .team-member .btn-close {
