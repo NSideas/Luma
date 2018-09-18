@@ -146,7 +146,8 @@ nav ul {
 }
 
 @media (min-width: $l) {
-  #header-nav .main-nav-item:hover {
+  .no-touch #header-nav .main-nav-item:hover,
+  .touch #header-nav .main-nav-item.hover {
     .sub-nav {
       transform: translateY(0);
     }

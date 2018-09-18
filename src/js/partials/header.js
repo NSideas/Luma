@@ -24,6 +24,15 @@ $('#menu-toggle').click(function() {
   }
 });
 
+$('#header-nav .main-nav-item > a').click(function(e) {
+  e.preventDefault();
+  if (touch) {
+    $(this).closest('.main-nav-item').addClass('hover');
+  } else {
+    
+  }
+});
+
 
 // Header Top Menu hide/show
 
