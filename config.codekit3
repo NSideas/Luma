@@ -1112,6 +1112,19 @@
 		"oAP": "/site/wealth-planning.html",
 		"oF": 0
 		},
+	"/src/scss/_block-lists.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/css/_block-lists.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"/src/scss/_buttons.scss": {
 		"aP": 1,
 		"bl": 0,

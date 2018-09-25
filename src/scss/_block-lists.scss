@@ -1,0 +1,184 @@
+
+
+
+// Block Lists
+
+%block_list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  @media (min-width: $l) {
+    padding-top: .5em;
+  }
+}
+
+%block_list_item {
+  display: block;
+  margin-bottom: 2em;
+  @media (min-width: $l) {
+    margin-bottom: 0;
+  }
+}
+
+.block-list {
+  @extend %block_list;
+}
+
+.block-list-item {
+  @extend %block_list_item;
+  h3 {
+    color: $red-2;
+    margin-bottom: .25em;
+    line-height: 1.125;
+  }
+  img {
+    display: block;
+    margin: auto;
+  }
+  p {
+    margin-bottom: .6em;
+  }
+}
+
+.block-list-item header {
+  margin-bottom: .75em;
+  .cta-link {
+    margin-top: 0;
+  }
+}
+
+
+// Compact
+
+.block-list--compact {
+  @extend %block_list;
+}
+
+.block-list--compact > li {
+  margin: 0;
+  padding: 2em 0;
+  border-bottom: solid 1px $gray-1;
+  @media (min-width: $s) {
+    padding: 2.5em 0;
+  }
+  h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: .5em;
+  }
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.block-list--compact > li ul {
+  list-style: disc;
+  padding-left: 1em;
+  li {
+    margin-bottom: .25em;
+  }
+}
+
+.block-list--compact > li img {
+  margin-bottom: 1.5em;
+  max-width: 140px;
+  align-self: flex-start;
+  @media (min-width: $s) {
+    margin: 0;
+    width: 40%;
+  }
+}
+
+.block-list--compact > li section {
+  width: 100%;
+  @media (min-width: $s) {
+    width: 60%;
+  }
+  @media (min-width: 600px) {
+    width: 66%;
+  }
+}
+
+.block-list--compact .inner-wrap {
+  max-width: 550px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.block-list--compact h4 {
+  &.green {
+    color: $green;
+  }
+  &.light-red {
+    color: $red-1;
+  }
+  &.dark-red {
+    color: $red-2;
+  }
+  &.purple {
+    color: $purple;
+  }
+  &.blue {
+    color: $blue;
+  }
+}
+
+
+// Process Diagram
+
+.process-diagram {
+  @extend %block_list;
+}
+
+.process-item {
+  @extend %block_list_item;
+}
+
+.process-item header {
+  background: $red-1;
+  padding: .5em 1em;
+  @media (min-width: $l) {
+    padding: .75em 1em;
+  }
+}
+
+.process-item h4 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.process-item .content {
+  background: #EEE;
+  padding: 1em;
+  @media (min-width: $l) {
+    padding: 1.75em;
+  }
+}
+
+.process-item p {
+  color: rgba(black, .7);
+  @media (min-width: $s) {
+    font-size: 1.125em;
+  }
+}
+
+.process-item:not(:last-child) {
+  header {
+    background-image: url(../img/icn-chevron.svg);
+    background-repeat: no-repeat;
+    background-position: top 50% right .5em;
+    background-size: 46px;
+  }
+  h4 {
+    width: calc(100% - 30px);
+  }
+}
+
+
+// Pre Footer
+.pre-footer--simple li {
+  margin-bottom: 1.5em;
+  @media (min-width: $l) {
+    margin-bottom: 0;
+  }
+}
