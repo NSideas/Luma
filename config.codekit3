@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,550 +7,550 @@
 		"uuidString": "9ABF8454-BCC6-4AF2-BE24-C0F5CF6C3FC1"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28795",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/dist\/css\/luma.css": {
+	"/dist/css/luma.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/luma.css",
+		"oAP": "/css/luma.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/dist\/css\/luma.css.map": {
+	"/dist/css/luma.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/css\/luma.css.map",
+		"oAP": "/dist/css/luma.css.map",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Italic.otf": {
+	"/dist/fonts/EBGaramond-Italic.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Italic.otf",
+		"oAP": "/dist/fonts/EBGaramond-Italic.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Italic.ttf": {
+	"/dist/fonts/EBGaramond-Italic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Italic.ttf",
+		"oAP": "/dist/fonts/EBGaramond-Italic.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Italic.woff": {
+	"/dist/fonts/EBGaramond-Italic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Italic.woff",
+		"oAP": "/dist/fonts/EBGaramond-Italic.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Italic.woff2": {
+	"/dist/fonts/EBGaramond-Italic.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Italic.woff2",
+		"oAP": "/dist/fonts/EBGaramond-Italic.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Medium.otf": {
+	"/dist/fonts/EBGaramond-Medium.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Medium.otf",
+		"oAP": "/dist/fonts/EBGaramond-Medium.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Medium.ttf": {
+	"/dist/fonts/EBGaramond-Medium.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Medium.ttf",
+		"oAP": "/dist/fonts/EBGaramond-Medium.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Medium.woff": {
+	"/dist/fonts/EBGaramond-Medium.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Medium.woff",
+		"oAP": "/dist/fonts/EBGaramond-Medium.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Medium.woff2": {
+	"/dist/fonts/EBGaramond-Medium.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Medium.woff2",
+		"oAP": "/dist/fonts/EBGaramond-Medium.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Regular.otf": {
+	"/dist/fonts/EBGaramond-Regular.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Regular.otf",
+		"oAP": "/dist/fonts/EBGaramond-Regular.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Regular.ttf": {
+	"/dist/fonts/EBGaramond-Regular.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Regular.ttf",
+		"oAP": "/dist/fonts/EBGaramond-Regular.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Regular.woff": {
+	"/dist/fonts/EBGaramond-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Regular.woff",
+		"oAP": "/dist/fonts/EBGaramond-Regular.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/EBGaramond-Regular.woff2": {
+	"/dist/fonts/EBGaramond-Regular.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/EBGaramond-Regular.woff2",
+		"oAP": "/dist/fonts/EBGaramond-Regular.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Heebo-Bold.otf": {
+	"/dist/fonts/Heebo-Bold.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/Heebo-Bold.otf",
+		"oAP": "/dist/fonts/Heebo-Bold.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/heebo-bold.woff": {
+	"/dist/fonts/Heebo-Bold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/heebo-bold.woff",
+		"oAP": "/dist/fonts/Heebo-Bold.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/heebo-bold.woff2": {
+	"/dist/fonts/Heebo-Bold.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/heebo-bold.woff2",
+		"oAP": "/dist/fonts/Heebo-Bold.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Heebo-Light.otf": {
+	"/dist/fonts/Heebo-Light.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/Heebo-Light.otf",
+		"oAP": "/dist/fonts/Heebo-Light.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/heebo-light.woff": {
+	"/dist/fonts/Heebo-Light.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/heebo-light.woff",
+		"oAP": "/dist/fonts/Heebo-Light.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/heebo-light.woff2": {
+	"/dist/fonts/Heebo-Light.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/heebo-light.woff2",
+		"oAP": "/dist/fonts/Heebo-Light.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Heebo-Medium.otf": {
+	"/dist/fonts/Heebo-Medium.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/Heebo-Medium.otf",
+		"oAP": "/dist/fonts/Heebo-Medium.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/heebo-medium.woff": {
+	"/dist/fonts/Heebo-Medium.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/heebo-medium.woff",
+		"oAP": "/dist/fonts/Heebo-Medium.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/heebo-medium.woff2": {
+	"/dist/fonts/Heebo-Medium.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/heebo-medium.woff2",
+		"oAP": "/dist/fonts/Heebo-Medium.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Heebo-Regular.otf": {
+	"/dist/fonts/Heebo-Regular.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/Heebo-Regular.otf",
+		"oAP": "/dist/fonts/Heebo-Regular.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/heebo-regular.woff": {
+	"/dist/fonts/Heebo-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/heebo-regular.woff",
+		"oAP": "/dist/fonts/Heebo-Regular.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/heebo-regular.woff2": {
+	"/dist/fonts/Heebo-Regular.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/heebo-regular.woff2",
+		"oAP": "/dist/fonts/Heebo-Regular.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-Light.otf": {
+	"/dist/fonts/RobotoCondensed-Light.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-Light.otf",
+		"oAP": "/dist/fonts/RobotoCondensed-Light.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-Light.ttf": {
+	"/dist/fonts/RobotoCondensed-Light.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-Light.ttf",
+		"oAP": "/dist/fonts/RobotoCondensed-Light.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-Light.woff": {
+	"/dist/fonts/RobotoCondensed-Light.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-Light.woff",
+		"oAP": "/dist/fonts/RobotoCondensed-Light.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-Light.woff2": {
+	"/dist/fonts/RobotoCondensed-Light.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-Light.woff2",
+		"oAP": "/dist/fonts/RobotoCondensed-Light.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-LightItalic.otf": {
+	"/dist/fonts/RobotoCondensed-LightItalic.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-LightItalic.otf",
+		"oAP": "/dist/fonts/RobotoCondensed-LightItalic.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-LightItalic.ttf": {
+	"/dist/fonts/RobotoCondensed-LightItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-LightItalic.ttf",
+		"oAP": "/dist/fonts/RobotoCondensed-LightItalic.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-LightItalic.woff": {
+	"/dist/fonts/RobotoCondensed-LightItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-LightItalic.woff",
+		"oAP": "/dist/fonts/RobotoCondensed-LightItalic.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-LightItalic.woff2": {
+	"/dist/fonts/RobotoCondensed-LightItalic.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-LightItalic.woff2",
+		"oAP": "/dist/fonts/RobotoCondensed-LightItalic.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-Regular.otf": {
+	"/dist/fonts/RobotoCondensed-Regular.otf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-Regular.otf",
+		"oAP": "/dist/fonts/RobotoCondensed-Regular.otf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-Regular.ttf": {
+	"/dist/fonts/RobotoCondensed-Regular.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-Regular.ttf",
+		"oAP": "/dist/fonts/RobotoCondensed-Regular.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-Regular.woff": {
+	"/dist/fonts/RobotoCondensed-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-Regular.woff",
+		"oAP": "/dist/fonts/RobotoCondensed-Regular.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/RobotoCondensed-Regular.woff2": {
+	"/dist/fonts/RobotoCondensed-Regular.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/fonts\/RobotoCondensed-Regular.woff2",
+		"oAP": "/dist/fonts/RobotoCondensed-Regular.woff2",
 		"oF": 0
 		},
-	"\/dist\/img\/browser-icons\/fav.png": {
+	"/dist/img/browser-icons/fav.png": {
 		"ft": 32768,
 		"iS": 2550,
 		"oA": 0,
-		"oAP": "\/dist\/img\/browser-icons\/fav.png",
+		"oAP": "/dist/img/browser-icons/fav.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/img\/browser-icons\/favicon.ico": {
+	"/dist/img/browser-icons/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/img\/browser-icons\/favicon.ico",
+		"oAP": "/dist/img/browser-icons/favicon.ico",
 		"oF": 0
 		},
-	"\/dist\/img\/browser-icons\/icon.png": {
+	"/dist/img/browser-icons/icon.png": {
 		"ft": 32768,
 		"iS": 7255,
 		"oA": 0,
-		"oAP": "\/dist\/img\/browser-icons\/icon.png",
+		"oAP": "/dist/img/browser-icons/icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/img\/down-arrow-gold.svg": {
+	"/dist/img/down-arrow-gold.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/down-arrow-gold.svg",
+		"oAP": "/dist/img/down-arrow-gold.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/down-arrow-red.svg": {
+	"/dist/img/down-arrow-red.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/down-arrow-red.svg",
+		"oAP": "/dist/img/down-arrow-red.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/down-arrow.svg": {
+	"/dist/img/down-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/down-arrow.svg",
+		"oAP": "/dist/img/down-arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/fairport-icon.svg": {
+	"/dist/img/fairport-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/fairport-icon.svg",
+		"oAP": "/dist/img/fairport-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/fairport-logo-white.svg": {
+	"/dist/img/fairport-logo-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/fairport-logo-white.svg",
+		"oAP": "/dist/img/fairport-logo-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/fairport-logo.svg": {
+	"/dist/img/fairport-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/fairport-logo.svg",
+		"oAP": "/dist/img/fairport-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/fairport-logotype.svg": {
+	"/dist/img/fairport-logotype.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/fairport-logotype.svg",
+		"oAP": "/dist/img/fairport-logotype.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-chevron.svg": {
+	"/dist/img/icn-chevron.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-chevron.svg",
+		"oAP": "/dist/img/icn-chevron.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-facebook-solid.svg": {
+	"/dist/img/icn-facebook-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-facebook-solid.svg",
+		"oAP": "/dist/img/icn-facebook-solid.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-facebook.svg": {
+	"/dist/img/icn-facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-facebook.svg",
+		"oAP": "/dist/img/icn-facebook.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-linkedin-solid.svg": {
+	"/dist/img/icn-linkedin-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-linkedin-solid.svg",
+		"oAP": "/dist/img/icn-linkedin-solid.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-linkedin.svg": {
+	"/dist/img/icn-linkedin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-linkedin.svg",
+		"oAP": "/dist/img/icn-linkedin.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-twitter-solid.svg": {
+	"/dist/img/icn-twitter-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-twitter-solid.svg",
+		"oAP": "/dist/img/icn-twitter-solid.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-twitter.svg": {
+	"/dist/img/icn-twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-twitter.svg",
+		"oAP": "/dist/img/icn-twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/icn-youtube-solid.svg": {
+	"/dist/img/icn-youtube-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/icn-youtube-solid.svg",
+		"oAP": "/dist/img/icn-youtube-solid.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/luma-logo-white.png": {
+	"/dist/img/luma-logo-white.png": {
 		"ft": 32768,
 		"iS": 4509,
 		"oA": 0,
-		"oAP": "\/dist\/img\/luma-logo-white.png",
+		"oAP": "/dist/img/luma-logo-white.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/img\/luma-logo.png": {
+	"/dist/img/luma-logo.png": {
 		"ft": 32768,
 		"iS": 5061,
 		"oA": 0,
-		"oAP": "\/dist\/img\/luma-logo.png",
+		"oAP": "/dist/img/luma-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/dist\/img\/pagination-arrow.svg": {
+	"/dist/img/pagination-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/pagination-arrow.svg",
+		"oAP": "/dist/img/pagination-arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/search-icon.svg": {
+	"/dist/img/search-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/search-icon.svg",
+		"oAP": "/dist/img/search-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/img\/x-icon.svg": {
+	"/dist/img/x-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/x-icon.svg",
+		"oAP": "/dist/img/x-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/dist\/js\/luma.min.js": {
+	"/dist/js/luma.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/js\/luma.min.min.js",
+		"oAP": "/dist/js/luma.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/dist\/js\/luma.min.js.map": {
+	"/dist/js/luma.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/js\/luma.min.js.map",
+		"oAP": "/dist/js/luma.min.js.map",
 		"oF": 0
 		},
-	"\/dist\/js\/plugins.min.js": {
+	"/dist/js/plugins.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/js\/plugins.min.min.js",
+		"oAP": "/dist/js/plugins.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/dist\/js\/plugins.min.js.map": {
+	"/dist/js/plugins.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/js\/plugins.min.js.map",
+		"oAP": "/dist/js/plugins.min.js.map",
 		"oF": 0
 		},
-	"\/MODULES.md": {
+	"/MODULES.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -559,7 +559,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/MODULES.html",
+		"oAP": "/MODULES.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -568,7 +568,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -577,7 +577,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -586,526 +586,533 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/site\/404.html": {
+	"/site/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/site\/404.html",
+		"oAP": "/site/404.html",
 		"oF": 0
 		},
-	"\/site\/default-template.html": {
+	"/site/default-template.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/site\/default-template.html",
+		"oAP": "/site/default-template.html",
 		"oF": 0
 		},
-	"\/site\/helping-you.html": {
+	"/site/helping-you.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/site\/helping-you.html",
+		"oAP": "/site/helping-you.html",
 		"oF": 0
 		},
-	"\/site\/index.html": {
+	"/site/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/site\/index.html",
+		"oAP": "/site/index.html",
 		"oF": 0
 		},
-	"\/site\/luma-leadership.html": {
+	"/site/luma-leadership.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/site\/luma-leadership.html",
+		"oAP": "/site/luma-leadership.html",
 		"oF": 0
 		},
-	"\/site\/styleguide.html": {
+	"/site/styleguide.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/site\/styleguide.html",
+		"oAP": "/site/styleguide.html",
 		"oF": 0
 		},
-	"\/site\/understanding-women.html": {
+	"/site/understanding-women.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/site\/understanding-women.html",
+		"oAP": "/site/understanding-women.html",
 		"oF": 0
 		},
-	"\/site\/uploads\/Andrew-Connors.jpg": {
+	"/site/uploads/Andrew-Connors.jpg": {
 		"ft": 16384,
 		"iS": 11738,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/Andrew-Connors.jpg",
+		"oAP": "/site/uploads/Andrew-Connors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/comm.png": {
+	"/site/uploads/comm.png": {
 		"ft": 32768,
 		"iS": 19202,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/comm.png",
+		"oAP": "/site/uploads/comm.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/site\/uploads\/Emily-Drake.jpg": {
+	"/site/uploads/Emily-Drake.jpg": {
 		"ft": 16384,
 		"iS": 11724,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/Emily-Drake.jpg",
+		"oAP": "/site/uploads/Emily-Drake.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/Emily-Shacklett.jpg": {
+	"/site/uploads/Emily-Shacklett.jpg": {
 		"ft": 16384,
 		"iS": 13056,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/Emily-Shacklett.jpg",
+		"oAP": "/site/uploads/Emily-Shacklett.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/gear.png": {
+	"/site/uploads/gear.png": {
 		"ft": 32768,
 		"iS": 22023,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/gear.png",
+		"oAP": "/site/uploads/gear.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/site\/uploads\/Heather-Ettinger.jpg": {
+	"/site/uploads/Heather-Ettinger.jpg": {
 		"ft": 16384,
 		"iS": 13271,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/Heather-Ettinger.jpg",
+		"oAP": "/site/uploads/Heather-Ettinger.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/Kenneth-Coleman.jpg": {
+	"/site/uploads/Kenneth-Coleman.jpg": {
 		"ft": 16384,
 		"iS": 12868,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/Kenneth-Coleman.jpg",
+		"oAP": "/site/uploads/Kenneth-Coleman.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/Kristen-Lucas.jpg": {
+	"/site/uploads/Kristen-Lucas.jpg": {
 		"ft": 16384,
 		"iS": 17150,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/Kristen-Lucas.jpg",
+		"oAP": "/site/uploads/Kristen-Lucas.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/lady-icon_blue.jpg": {
+	"/site/uploads/lady-icon_blue.jpg": {
 		"ft": 16384,
 		"iS": 5428,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/lady-icon_blue.jpg",
+		"oAP": "/site/uploads/lady-icon_blue.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/lady-icon_dark-red.jpg": {
+	"/site/uploads/lady-icon_dark-red.jpg": {
 		"ft": 16384,
 		"iS": 4893,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/lady-icon_dark-red.jpg",
+		"oAP": "/site/uploads/lady-icon_dark-red.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/lady-icon_green.jpg": {
+	"/site/uploads/lady-icon_green.jpg": {
 		"ft": 16384,
 		"iS": 5121,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/lady-icon_green.jpg",
+		"oAP": "/site/uploads/lady-icon_green.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/lady-icon_light-red.jpg": {
+	"/site/uploads/lady-icon_light-red.jpg": {
 		"ft": 16384,
 		"iS": 5482,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/lady-icon_light-red.jpg",
+		"oAP": "/site/uploads/lady-icon_light-red.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/lady-icon_purple.jpg": {
+	"/site/uploads/lady-icon_purple.jpg": {
 		"ft": 16384,
 		"iS": 5790,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/lady-icon_purple.jpg",
+		"oAP": "/site/uploads/lady-icon_purple.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/luma-advisors-chart.png": {
+	"/site/uploads/luma-advisors-chart.png": {
 		"ft": 32768,
 		"iS": 50588,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/luma-advisors-chart.png",
+		"oAP": "/site/uploads/luma-advisors-chart.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/site\/uploads\/luma-advisors-chart_narrow.png": {
+	"/site/uploads/luma-advisors-chart_narrow.png": {
 		"ft": 32768,
 		"iS": 32099,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/luma-advisors-chart_narrow.png",
+		"oAP": "/site/uploads/luma-advisors-chart_narrow.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/site\/uploads\/luma-helping-you.jpg": {
+	"/site/uploads/luma-helping-you.jpg": {
 		"ft": 16384,
 		"iS": 208594,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/luma-helping-you.jpg",
+		"oAP": "/site/uploads/luma-helping-you.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/luma-wealth-planning.jpg": {
+	"/site/uploads/luma-wealth-planning.jpg": {
 		"ft": 16384,
 		"iS": 354235,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/luma-wealth-planning.jpg",
+		"oAP": "/site/uploads/luma-wealth-planning.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/sunset-jogger.jpg": {
+	"/site/uploads/sunset-jogger.jpg": {
 		"ft": 16384,
 		"iS": 186409,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/sunset-jogger.jpg",
+		"oAP": "/site/uploads/sunset-jogger.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/site\/uploads\/talking-ladies.png": {
+	"/site/uploads/talking-ladies.png": {
 		"ft": 32768,
 		"iS": 24759,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/talking-ladies.png",
+		"oAP": "/site/uploads/talking-ladies.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/site\/uploads\/users.png": {
+	"/site/uploads/users.png": {
 		"ft": 32768,
 		"iS": 20593,
 		"oA": 0,
-		"oAP": "\/site\/uploads\/users.png",
+		"oAP": "/site/uploads/users.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/js\/luma.js": {
+	"/site/wealth-planning.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/wealth-planning.html",
+		"oF": 0
+		},
+	"/src/js/luma.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/js\/luma.min.js",
+		"oAP": "/dist/js/luma.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/partials\/global.js": {
+	"/src/js/partials/global.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/global.min.js",
+		"oAP": "/dist/js/global.min.js",
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/partials\/header.js": {
+	"/src/js/partials/header.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/header.min.js",
+		"oAP": "/dist/js/header.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/partials\/overlay.js": {
+	"/src/js/partials/overlay.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/overlay.min.js",
+		"oAP": "/dist/js/overlay.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/partials\/staff-list.js": {
+	"/src/js/partials/staff-list.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/staff-list.min.js",
+		"oAP": "/dist/js/staff-list.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/plugins.js": {
+	"/src/js/plugins.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/js\/plugins.min.js",
+		"oAP": "/dist/js/plugins.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/vendor\/bowser.js": {
+	"/src/js/vendor/bowser.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/bowser.min.js",
+		"oAP": "/dist/js/bowser.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/vendor\/jquery-3.2.1.min.js": {
+	"/src/js/vendor/jquery-3.2.1.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/jquery-3.2.1.min.min.js",
+		"oAP": "/dist/js/jquery-3.2.1.min.min.js",
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/vendor\/modernizr-3.5.0.min.js": {
+	"/src/js/vendor/modernizr-3.5.0.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/modernizr-3.5.0.min.min.js",
+		"oAP": "/dist/js/modernizr-3.5.0.min.min.js",
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/vendor\/swiper.js": {
+	"/src/js/vendor/swiper.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/swiper.min.js",
+		"oAP": "/dist/js/swiper.min.js",
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/js\/vendor\/swiper.min.js": {
+	"/src/js/vendor/swiper.min.js": {
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/swiper.min.min.js",
+		"oAP": "/dist/js/swiper.min.min.js",
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/kit\/helping-you.kit": {
+	"/src/kit/helping-you.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/site\/helping-you.html",
+		"oAP": "/site/helping-you.html",
 		"oF": 0
 		},
-	"\/src\/kit\/index.kit": {
+	"/src/kit/index.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/site\/index.html",
+		"oAP": "/site/index.html",
 		"oF": 0
 		},
-	"\/src\/kit\/luma-leadership.kit": {
+	"/src/kit/luma-leadership.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/site\/luma-leadership.html",
+		"oAP": "/site/luma-leadership.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/_form-overlay.kit": {
+	"/src/kit/modules/_form-overlay.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_form-overlay.html",
+		"oAP": "/site/_form-overlay.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/_main-nav.kit": {
+	"/src/kit/modules/_main-nav.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_main-nav.html",
+		"oAP": "/site/_main-nav.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/_pre-footer-simple.kit": {
+	"/src/kit/modules/_pre-footer-simple.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_pre-footer-simple.html",
+		"oAP": "/site/_pre-footer-simple.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/_pre-footer.kit": {
+	"/src/kit/modules/_pre-footer.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_pre-footer.html",
+		"oAP": "/site/_pre-footer.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/_staff-list.kit": {
+	"/src/kit/modules/_staff-list.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_staff-list.html",
+		"oAP": "/site/_staff-list.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/team-members\/_andrew-connors.kit": {
+	"/src/kit/modules/team-members/_andrew-connors.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_andrew-connors.html",
+		"oAP": "/site/_andrew-connors.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/team-members\/_emily-drake.kit": {
+	"/src/kit/modules/team-members/_emily-drake.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_emily-drake.html",
+		"oAP": "/site/_emily-drake.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/team-members\/_emily-shacklett.kit": {
+	"/src/kit/modules/team-members/_emily-shacklett.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_emily-shacklett.html",
+		"oAP": "/site/_emily-shacklett.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/team-members\/_heather-ettinger.kit": {
+	"/src/kit/modules/team-members/_heather-ettinger.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_heather-ettinger.html",
+		"oAP": "/site/_heather-ettinger.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/team-members\/_kenneth-coleman.kit": {
+	"/src/kit/modules/team-members/_kenneth-coleman.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_kenneth-coleman.html",
+		"oAP": "/site/_kenneth-coleman.html",
 		"oF": 0
 		},
-	"\/src\/kit\/modules\/team-members\/_kristen-lucas.kit": {
+	"/src/kit/modules/team-members/_kristen-lucas.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_kristen-lucas.html",
+		"oAP": "/site/_kristen-lucas.html",
 		"oF": 0
 		},
-	"\/src\/kit\/partials\/_footer.kit": {
+	"/src/kit/partials/_footer.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_footer.html",
+		"oAP": "/site/_footer.html",
 		"oF": 0
 		},
-	"\/src\/kit\/partials\/_header.kit": {
+	"/src/kit/partials/_header.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/site\/_header.html",
+		"oAP": "/site/_header.html",
 		"oF": 0
 		},
-	"\/src\/kit\/styleguide.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/site\/styleguide.html",
-		"oF": 0
-		},
-	"\/src\/kit\/templates\/default-template.kit": {
+	"/src/kit/styleguide.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/site\/default-template.html",
+		"oAP": "/site/styleguide.html",
 		"oF": 0
 		},
-	"\/src\/kit\/understanding-women.kit": {
+	"/src/kit/templates/default-template.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/site\/understanding-women.html",
+		"oAP": "/site/default-template.html",
 		"oF": 0
 		},
-	"\/src\/kit\/wealth-planning.kit": {
+	"/src/kit/understanding-women.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/site\/wealth-planning.html",
+		"oAP": "/site/understanding-women.html",
 		"oF": 0
 		},
-	"\/src\/scss\/_buttons.scss": {
+	"/src/kit/wealth-planning.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/site/wealth-planning.html",
+		"oF": 0
+		},
+	"/src/scss/_buttons.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1113,12 +1120,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_buttons.css",
+		"oAP": "/dist/css/_buttons.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_fonts.scss": {
+	"/src/scss/_fonts.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1126,12 +1133,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_fonts.css",
+		"oAP": "/dist/css/_fonts.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_footer.scss": {
+	"/src/scss/_footer.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1139,12 +1146,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_footer.css",
+		"oAP": "/dist/css/_footer.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_forms.scss": {
+	"/src/scss/_forms.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1152,12 +1159,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_forms.css",
+		"oAP": "/dist/css/_forms.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_header.scss": {
+	"/src/scss/_header.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1165,12 +1172,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_header.css",
+		"oAP": "/dist/css/_header.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_helpers.scss": {
+	"/src/scss/_helpers.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1178,12 +1185,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_helpers.css",
+		"oAP": "/dist/css/_helpers.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_home.scss": {
+	"/src/scss/_home.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1191,12 +1198,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_home.css",
+		"oAP": "/dist/css/_home.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_layout.scss": {
+	"/src/scss/_layout.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1204,12 +1211,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_layout.css",
+		"oAP": "/dist/css/_layout.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_main.scss": {
+	"/src/scss/_main.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1217,12 +1224,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_main.css",
+		"oAP": "/dist/css/_main.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_nav.scss": {
+	"/src/scss/_nav.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1230,12 +1237,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_nav.css",
+		"oAP": "/dist/css/_nav.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_news.scss": {
+	"/src/scss/_news.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1243,12 +1250,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_news.css",
+		"oAP": "/dist/css/_news.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_normalize.scss": {
+	"/src/scss/_normalize.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1256,12 +1263,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_normalize.css",
+		"oAP": "/dist/css/_normalize.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_print.scss": {
+	"/src/scss/_print.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1269,12 +1276,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_print.css",
+		"oAP": "/dist/css/_print.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_team.scss": {
+	"/src/scss/_team.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1282,12 +1289,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_team.css",
+		"oAP": "/dist/css/_team.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_typography.scss": {
+	"/src/scss/_typography.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1295,12 +1302,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_typography.css",
+		"oAP": "/dist/css/_typography.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/_variables.scss": {
+	"/src/scss/_variables.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1308,12 +1315,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_variables.css",
+		"oAP": "/dist/css/_variables.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
 		},
-	"\/src\/scss\/styles.scss": {
+	"/src/scss/styles.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1321,12 +1328,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/dist\/css\/luma.css",
+		"oAP": "/dist/css/luma.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/STRUCTURE.md": {
+	"/STRUCTURE.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1335,7 +1342,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/STRUCTURE.html",
+		"oAP": "/STRUCTURE.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1344,7 +1351,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/TEMPLATES.md": {
+	"/TEMPLATES.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1353,7 +1360,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/TEMPLATES.html",
+		"oAP": "/TEMPLATES.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1379,141 +1386,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1525,7 +1485,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1537,7 +1518,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1573,53 +1572,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1628,6 +1620,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1985,6 +1978,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1996,6 +1993,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2041,6 +2042,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2059,10 +2064,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2261,9 +2262,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2617,6 +2622,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2645,6 +2654,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2652,6 +2665,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2707,7 +2724,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2767,7 +2784,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888\/fairport",
+	"externalServerAddress": "http://localhost:8888/fairport",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "console:write, $, Swiper, bowser, throttle, debounce",
@@ -3162,7 +3179,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -3181,7 +3197,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.min.js",
-		"autoOutputPathRelativePath": "dist\/js",
+		"autoOutputPathRelativePath": "dist/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
@@ -3213,19 +3229,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3281,7 +3297,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "dist\/css",
+		"autoOutputPathRelativePath": "dist/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 1,
@@ -3310,7 +3326,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3334,36 +3350,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "site",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3371,11 +3421,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3399,6 +3449,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3415,7 +3469,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3423,20 +3485,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3451,6 +3525,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3459,12 +3541,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3475,11 +3565,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3491,23 +3589,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3519,9 +3645,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",

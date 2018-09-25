@@ -24,12 +24,22 @@ $('#menu-toggle').click(function() {
   }
 });
 
+
+// Handle main nav click/touch
+
 $('#header-nav .main-nav-item > a').click(function(e) {
   e.preventDefault();
-  if (touch) {
-    $(this).closest('.main-nav-item').addClass('hover');
+  var $navItem = $(this).closest('.main-nav-item');
+  if (touch && !$navItem.hasClass('hover')) {
+    $navItem.addClass('hover');
+    $navItem.siblings().removeClass('hover');
+    document.addEventListener('touchstart', function(e) {
+      if (!e.target.closest('.main-nav-item')) {
+        $('.main-nav-item.hover').removeClass('hover');
+      }
+    }, {once: true});
   } else {
-    
+    window.location = $(this).attr('href');
   }
 });
 

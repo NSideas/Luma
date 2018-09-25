@@ -19,7 +19,7 @@ var touch = true;
 $('html').addClass('touch');
 
 function touchHandler(e) {
-  e.preventDefault();
+  document.removeEventListener('mousemove', mouseMoveHandler);
   touch = true;
   $('html').addClass('touch').removeClass('no-touch');
 }
@@ -30,4 +30,4 @@ function mouseMoveHandler() {
 }
 
 document.addEventListener('touchstart', touchHandler, {once: true});
-// document.addEventListener('mousemove', mouseMoveHandler, {once: true});
+document.addEventListener('mousemove', mouseMoveHandler, {once: true});

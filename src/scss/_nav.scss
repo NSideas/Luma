@@ -81,6 +81,9 @@ nav ul {
 }
 
 #header-nav .main-nav-item {
+  &.hover > a {
+    color: $red-1;
+  }
   @media (min-width: $l) {
     display: inline-block;
     margin-bottom: 0;
@@ -105,7 +108,7 @@ nav ul {
 #header-nav .main-nav-item a {
   @media (min-width: $l) {
     color: $red-2;
-    &:hover {
+    .no-touch &:hover {
       color: $red-1;
     }
   }
