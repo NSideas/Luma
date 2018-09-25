@@ -63,7 +63,7 @@ h5 {
 
 p {
   line-height: 1.66;
-  &:last-of-type {
+  &:last-child {
     margin-bottom: 0;
   }
 }
@@ -83,6 +83,7 @@ a {
 
 %intro_paragraph {
   font-size: 1.125em;
+  line-height: 1.8;
   font-weight: 200;
   color: $red-2;
   strong {
@@ -95,6 +96,7 @@ a {
       text-decoration: underline;
     }
   }
+
   @media (min-width: $m) {
     font-size: 1.25em;
   }
@@ -104,6 +106,18 @@ p.intro,
 ul.intro,
 .intro-section p {
   @extend %intro_paragraph;
+}
+
+.intro-section h4 {
+  font-size: 1.125em;
+  line-height: 1.8;
+  margin-top: 1.5em;
+  &:first-child {
+    margin-top: .5em;
+  }
+  @media (min-width: $m) {
+    font-size: 1.25em;
+  }
 }
 
 ul.intro {

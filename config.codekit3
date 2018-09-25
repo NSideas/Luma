@@ -621,6 +621,13 @@
 		"oAP": "/site/luma-leadership.html",
 		"oF": 0
 		},
+	"/site/providing-community.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/providing-community.html",
+		"oF": 0
+		},
 	"/site/styleguide.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -641,6 +648,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/site/uploads/Andrew-Connors.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/chris-heather.jpg": {
+		"ft": 16384,
+		"iS": 80500,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/chris-heather.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -806,6 +824,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/site/uploads/luma-helping-you.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/luma-presentation.jpg": {
+		"ft": 16384,
+		"iS": 58013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/luma-presentation.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1082,6 +1111,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/site/_header.html",
+		"oF": 0
+		},
+	"/src/kit/providing-community.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/site/providing-community.html",
 		"oF": 0
 		},
 	"/src/kit/styleguide.kit": {

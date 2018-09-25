@@ -62,6 +62,9 @@
 
 %dark_bg {
   color: white;
+  h2,
+  h3,
+  h4,
   a,
   .cta-link {
     color: inherit;
@@ -149,10 +152,14 @@ $gutter: 42px;
 
 // Shadows
 
-.top-shadow,
-.bottom-shadow {
+%shadow_container {
   position: relative;
   overflow: hidden;
+}
+
+.top-shadow,
+.bottom-shadow {
+  @extend %shadow_container;
 }
 
 .top-shadow:before,
@@ -176,6 +183,10 @@ $gutter: 42px;
   @media (min-width: $l) {
     @include bottom_shadow(100%, 16px);
   }
+}
+
+.inner-shadow {
+  @extend .top-shadow, .bottom-shadow;
 }
 
 
@@ -246,5 +257,132 @@ $gutter: 42px;
   padding: 1em;
   @media (min-width: $s) {
     position: absolute;
+  }
+}
+
+
+
+// Events
+
+.upcoming-event-list {
+  padding: 1.25em 0;
+  @media (min-width: $l) {
+    padding: 2em 0;
+  }
+}
+
+.upcoming-event {
+  @include flex;
+  align-items: flex-start;
+  &:not(:last-child) {
+    padding-bottom: 1.75em;
+    margin-bottom: 2.25em;
+    border-bottom: solid 1px lighten($brown, 50%);
+  }
+  @media (min-width: $l) {
+    &:not(:last-child) {
+      padding-bottom: 2em;
+      margin-bottom: 2.75em;
+    }
+  }
+}
+
+.upcoming-event img {
+  margin-bottom: 1.25em;
+}
+
+.event-name {
+  font-family: $sans;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: $red-1;
+  margin-bottom: .125em;
+  @media (min-width: $m) {
+    font-size: 1.625em;
+  }
+}
+
+.event-date-time {
+  font-weight: 400;
+  color: black;
+  margin-bottom: .75em;
+}
+
+.event-body {
+  @media (min-width: $m) {
+    font-size: 1.125em;
+  }
+}
+
+.register-link {
+  color: $brown;
+  text-transform: uppercase;
+  &:hover {
+    color: darken($brown, 20%);
+  }
+}
+
+@media (min-width: $m) {
+  .event-date-time,
+  .register-link,
+  .past-event h4 {
+    font-size: 1.125em;
+  }
+}
+
+
+// Past Events
+
+#past-events .section-title {
+  margin: 0;
+  padding-top: 1em;
+}
+
+.past-event {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  &:nth-of-type(2) {
+    background-color: black;
+  }
+  &:nth-of-type(3) {
+    background-color: $red-2;
+  }
+  &:nth-of-type(4) {
+    background-color: $beige;
+    color: $brown;
+  }
+}
+
+.past-event-date {
+  font-weight: 400;
+}
+
+.past-event-name {
+  margin-bottom: .5em;
+}
+
+@media (min-width: $l) {
+  #past-events header,
+  .past-event {
+    width: 50%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  #past-events header {
+    position: absolute;
+  }
+  .past-event:first-of-type {
+    padding-top: 140px;
+  }
+}
+
+@media (min-width: $xl) {
+  #past-events header,
+  .past-event:first-of-type {
+    width: 75%;
+  }
+  .past-event:nth-of-type(2) {
+    width: 25%;
   }
 }
