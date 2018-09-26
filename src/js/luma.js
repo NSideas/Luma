@@ -33,7 +33,6 @@ function globalScrollHandler() {
   clearTimeout(timeout);
   headerScroll();
   timeout = setTimeout(function() {
-    console.log('time out');
     headerScroll();
   }, 150);
 }

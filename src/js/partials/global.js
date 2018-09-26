@@ -6,6 +6,7 @@
 var mq_small = window.matchMedia('(min-width: 480px)');
 var mq_medium = window.matchMedia('(min-width: 720px)');
 var mq_large = window.matchMedia('(min-width: 860px)');
+var mq_xl = window.matchMedia('(min-width: 960px)');
 
 
 // Internet Explorer test

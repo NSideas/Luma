@@ -70,6 +70,9 @@ function headerResize() {
       $('.header-top-container').attr('style', '').removeClass('open');
       nav_is_open = false;
       top_menu_is_open = false;
+    } else {
+      $('.header-top-container').attr('style', '');
+      $('#header-nav').attr('style', '');
     }
   }
 }

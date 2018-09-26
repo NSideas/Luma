@@ -52,10 +52,19 @@ nav ul {
   background-color: $brown;
   color: white;
   margin-bottom: 1em;
-  border-top: solid 1em white;
-  @media (min-width: $l) {
+  border-top: solid 10px white;
+  @media (min-width: $xl) {
     display: block;
     background-color: transparent;
+    border-top: none;
+  }
+}
+
+#header.fixed #header-nav {
+  box-shadow: 0 2px 2px rgba(black, .3);
+  @media (min-width: $xl) {
+    box-shadow: none;
+    margin-bottom: 8px;
   }
 }
 
@@ -63,7 +72,7 @@ nav ul {
   @include contain;
   padding-top: 2em;
   padding-bottom: 2em;
-  @media (min-width: $l) {
+  @media (min-width: $xl) {
     @include flex;
     padding: 1em 0 0 0;
     position: relative;
@@ -71,8 +80,14 @@ nav ul {
   }
 }
 
+#header.fixed #header-nav .main-nav-list {
+  @media (min-width: $xl) {
+    left: 0;
+  }
+}
+
 #header-nav .main-nav-list:before {
-  @media (min-width: $l) {
+  @media (min-width: $xl) {
     @include screen_mask;
     top: 1em;
     height: 200px;
@@ -85,7 +100,7 @@ nav ul {
   &.hover > a {
     color: $red-1;
   }
-  @media (min-width: $l) {
+  @media (min-width: $xl) {
     display: inline-block;
     margin-bottom: 0;
     position: relative;
@@ -96,8 +111,14 @@ nav ul {
   }
 }
 
+#header.fixed #header-nav .main-nav-item {
+  @media (min-width: $xl) and (max-width: $xxl - 1) {
+    font-size: 15px;
+  }
+}
+
 #header-nav .main-nav-item:before {
-  @media (min-width: $l) {
+  @media (min-width: $xl) {
     @include screen_mask;
     height: 100%;
     width: calc(100% - 1px);
@@ -107,7 +128,8 @@ nav ul {
 }
 
 #header-nav .main-nav-item a {
-  @media (min-width: $l) {
+  transition: color .2s ease;
+  @media (min-width: $xl) {
     color: $red-2;
     .no-touch &:hover {
       color: $red-1;
@@ -118,8 +140,7 @@ nav ul {
 #header-nav .main-nav-item > a {
   padding-left: .5em;
   border-left: solid 1px;
-  transition: all .2s ease;
-  @media (min-width: $l) {
+  @media (min-width: $xl) {
     border-color: transparent;
     border: none;
     position: relative;
@@ -131,7 +152,7 @@ nav ul {
   padding-left: 2em;
   padding-top: .3em;
   border-left: solid 1px transparent;
-  @media (min-width: $l) {
+  @media (min-width: $xl) {
     position: absolute;
     top: 0;
     width: 200px;
@@ -149,7 +170,7 @@ nav ul {
 
 }
 
-@media (min-width: $l) {
+@media (min-width: $xl) {
   .no-touch #header-nav .main-nav-item:hover,
   .touch #header-nav .main-nav-item.hover {
     .sub-nav {
