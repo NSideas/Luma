@@ -148,6 +148,8 @@ nav ul {
   }
 }
 
+
+
 #header-nav .sub-nav {
   padding-left: 2em;
   padding-top: .3em;
@@ -166,9 +168,6 @@ nav ul {
   }
 }
 
-#header-nav .sub-nav:before {
-
-}
 
 @media (min-width: $xl) {
   .no-touch #header-nav .main-nav-item:hover,
@@ -197,5 +196,20 @@ nav ul {
 
 #footer-nav .sub-nav-item a,
 .secondary-nav-item a {
-  font-weight: 200;
+  font-weight: 300;
+}
+
+
+// Current Nav Item
+
+#header-nav .main-nav-item.current > a,
+#header-nav .sub-nav a.current,
+#footer-nav .main-nav-item > a.current {
+  color: $red-1;
+  font-weight: 500;
+}
+
+#footer-nav .sub-nav a.current {
+  color: $red-1;
+  font-weight: 400;
 }

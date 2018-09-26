@@ -1,5 +1,18 @@
 
 
+// Highlight current nav item
+
+$('.main-nav-item a').each(function() {
+  var link = $(this)[0].href;
+  var currentPage = window.location.origin + window.location.pathname;
+  if (link === currentPage) {
+    $(this).addClass('current');
+    $(this).closest('.main-nav-item').addClass('current');
+  }
+});
+
+
+
 // Main Nav hide/show
 
 var nav_is_open = false;
@@ -74,5 +87,20 @@ function headerResize() {
       $('.header-top-container').attr('style', '');
       $('#header-nav').attr('style', '');
     }
+  }
+}
+
+
+// Fix header on scroll
+
+var header_fixed = false;
+
+function headerScroll() {
+  if (window.scrollY > 120 && !header_fixed) {
+    $('#header').addClass('fixed');
+    header_fixed = true;
+  } else if (window.scrollY <= 120) {
+    $('#header').removeClass('fixed');
+    header_fixed = false;
   }
 }

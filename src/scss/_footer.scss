@@ -2,7 +2,7 @@
 #footer p,
 #footer li {
   color: $gray-1;
-  @media (min-width: $l) {
+  @media (min-width: $l) and (max-width: $xl - 1) {
     font-size: 15px;
   }
 }
