@@ -614,6 +614,13 @@
 		"oAP": "/site/index.html",
 		"oF": 0
 		},
+	"/site/investment-management.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/investment-management.html",
+		"oF": 0
+		},
 	"/site/luma-leadership.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -741,6 +748,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/site/uploads/investment-chart.png": {
+		"ft": 32768,
+		"iS": 39889,
+		"oA": 0,
+		"oAP": "/site/uploads/investment-chart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/site/uploads/investment-chart_narrow.png": {
+		"ft": 32768,
+		"iS": 33399,
+		"oA": 0,
+		"oAP": "/site/uploads/investment-chart_narrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/site/uploads/Kenneth-Coleman.jpg": {
 		"ft": 16384,
 		"iS": 12868,
@@ -846,6 +875,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/site/uploads/luma-helping-you.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/luma-investment-management.jpg": {
+		"ft": 16384,
+		"iS": 163483,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/luma-investment-management.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1090,6 +1130,13 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "/site/index.html",
+		"oF": 0
+		},
+	"/src/kit/investment-management.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/site/investment-management.html",
 		"oF": 0
 		},
 	"/src/kit/luma-leadership.kit": {

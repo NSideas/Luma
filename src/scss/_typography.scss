@@ -23,8 +23,7 @@ h1 {
   font-weight: 400;
 }
 
-h2,
-h3 {
+h2 {
   font-family: $serif;
   font-size: 1.75em;
   line-height: 1.33;
@@ -38,6 +37,16 @@ h3 {
   }
   @media (min-width: $l) {
     font-size: 2.5em;
+  }
+}
+
+h3 {
+  color: $red-2;
+  font-size: 1.125em;
+  font-weight: 500;
+  margin-bottom: .5em;
+  @media (min-width: $m) {
+    font-size: 1.25em;
   }
 }
 
