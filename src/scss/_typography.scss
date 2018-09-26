@@ -117,15 +117,12 @@ ul.intro,
   @extend %intro_paragraph;
 }
 
-.intro-section h4 {
-  font-size: 1.125em;
+.intro-section h3 {
+  font-weight: 500;
   line-height: 1.8;
-  margin-top: 1.5em;
-  &:first-child {
-    margin-top: .5em;
-  }
-  @media (min-width: $m) {
-    font-size: 1.25em;
+  margin-bottom: 0;
+  &:not(:first-child) {
+    margin-top: 1em;
   }
 }
 

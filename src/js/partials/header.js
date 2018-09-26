@@ -12,7 +12,6 @@ $('.main-nav-item a').each(function() {
 });
 
 
-
 // Main Nav hide/show
 
 var nav_is_open = false;

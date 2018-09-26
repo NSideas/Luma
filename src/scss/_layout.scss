@@ -152,6 +152,40 @@ $gutter: 42px;
 }
 
 
+// Hero
+
+.hero--70-30 {
+  padding-top: 1em;
+  .section-title {
+    margin-bottom: 0;
+  }
+  @media (min-width: $l) {
+    padding-top: 0;
+  }
+}
+
+.hero--70-30 .img-column {
+  margin-bottom: 1em;
+  text-align: center;
+  @media (min-width: $l) {
+    width: 61%;
+    margin-right: 4%;
+  }
+  @media (min-width: $xl) {
+    width: 66%;
+  }
+}
+
+.hero--70-30 .text-column {
+  @media (min-width: $l) {
+    width: 35%;
+  }
+  @media (min-width: $xl) {
+    width: 30%;
+  }
+}
+
+
 // Shadows
 
 %shadow_container {
