@@ -52,6 +52,7 @@ nav ul {
   background-color: $brown;
   color: white;
   margin-bottom: 1em;
+  border-top: solid 1em white;
   @media (min-width: $l) {
     display: block;
     background-color: transparent;

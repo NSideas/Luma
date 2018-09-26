@@ -1,6 +1,18 @@
 
 // Header
 
+#header {
+  height: 100px;
+  @media (min-width: $l) {
+    padding-top: 14px;
+    height: 178px;
+  }
+  @media (min-width: $xl) {
+    padding-top: 26px;
+    height: 78px;
+  }
+}
+
 .header-container {
   @include contain;
   margin-top: 14px;
@@ -9,12 +21,40 @@
   }
   @media (min-width: $l) {
     padding-top: 1em;
+    margin-top: 0;
   }
   @media (min-width: $xl) {
     @include flex;
     justify-content: space-between;
-    margin-top: 26px;
   }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+#header.fixed .header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  background: white;
+  box-shadow: 0 0 2px rgba(black, .2);
+  opacity: 0;
+  animation: .5s ease fadein forwards;
+}
+
+#header.fixed .logo img {
+  width: 180px;
+}
+
+#header.fixed #menu-toggle {
+  top: 10px;
 }
 
 .logo-wrap {
@@ -22,7 +62,6 @@
   align-items: center;
   height: 36px;
   padding: 0 6%;
-  margin-bottom: 1em;
   @media (min-width: $s) {
     padding: 0 22px;
   }
