@@ -368,10 +368,34 @@ $gutter: 42px;
 
 .past-event-date {
   font-weight: 400;
+  width: 100%;
 }
 
 .past-event-name {
   margin-bottom: .5em;
+  width: 100%;
+}
+
+.past-event .event-photos {
+  justify-content: center;
+  @media (min-width: 600px) {
+    justify-content: flex-start;
+  }
+}
+
+.past-event figure {
+  margin: .5em 0;
+  width: 75%;
+  max-width: 300px;
+  figcaption {
+    margin-top: .5em;
+  }
+  @media (min-width: 600px) {
+    width: 48.5%;
+    &:not(:last-child) {
+      margin-right: 3%;
+    }
+  }
 }
 
 @media (min-width: $l) {
@@ -406,6 +430,7 @@ $gutter: 42px;
       display: block;
       position: absolute;
       top: 0;
+      left: 0;
       height: 100%;
       width: 100vw;
       z-index: 0;
@@ -415,6 +440,9 @@ $gutter: 42px;
   .past-event:first-of-type {
     width: 72%;
     max-width: $max_width * .72;
+    figure {
+      width: 31.33%;
+    }
   }
   .past-event:nth-of-type(2) {
     width: 28%;
@@ -422,14 +450,24 @@ $gutter: 42px;
     &:before {
       left: 0;
     }
-  }
-  .past-event:nth-of-type(3) {
-    max-width: $max_width * .5;
-    &:before {
-      right: 0;
+    figure {
+      width: 100%;
     }
   }
+  .past-event:nth-of-type(3) {
+    &:before {
+      right: 0;
+      left: auto;
+    }
+  }
+  .past-event:nth-of-type(3),
   .past-event:nth-of-type(4) {
     max-width: $max_width * .5;
+    figure {
+      width: 47.75%;
+    }
+    figure:not(:last-child) {
+      margin-right: 4.5%;
+    }
   }
 }

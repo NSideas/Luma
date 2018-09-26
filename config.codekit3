@@ -719,6 +719,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/site/uploads/Investing-in-Women_1.jpg": {
+		"ft": 16384,
+		"iS": 19162,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/Investing-in-Women_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/Investing-in-Women_2.jpg": {
+		"ft": 16384,
+		"iS": 23965,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/Investing-in-Women_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/site/uploads/Kenneth-Coleman.jpg": {
 		"ft": 16384,
 		"iS": 12868,
@@ -846,6 +868,61 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/site/uploads/luma-wealth-planning.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/Madonna.jpg": {
+		"ft": 16384,
+		"iS": 22278,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/Madonna.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/Patty-Wood-Girls.jpg": {
+		"ft": 16384,
+		"iS": 21845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/Patty-Wood-Girls.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/Rock-Hall-Madonna.jpg": {
+		"ft": 16384,
+		"iS": 17981,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/Rock-Hall-Madonna.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/Steel_Magnolias_1.jpg": {
+		"ft": 16384,
+		"iS": 27288,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/Steel_Magnolias_1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/Steel_Magnolias_2.jpg": {
+		"ft": 16384,
+		"iS": 24145,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/Steel_Magnolias_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
