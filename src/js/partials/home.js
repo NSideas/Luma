@@ -13,8 +13,3 @@ var homePageSlider = new Swiper('#home-page-slider', {
     bulletActiveClass: 'active'
   }
 });
-
-
-homePageSlider.on('transitionStart', function() {
-  console.log('transitionStart');
-});
