@@ -880,6 +880,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/site/uploads/luma-home-1-grateful.jpg": {
+		"ft": 16384,
+		"iS": 72022,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/luma-home-1-grateful.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/luma-home-2-comfort.jpg": {
+		"ft": 16384,
+		"iS": 86069,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/luma-home-2-comfort.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/site/uploads/luma-home-3-support.jpg": {
+		"ft": 16384,
+		"iS": 80734,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/site/uploads/luma-home-3-support.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/site/uploads/luma-investment-management.jpg": {
 		"ft": 16384,
 		"iS": 163483,
@@ -1151,6 +1184,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/site/_form-overlay.html",
+		"oF": 0
+		},
+	"/src/kit/modules/_home-page-slider.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_home-page-slider.html",
 		"oF": 0
 		},
 	"/src/kit/modules/_main-nav.kit": {
@@ -1506,6 +1546,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/css/_print.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/src/scss/_swiper.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/css/_swiper.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1

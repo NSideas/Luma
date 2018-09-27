@@ -26,3 +26,15 @@ function globalScrollHandler() {
 }
 
 window.addEventListener('scroll', throttle(globalScrollHandler, 100));
+
+
+
+var homePageSlider = new Swiper('#home-page-slider', {
+  threshold: 20,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    bulletClass: 'home-page-slider-bullet',
+    bulletActiveClass: 'active'
+  }
+});
