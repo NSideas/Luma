@@ -1,6 +1,7 @@
 
 // @codekit-prepend 'partials/global.js';
 // @codekit-prepend 'partials/header.js';
+// @codekit-prepend 'partials/home.js';
 // @codekit-prepend 'partials/overlay.js';
 // @codekit-prepend 'partials/staff-list.js';
 
@@ -26,15 +27,3 @@ function globalScrollHandler() {
 }
 
 window.addEventListener('scroll', throttle(globalScrollHandler, 100));
-
-
-
-var homePageSlider = new Swiper('#home-page-slider', {
-  threshold: 20,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    bulletClass: 'home-page-slider-bullet',
-    bulletActiveClass: 'active'
-  }
-});
