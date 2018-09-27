@@ -1071,6 +1071,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/src/js/partials/home.js": {
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/js/home.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/src/js/partials/overlay.js": {
 		"ft": 64,
 		"ma": 1,
@@ -1275,6 +1285,27 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/site/_upcoming-2.html",
+		"oF": 0
+		},
+	"/src/kit/modules/slides/_home-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_home-1.html",
+		"oF": 0
+		},
+	"/src/kit/modules/slides/_home-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_home-2.html",
+		"oF": 0
+		},
+	"/src/kit/modules/slides/_home-3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_home-3.html",
 		"oF": 0
 		},
 	"/src/kit/modules/team-members/_andrew-connors.kit": {

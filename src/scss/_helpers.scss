@@ -74,3 +74,20 @@
     align-items: center;
   }
 }
+
+.flex--align-left {
+  @extend .flex;
+  justify-content: flex-start;
+}
+.flex--align-right {
+  @extend .flex;
+  justify-content: flex-end;
+}
+.flex--align-top {
+  @extend .flex;
+  align-items: flex-start;
+}
+.flex--align-bottom {
+  @extend .flex;
+  align-items: flex-end;
+}
