@@ -373,6 +373,11 @@ $gutter: 42px;
 #past-events {
   justify-content: center;
   overflow: hidden;
+  .inner-wrap {
+    max-width: $max_width;
+    position: relative;
+    margin: 0 auto;
+  }
 }
 
 #past-events .section-title {
@@ -459,6 +464,8 @@ $gutter: 42px;
   }
   .past-event {
     position: relative;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
     &:before {
       content: '';
       display: block;
