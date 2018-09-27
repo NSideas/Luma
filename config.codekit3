@@ -1160,6 +1160,13 @@
 		"oAP": "/site/_main-nav.html",
 		"oF": 0
 		},
+	"/src/kit/modules/_past-events.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_past-events.html",
+		"oF": 0
+		},
 	"/src/kit/modules/_pre-footer-simple.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1179,6 +1186,55 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/site/_staff-list.html",
+		"oF": 0
+		},
+	"/src/kit/modules/_upcoming-events.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_upcoming-events.html",
+		"oF": 0
+		},
+	"/src/kit/modules/events/_past-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_past-1.html",
+		"oF": 0
+		},
+	"/src/kit/modules/events/_past-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_past-2.html",
+		"oF": 0
+		},
+	"/src/kit/modules/events/_past-3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_past-3.html",
+		"oF": 0
+		},
+	"/src/kit/modules/events/_past-4.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_past-4.html",
+		"oF": 0
+		},
+	"/src/kit/modules/events/_upcoming-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_upcoming-1.html",
+		"oF": 0
+		},
+	"/src/kit/modules/events/_upcoming-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_upcoming-2.html",
 		"oF": 0
 		},
 	"/src/kit/modules/team-members/_andrew-connors.kit": {
