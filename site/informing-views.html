@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../dist/css/luma.css">
 </head>
 
-<body class="page-styleguide">
+<body class="page-informing-views">
 
   <header id="header">
 
@@ -83,101 +83,61 @@
 
 <main class="main-content">
 
-  <div class="main-section contain">
-
-    <h2 class="section-title">Forms</h2>
-
-    <section class="sub-section flex center-x">
-      <form class="single-column">
-        <h4 class="form-title large">Single Column Form</h4>
-        <div class="form-group">
-          <div class="form-field">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name">
-          </div>
-          <div class="form-field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email">
-          </div>
-          <div class="form-field">
-            <label for="message">Message</label>
-            <textarea id="message" rows="3" placeholder="Message"></textarea>
-          </div>
-          <button type="submit" class="btn-arrow">Submit</button>
-        </div>
-      </form>
-    </section>
-
-    <section class="sub-section">
-      <form class="two-column grid-container">
-        <h4 class="form-title large">Two Column Form</h4>
-        <div class="form-group grid-6">
-          <div class="form-field">
-            <label for="your-name">Your Name</label>
-            <input type="text" id="your-name" name="your-name" placeholder="Your Name">
-          </div>
-          <div class="form-field">
-            <label for="your-email">Your Email</label>
-            <input type="email" id="your-email" name="your-email" placeholder="Your Email">
-          </div>
-          <div class="form-field">
-            <label for="select">Select an option</label>
-            <div class="custom-dropdown">
-              <select id="select" name="select" required>
-                <option value="" disabled selected>Select One</option>
-                <option value="1">Option One</option>
-                <option value="2">Option Two</option>
-                <option value="3">Option Three</option>
-              </select>
-            </div>
-          </div>
-        </div>
-        <div class="form-group grid-6">
-          <div class="form-field">
-            <label for="friend-name">Your Friend's Name</label>
-            <input type="text" id="friend-name" name="friend-name" placeholder="Your Friend's Name">
-          </div>
-          <div class="form-field">
-            <label for="friend-email">Your Friend's Email</label>
-            <input type="email" id="friend-email" name="friend-email" placeholder="Your Friend's Email">
-          </div>
-          <div class="form-field">
-            <label for="additional-info">Additional Information</label>
-            <textarea id="additional-info" rows="3" placeholder="Additional Information"></textarea>
-          </div>
-          <button type="submit" class="btn">Submit</button>
-        </div>
-      </form>
-    </section>
-
+  <div class="main-section intro-section contain">
+    <h2 class="section-title">Informing Views</h2>
+    <a class="cta-link" href="#">Would you like to receive information from us? Join our mailing list</a>
   </div>
 
+  <div id="news" class="main-section contain">
+    <div class="grid-container">
 
-  <div class="main-section pre-footer--simple top-shadow">
-    <div class="contain">
-      <ul class="block-list grid-container">
-        <li class="block-list-item grid-4">
-          <header>
-            <h2>Informing views</h2>
-            <a class="cta-link" href="#">Latest research, news and opinions</a>
-          </header>
-        </li>
-        <li class="block-list-item grid-4">
-          <header>
-            <h2>Refer a friend</h2>
-            <a id="refer-a-friend-btn" class="cta-link overlay-trigger" href="#refer-a-friend">Know someone who can help?</a>
-          </header>
-        </li>
-        <li class="block-list-item grid-4">
-          <header>
-            <h2>Events</h2>
-            <a class="cta-link" href="#">Join us for our next event</a>
-          </header>
+      <ul class="news-list">
+        <li class="news-item">
+          <a class="featured-image">
+            <img src="uploads/news-feature-1.jpg" alt="Tips for business owners dreaming about retirement">
+          </a>
+          <section class="post-info">
+            <h5 class="post-date">September 25, 2018</h5>
+            <h3 class="post-title">
+              <a href="#">Tips for business owners dreaming about retirement</a>
+            </h3>
+            <p class="content-preview">
+              We asked business owners to tell us their challenges. Not surprisingly, more than 88% said their greatest financial concern is...
+              <a class="more-link" href="#">More</a>
+            </p>
+          </section>
         </li>
       </ul>
+
+      <aside class="news-filters">
+        <section class="news-filter--category">
+          <h4>Category</h4>
+          <ul class="filter-options">
+            <li><a href="#">News</a></li>
+            <li><a href="#">Opinion</a></li>
+            <li><a href="#">Research</a></li>
+          </ul>
+        </section>
+        <section class="news-filter--archive">
+          <h4>Archives</h4>
+          <ul class="filter-options">
+            <li><a href="#">September 2018</a></li>
+            <li><a href="#">August 2018</a></li>
+            <li><a href="#">July 2018</a></li>
+            <li><a href="#">June 2018</a></li>
+            <li><a href="#">May 2018</a></li>
+            <li><a href="#">April 2018</a></li>
+            <li><a href="#">March 2018</a></li>
+            <li><a href="#">February 2018</a></li>
+            <li><a href="#">January 2018</a></li>
+            <li><a href="#">December 2017</a></li>
+            <li><a href="#">November 2017</a></li>
+          </ul>
+        </section>
+      </aside>
+
     </div>
   </div>
-  
 
 </main>
 

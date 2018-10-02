@@ -328,7 +328,7 @@ $gutter: 42px;
 
 .event-name,
 .article-title {
-  
+
 }
 
 .event-date-time {
@@ -509,3 +509,44 @@ $gutter: 42px;
 
 
 // News
+
+#news {
+  padding-top: 0;
+}
+
+ul.news-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 2em;
+}
+
+.news-item .featured-image {
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.post-date {
+  font-size: .85em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $brown;
+  margin-bottom: .5em;
+}
+
+.post-title {
+  margin-bottom: .25em;
+}
+
+.more-link,
+.post-title a {
+  color: $red-1;
+  .no-touch &:hover {
+    color: $red-2;
+  }
+}
+
+.content-preview {
+  font-size: 1.125em;
+  font-weight: 300;
+}
