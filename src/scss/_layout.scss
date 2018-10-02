@@ -326,15 +326,9 @@ $gutter: 42px;
   margin-bottom: 1.25em;
 }
 
-.event-name {
-  font-family: $sans;
-  font-size: 1.5em;
-  font-weight: 300;
-  color: $red-1;
-  margin-bottom: .125em;
-  @media (min-width: $m) {
-    font-size: 1.625em;
-  }
+.event-name,
+.article-title {
+  
 }
 
 .event-date-time {
@@ -511,3 +505,7 @@ $gutter: 42px;
     }
   }
 }
+
+
+
+// News
