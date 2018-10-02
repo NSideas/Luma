@@ -518,7 +518,15 @@ ul.news-list {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+.news-item {
+  margin-bottom: 2em;
+  &:not(:last-child) {
+    padding-bottom: 1.75em;
+    border-bottom: solid 1px $brown;
+  }
 }
 
 .news-item .featured-image {
@@ -549,4 +557,10 @@ ul.news-list {
 .content-preview {
   font-size: 1.125em;
   font-weight: 300;
+}
+
+ul.filter-options {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
