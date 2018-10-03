@@ -77,7 +77,7 @@ p {
 a {
   color: $red-2;
   text-decoration: none;
-  &:hover {
+  .no-touch &:hover {
     color: $red-1;
   }
 }
