@@ -635,6 +635,13 @@
 		"oAP": "/site/luma-leadership.html",
 		"oF": 0
 		},
+	"/site/news-article-1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/news-article-1.html",
+		"oF": 0
+		},
 	"/site/providing-community.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1257,6 +1264,13 @@
 		"oAP": "/site/_main-nav.html",
 		"oF": 0
 		},
+	"/src/kit/modules/_news-filters.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_news-filters.html",
+		"oF": 0
+		},
 	"/src/kit/modules/_past-events.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1334,6 +1348,27 @@
 		"oAP": "/site/_upcoming-2.html",
 		"oF": 0
 		},
+	"/src/kit/modules/news-items/_article-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_article-1.html",
+		"oF": 0
+		},
+	"/src/kit/modules/news-items/_article-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_article-2.html",
+		"oF": 0
+		},
+	"/src/kit/modules/news-items/_article-3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_article-3.html",
+		"oF": 0
+		},
 	"/src/kit/modules/slides/_home-1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1395,6 +1430,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/site/_kristen-lucas.html",
+		"oF": 0
+		},
+	"/src/kit/news-article-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/site/news-article-1.html",
 		"oF": 0
 		},
 	"/src/kit/partials/_footer.kit": {

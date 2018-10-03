@@ -514,11 +514,15 @@ $gutter: 42px;
   padding-top: 0;
 }
 
+
 ul.news-list {
   list-style: none;
   margin: 0;
   padding-left: 0;
   padding-bottom: 1em;
+}
+
+.news-container {
   width: 100%;
   @media (min-width: $l) {
     width: 70%;
