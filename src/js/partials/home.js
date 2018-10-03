@@ -6,6 +6,9 @@ var homePageSlider = new Swiper('#home-page-slider', {
   followFinger: false,
   autoHeight: true,
   threshold: 16,
+  autoplay: {
+    delay: 5000
+  },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
