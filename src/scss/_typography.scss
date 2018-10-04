@@ -82,6 +82,13 @@ a {
   }
 }
 
+.post-content a {
+  .no-touch &:hover {
+    color: $red-2;
+    text-decoration: underline;
+  }
+}
+
 .section-title {
   color: $brown;
   margin-bottom: .75em;

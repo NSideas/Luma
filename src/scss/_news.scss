@@ -4,6 +4,7 @@
 
 #news {
   padding-top: 0;
+  justify-content: center;
 }
 
 
@@ -30,7 +31,7 @@ ul.news-list {
     width: 30%;
     padding-left: $gutter;
   }
-  @media (min-width: $l) {
+  @media (min-width: $xl) {
     width: 22%;
   }
 }
@@ -91,8 +92,6 @@ ul.news-list {
   text-transform: uppercase;
 }
 
-
-
 .news-filters h4 {
   margin-bottom: 0;
 }
@@ -108,5 +107,47 @@ ul.filter-options {
   a {
     font-weight: 300;
     color: black;
+  }
+}
+
+// Single Post
+
+.page-news-article .news-container {
+  max-width: 650px;
+  @media (min-width: 1200px) {
+    margin-left: 200px;
+  }
+}
+
+.page-news-article .news-filters {
+  @media (min-width: $l) {
+    width: 200px;
+  }
+}
+
+.single-post {
+  padding-bottom: 2em;
+  border-bottom: solid 1px rgba($brown, .15);
+  margin-bottom: 2em;
+}
+
+.single-post header {
+  padding-bottom: .25em;
+  border-bottom: solid 1px rgba($brown, .15);
+  margin-bottom: 1.25em;
+}
+
+.single-post .featured-image {
+  margin-bottom: 1.5em;
+  @media (min-width: $m) {
+    margin-bottom: 2em;
+  }
+}
+
+.post-content {
+  font-size: 1.05em;
+  font-weight: 300;
+  @media (min-width: $m) {
+    font-size: 1.125em;
   }
 }
