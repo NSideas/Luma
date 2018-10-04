@@ -1,6 +1,6 @@
-# Fairport Asset Management
+# Luma Wealth Advisors
 
-A development guide for the Fairport Asset Management website.
+A development guide for the Luma Wealth Advisors website.
 
 
 
@@ -9,7 +9,7 @@ A development guide for the Fairport Asset Management website.
 
 Production-ready assets (JS, CSS, fonts and images) can be found in the `dist/` folder. The `src/` folder is for development purposes only.
 
-The `site/` folder is the root of the [demo website](http://dev.bigfatideas.com/Fairport/site/).
+The `site/` folder is the root of the [demo website](http://dev.bigfatideas.com/Luma/site/).
 
 ### Images
 
@@ -25,13 +25,13 @@ Download core JS and CSS files from `dist/` and add them to the website:
 <html lang="en">
 <head>
     ...
-    <link rel="stylesheet" href="path/to/fairport.css">
+    <link rel="stylesheet" href="path/to/luma.css">
 </head>
 <body>
     ...
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="path/to/plugins.min.js"></script>
-    <script src="path/to/fairport.min.js"></script>
+    <script src="path/to/luma.min.js"></script>
 </body>
 </html>
 ```
