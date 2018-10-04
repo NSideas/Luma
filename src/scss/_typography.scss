@@ -85,6 +85,10 @@ a {
 .section-title {
   color: $brown;
   margin-bottom: .75em;
+  a,
+  a:hover {
+    color: inherit;
+  }
 }
 
 %intro_paragraph {
