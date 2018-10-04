@@ -1282,6 +1282,13 @@
 		"oAP": "/site/_news-filters.html",
 		"oF": 0
 		},
+	"/src/kit/modules/_pagination.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_pagination.html",
+		"oF": 0
+		},
 	"/src/kit/modules/_past-events.kit": {
 		"cB": 0,
 		"ft": 2048,

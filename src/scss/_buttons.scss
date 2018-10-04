@@ -29,21 +29,41 @@
   }
 }
 
-@mixin arrow_link {
+@mixin arrow_symbol {
+  display: inline-block;
+  line-height: 0;
+  font-size: 1.6em;
+  position: relative;
+  top: .12em;
+}
+
+@mixin right_arrow {
+  &:after {
+    @include arrow_symbol;
+    content: '\2192';
+    margin-left: .05em;
+  }
+}
+
+@mixin left_arrow {
+  &:before {
+    @include arrow_symbol;
+    content: '\2190';
+    margin-right: .05em;
+  }
+}
+
+@mixin arrow_link($direction: null) {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 200;
   color: $brown;
   line-height: inherit;
   background-color: transparent;
-  &:after {
-    display: inline-block;
-    line-height: 0;
-    content: '\2192';
-    font-size: 1.6em;
-    position: relative;
-    top: .12em;
-    left: .07em;
+  @if $direction == 'right' {
+    @include right_arrow;
+  } @elseif $direction == 'left' {
+    @include left_arrow;
   }
   .no-touch &:hover {
     color: $brown;
@@ -51,13 +71,13 @@
 }
 
 button,
-button[type="submit"]
+button[type="submit"],
 input[type="submit"] {
   &.btn {
     @include ui_button_primary;
   }
   &.btn-arrow {
-    @include arrow_link;
+    @include arrow_link('right');
     font-family: inherit;
     -webkit-appearance: none;
     border: none;
@@ -70,7 +90,7 @@ input[type="submit"] {
 }
 
 .cta-link {
-  @include arrow_link;
+  @include arrow_link('right');
   margin-top: 1.5em;
   &:first-child {
     margin-top: 0;

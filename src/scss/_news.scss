@@ -110,6 +110,39 @@ ul.filter-options {
   }
 }
 
+.news-pagination {
+  padding-bottom: 2.5em;
+  @include flex;
+  @media (max-width: $l - 1) {
+    justify-content: space-between;
+    &.first-page {
+      justify-content: flex-end;
+    }
+    &.last-page {
+      justify-content: flex-start;
+    }
+  }
+}
+
+.pagination-link {
+  @include arrow_link;
+  font-weight: 400;
+  margin: 0 1em;
+  &.next-page {
+    @include right_arrow;
+  }
+  &.prev-page {
+    @include left_arrow;
+  }
+  @media (min-width: $l) {
+    margin-left: 0;
+    &.prev-page {
+      margin-right: 3em;
+    }
+  }
+}
+
+
 // Single Post
 
 .page-news-article .news-container {
