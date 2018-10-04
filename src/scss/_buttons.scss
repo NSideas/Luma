@@ -114,3 +114,29 @@ p + .cta-link {
   background-position: center;
   background-size: 100%;
 }
+
+
+#scroll-top-container {
+  display: none;
+  position: fixed;
+  right: 1.5vw;
+  bottom: 1.5vw;
+  width: 50px;
+  height: 50px;
+}
+
+#btn-scroll-top {
+  @include flex__center;
+  width: inherit;
+  height: inherit;
+  font-size: 1.25em;
+  border: solid 1px;
+  color: black;
+  transition: all .2s;
+  .no-touch &:hover {
+    color: $red-2;
+  }
+  @media (max-width: $m - 1) {
+    display: none;
+  }
+}

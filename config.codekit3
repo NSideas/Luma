@@ -1356,6 +1356,13 @@
 		"oAP": "/site/_pre-footer.html",
 		"oF": 0
 		},
+	"/src/kit/modules/_scroll-top.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_scroll-top.html",
+		"oF": 0
+		},
 	"/src/kit/modules/_staff-list.kit": {
 		"cB": 0,
 		"ft": 2048,
