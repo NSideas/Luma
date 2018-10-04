@@ -71,6 +71,10 @@ select {
   @include ui_input_text;
 }
 
+textarea {
+  min-height: 44px;
+}
+
 
 
 // Custom select dropdown

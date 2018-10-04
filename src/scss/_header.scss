@@ -228,6 +228,9 @@
   font-weight: 200;
   color: $brown;
   text-transform: uppercase;
+  .no-touch &:hover {
+    color: $brown;
+  }
 }
 
 .sm-link-list {

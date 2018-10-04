@@ -96,6 +96,16 @@ picture {
   }
 }
 
+.banner-img {
+  padding-bottom: 0;
+  img {
+    width: 100%;
+  }
+  @media (min-width: $l) {
+    padding-bottom: 1.5em;
+  }
+}
+
 .attachment-img {
   @media (min-width: $l) {
     margin-top: 1em;
