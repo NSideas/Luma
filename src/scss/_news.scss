@@ -120,7 +120,7 @@ ul.filter-options {
 }
 
 .page-news-article .news-filters {
-  @media (min-width: $l) {
+  @media (min-width: $xl) {
     width: 200px;
   }
 }
@@ -149,5 +149,44 @@ ul.filter-options {
   font-weight: 300;
   @media (min-width: $m) {
     font-size: 1.125em;
+  }
+}
+
+.post-content .attachment-img {
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+
+
+.post-content hr {
+  border-color: rgba($brown, .15);
+}
+
+.post-content table {
+  border-spacing: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: .9em;
+  th {
+    text-align: left;
+    color: $red-2;
+  }
+  @media (min-width: $xl) {
+    font-size: 1em;
+  }
+}
+
+.post-content table td,
+.post-content table th {
+  padding-right: 1em;
+  padding-bottom: 1em;
+  @media (min-width: $m) {
+    padding-right: 1.5em;
+  }
+  @media (min-width: $xl) {
+    padding-bottom: 1.5em;
+  }
+  &:last-child {
+    padding-right: 0;
   }
 }
