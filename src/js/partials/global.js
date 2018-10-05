@@ -9,11 +9,12 @@ var mq_large = window.matchMedia('(min-width: 860px)');
 var mq_xl = window.matchMedia('(min-width: 960px)');
 
 
-// Internet Explorer test
+// Browser test
 if (bowser.msie) {
-  document.body.classList.add('ie');
+  $('html').addClass('ie');
+} else if (bowser.firefox) {
+  $('html').addClass('firefox');
 }
-
 
 // Touch screen test
 var touch = true;
@@ -32,3 +33,17 @@ function mouseMoveHandler() {
 
 document.addEventListener('touchstart', touchHandler, {once: true});
 document.addEventListener('mousemove', mouseMoveHandler, {once: true});
+
+var scrollTopBtn = document.getElementById('btn-scroll-top');
+
+function smoothScrollTop(e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+if (!bowser.firefox) {
+  scrollTopBtn.addEventListener('click', smoothScrollTop);
+}

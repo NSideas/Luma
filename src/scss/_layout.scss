@@ -72,6 +72,10 @@ $max_width: 1140px;
   }
 }
 
+.no-touch %dark_bg .cta-link:hover {
+  color: inherit;
+}
+
 .bg-color--brown {
   @extend %dark_bg;
   background-color: $brown;

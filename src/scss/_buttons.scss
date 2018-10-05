@@ -31,10 +31,13 @@
 
 @mixin arrow_symbol {
   display: inline-block;
-  line-height: 0;
+  line-height: 16px;
   font-size: 1.6em;
   position: relative;
   top: .12em;
+  .firefox & {
+    top: 0;
+  }
 }
 
 @mixin right_arrow {

@@ -82,6 +82,10 @@ a {
   }
 }
 
+.content-area li {
+  margin-bottom: .75em;
+}
+
 .post-content a {
   .no-touch &:hover {
     color: $red-2;
