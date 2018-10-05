@@ -32,14 +32,3 @@ function mouseMoveHandler() {
 
 document.addEventListener('touchstart', touchHandler, {once: true});
 document.addEventListener('mousemove', mouseMoveHandler, {once: true});
-
-
-var scrollTopBtn = document.getElementById('btn-scroll-top');
-
-scrollTopBtn.addEventListener('click', function(e) {
-  e.preventDefault();
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-});
