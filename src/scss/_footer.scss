@@ -1,4 +1,17 @@
 
+#footer {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  @media (min-width: $m) {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  @media (min-width: $l) {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+}
+
 #footer p,
 #footer li {
   color: $gray-1;

@@ -149,7 +149,12 @@
 
 .process-item h4 {
   color: white;
+  font-weight: 700;
+  margin-bottom: 0;
   text-transform: uppercase;
+  @media (min-width: $m) {
+    font-size: 1.125em;
+  }
 }
 
 .process-item .content {
@@ -172,7 +177,7 @@
     background-image: url(../img/icn-chevron.svg);
     background-repeat: no-repeat;
     background-position: top 50% right .5em;
-    background-size: 46px;
+    background-size: 54px;
   }
   h4 {
     width: calc(100% - 30px);
