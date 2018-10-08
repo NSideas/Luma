@@ -89,24 +89,26 @@ The Home Page Slider is a module that consists of the repeatable item, **Slide**
 * **Slides** – *repeater*
   * **Image** – *image*
   * **Text** – *plain text*
-  * **Link** – *plain text*
+  * **Link Text** – *plain text*
+  * **Link URL** – *plain text*
+  * **Text Position** – *select*
+    * Options: right, left
 
 
 ```html
-
 <div id="home-page-slider" class="swiper-container">
   <div class="swiper-wrapper">
 
     <!-- for each {Slide} : -->
-    <div class="swiper-slide hp-slide">
-      <div class="image-container align-left">
-        <img src="uploads/luma-home-1-grateful.jpg" alt="Grateful">
+    <div class="hp-slide text-{Text_Position}">
+      <div class="image-container">
+        {Image}
       </div>
       <div class="text-container">
-        <div class="slide-content--outer flex--align-right">
+        <div class="slide-content--outer">
           <section class="slide-content--inner">
-            <h2 class="slide-text">I’m grateful to have an advisor who understands all that I juggle.</h2>
-            <a class="cta-link" href="#">Learn how we get to know you</a>
+            <h2 class="slide-text">{Text}</h2>
+            <a class="cta-link" href="{Link_URL}">{Link_Text}</a>
           </section>
         </div>
       </div>
@@ -156,78 +158,67 @@ Block Lists are styled lists with that contain block-level HTML elements within 
 ```
 
 
-### Ordered Block List Single column
+
+
+## Pre-Footer
+
+The Pre-Footer is included on the homepage, just above the footer. It is used to display relevant information and links.
 
 #### Fields
-* **Block List Item** – *repeater*
-  * **Content** – *rich text*
-
-```html
-<ol class="block-list block-list--ordered single-column">
-
-  <!-- for each {Block_List_Item} : -->
-  <li class="block-list-item">
-    {Content}
-  </li>
-  <!-- /for each -->
-
-</ol>
-```
-
-
-### Ordered Block List Two Column
-
-#### Fields
-
-* **Block List Item** – *repeater*
+* **Pre-Footer Item** – *repeater*
   * **Header** – *plain text*
-  * **Sub Header** – *plain text*
+  * **Link Title** – *plain text*
+  * **Link Text** – *plain text*
   * **Content** – *rich text*
 
-
 ```html
-<ol class="block-list block-list--ordered two-column">
+<div class="main-section pre-footer">
+  <div class="contain">
+    <ul class="block-list grid-container">
 
-  <!-- for each {Block_List_Item} : -->
-  <li class="block-list-item flex">
-    <div class="grid-item left-column">
-      <h5>{Sub_Header}</h5>
-      <h3>{Header}</h3>
-    </div>
-    <div class="grid-item right-column">
-      {Content}
-    </div>
-  </li>
-  <!-- /for each -->
+      <!-- for each {Pre_Footer_Item} : -->
+      <li class="block-list-item grid-4">
+        <header>
+          <h2>{Header}</h2>
+          <a class="cta-link" href="{Link_URL}">{Link_Text}</a>
+        </header>
+        <div class="content">
+          {Content}
+        </div>
+      </li>
+      <!-- /for each -->
 
-</ol>
+    </ul>
+
+  </div>
+</div>
 ```
 
 
-### Ordered Block List Three Column
 
-#### Fields
 
-* **Block List Item** – *repeater*
-  * **Header** – *plain text*
-  * **Content** – *rich text*
+### Basic Pre-Footer
 
+The Basic Pre-Footer is the same as the Pre-Footer except it does not have a content area. It is included on all basic pages, just above the footer.
 
 ```html
-<ol class="block-list block-list--ordered three-column">
+<div class="main-section pre-footer--simple top-shadow">
+  <div class="contain">
+    <ul class="block-list grid-container">
 
-  <!-- for each {Block_List_Item} : -->
-  <li class="block-list-item grid-item">
-    <h5>{Header}</h5>
-    <div class="content-area">
-      <p>{Content}</p>
-    </div>
-  </li>
-  <!-- /for each -->
+      <!-- for each {Pre_Footer_Item} : -->
+      <li class="block-list-item grid-4">
+        <header>
+          <h2>{Header}</h2>
+          <a class="cta-link" href="{Link_URL}">{Link_Text}</a>
+        </header>
+      </li>
+      <!-- /for each -->
 
-</ol>
+    </ul>
+  </div>
+</div>
 ```
-
 
 
 
