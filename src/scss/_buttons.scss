@@ -76,6 +76,7 @@
 button,
 button[type="submit"],
 input[type="submit"] {
+  cursor: pointer;
   &.btn {
     @include ui_button_primary;
   }

@@ -85,7 +85,7 @@
 
   <div class="main-section intro-section contain">
     <h2 class="section-title"><a href="informing-views.html">Informing Views</a></h2>
-    <a class="cta-link" href="#">Would you like to receive information from us? Join our mailing list</a>
+    <a class="cta-link overlay-trigger" href="#join-mailing-list">Would you like to receive information from us? Join our mailing list</a>
   </div>
 
   <div id="news" class="main-section contain flex">
@@ -280,7 +280,6 @@
 
   
   <div id="refer-a-friend" class="overlay-module">
-  
     <div class="overlay-module--outer-wrap">
       <div class="overlay-module--inner-wrap">
   
@@ -288,44 +287,62 @@
           <div class="btn-close"></div>
         </div>
   
-        <form id="refer-a-friend-form" class="two-column grid-container">
-  
-          <h4 class="form-title large">Refer a Friend</h4>
-  
-          <div class="form-group grid-6">
-            <div class="form-field">
-              <label for="your-name">Your Name</label>
-              <input type="text" id="your-name" name="your-name" placeholder="Your Name">
+        <form id="refer-a-friend-form" class="two-column">
+          <h2>Refer a Friend</h2>
+          <div class="grid-container">
+            <div class="form-group grid-6">
+              <div class="form-field">
+                <input type="text" id="your-name" name="your-name" placeholder="Your Name">
+              </div>
+              <div class="form-field">
+                <input type="email" id="your-email" name="your-email" placeholder="Your Email">
+              </div>
+              <div class="form-field">
+                <textarea id="additional-info" rows="3" placeholder="Additional Information"></textarea>
+              </div>
             </div>
-            <div class="form-field">
-              <label for="your-email">Your Email</label>
-              <input type="email" id="your-email" name="your-email" placeholder="Your Email">
+            <div class="form-group grid-6">
+              <div class="form-field">
+                <input type="text" id="friend-name" name="friend-name" placeholder="Your Friend's Name">
+              </div>
+              <div class="form-field">
+                <input type="email" id="friend-email" name="friend-email" placeholder="Your Friend's Email">
+              </div>
+              <button type="submit" class="btn-arrow">Submit</button>
             </div>
           </div>
-  
-          <div class="form-group grid-6">
-            <div class="form-field">
-              <label for="friend-name">Your Friend's Name</label>
-              <input type="text" id="friend-name" name="friend-name" placeholder="Your Friend's Name">
-            </div>
-            <div class="form-field">
-              <label for="friend-email">Your Friend's Email</label>
-              <input type="email" id="friend-email" name="friend-email" placeholder="Your Friend's Email">
-            </div>
-            <div class="form-field">
-              <label for="additional-info">Additional Information</label>
-              <textarea id="additional-info" rows="3" placeholder="Additional Information"></textarea>
-            </div>
-            <button type="submit" class="btn-arrow">Submit</button>
-          </div>
-  
         </form>
   
       </div>
     </div>
-  
   </div>
   
+  
+    <div id="join-mailing-list" class="overlay-module">
+      <div class="overlay-module--outer-wrap">
+        <div class="overlay-module--inner-wrap">
+    
+          <div class="close-button-container">
+            <div class="btn-close"></div>
+          </div>
+    
+          <form id="join-mailing-list-form" class="two-column">
+            <h2>Join Our Mailing List</h2>
+            <div class="grid-container">
+              <div class="form-field grid-6">
+                <input type="text" id="name" name="name" placeholder="Name">
+              </div>
+              <div class="form-field grid-6">
+                <input type="email" id="email" name="email" placeholder="Email">
+              </div>
+            </div>
+            <button type="submit" class="btn-arrow">Submit</button>
+          </form>
+    
+        </div>
+      </div>
+    </div>
+    
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="../dist/js/plugins.min.js"></script>

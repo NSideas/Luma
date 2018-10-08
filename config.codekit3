@@ -1203,20 +1203,6 @@
 		"oAP": "/site/luma-leadership.html",
 		"oF": 0
 		},
-	"/src/kit/modules/_contact-form.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "/site/_contact-form.html",
-		"oF": 0
-		},
-	"/src/kit/modules/_form-overlay.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "/site/_form-overlay.html",
-		"oF": 0
-		},
 	"/src/kit/modules/_home-page-slider.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1264,13 +1250,6 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/site/_pre-footer.html",
-		"oF": 0
-		},
-	"/src/kit/modules/_scroll-top.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "/site/_scroll-top.html",
 		"oF": 0
 		},
 	"/src/kit/modules/_staff-list.kit": {
@@ -1327,6 +1306,27 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/site/_upcoming-2.html",
+		"oF": 0
+		},
+	"/src/kit/modules/forms/_contact-us.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_contact-us.html",
+		"oF": 0
+		},
+	"/src/kit/modules/forms/_join-mailing-list.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_join-mailing-list.html",
+		"oF": 0
+		},
+	"/src/kit/modules/forms/_refer-a-friend.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_refer-a-friend.html",
 		"oF": 0
 		},
 	"/src/kit/modules/news-items/_article-1.kit": {
