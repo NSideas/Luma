@@ -133,29 +133,60 @@ The Home Page Slider is a module that consists of the repeatable item, **Slide**
 
 Block Lists are styled lists with that contain block-level HTML elements within each `li`. They consist of the repeatable field, **Block List Item** which include various sub fields based on the type of list.
 
-### Unordered Block List
 
 #### Fields
 * **Block List Item** – *repeater*
-  * **Header** – *plain text*
+  * **Image** – *image*
   * **Content** – *rich text*
 
 ```html
-<ul class="block-list block-list--unordered two-column">
+<ul class="block-list grid-container">
 
   <!-- for each {Block_List_Item} : -->
-  <li class="block-list-item flex">
-    <div class="grid-item left-column">
-      <h3>{Header}</h3>
-    </div>
-    <div class="grid-item right-column">
-      {Content}
-    </div>
+  <li class="block-list-item grid-4">
+    {Image}
+    {Content}
   </li>
   <!-- /for each -->
 
 </ul>
 ```
+
+
+
+
+## Staff List
+
+The Staff List is used to display all the team members on the [leadership page](#).
+
+#### Fields
+* **Staff Member** – *repeater*
+  * **Name** – *plain text*
+  * **Suffix** – *plain text (optional)*
+  * **Title** – *plain text*
+  * **Portrait** – *image*
+  * **Bio** – *rich text*
+
+```html
+<div id="staff-list" class="grid-container">
+
+  <!-- for each {Staff_Member} : -->
+  <div id="{Name}" class="team-member">
+    <a class="team-member-link" href="#{Name}">
+      <img class="team-member-photo" src="{Portrait -> URL}" alt="{Name}">
+      <h4 class="team-member-name">{Name}{Suffix}</h4>
+      <h5 class="team-member-title">{Title}</h5>
+    </a>
+    <div class="team-member-bio">
+      {Bio}
+      <div class="btn-close"></div>
+    </div>
+  </div>
+  <!-- /for each -->
+  
+</div>
+```
+
 
 
 
