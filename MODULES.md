@@ -153,6 +153,37 @@ Block Lists are styled lists with that contain block-level HTML elements within 
 ```
 
 
+### Compact Block List
+
+The Compact Block List consists of a single column of list items. Each item is color coded and contains an icon and a brief section of text.
+
+#### Fields
+* **Block List Item** – *repeater*
+  * **Icon** – *image*
+  * **Title** – *plain text*
+  * **Content** – *rich text*
+  * **Color** – *select*
+    * Options: light-red, dark-red, purple, blue, green
+
+```html
+<ul class="block-list--compact">
+
+  <!-- for each {Block_List_Item} : -->
+  <li class="block-list-item">
+    <div class="inner-wrap flex">
+      {Icon}
+      <section>
+        <h4 class="{Color}">{Title}</h4>
+        {Content}
+      </section>
+    </div>
+  </li>
+  <!-- /for each -->
+
+</ul>
+```
+
+
 
 
 ## Staff List
@@ -183,7 +214,7 @@ The Staff List is used to display all the team members on the [leadership page](
     </div>
   </div>
   <!-- /for each -->
-  
+
 </div>
 ```
 
@@ -195,6 +226,8 @@ The Staff List is used to display all the team members on the [leadership page](
 
 The Pre-Footer is included on the homepage, just above the footer. It is used to display relevant information and links.
 
+### Default Pre-Footer
+
 #### Fields
 * **Pre-Footer Item** – *repeater*
   * **Header** – *plain text*
@@ -203,7 +236,7 @@ The Pre-Footer is included on the homepage, just above the footer. It is used to
   * **Content** – *rich text*
 
 ```html
-<div class="main-section pre-footer">
+<div class="main-section pre-footer--default">
   <div class="contain">
     <ul class="block-list grid-container">
 
@@ -228,7 +261,7 @@ The Pre-Footer is included on the homepage, just above the footer. It is used to
 
 
 
-### Basic Pre-Footer
+### Simple Pre-Footer
 
 The Basic Pre-Footer is the same as the Pre-Footer except it does not have a content area. It is included on all basic pages, just above the footer.
 

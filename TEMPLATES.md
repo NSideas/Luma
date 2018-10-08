@@ -5,46 +5,29 @@ These templates represent the different types of pages throughout the site.
 
 ## Default Template
 
-This template is used for all the *About Us*, *Services* and *Contact* pages.
+This template is used for all basic pages.
 
 #### Fields
 * **Title** – *plain text*
 * **Intro Text** – *plain text*
 * **Body** – *rich text*
-* **Primary Color** – *select*
-  * Options: Purple, Blue, Teal, Green, Red, Gold
 * **Modules** – *page sections*
 
 
 ```html
 <!-- include {Header} -->
 
-<div class="page-intro--default">
-  <section class="container">
-    <h1 class="page-title">{Title}</h1>
-    <p class="intro-paragraph">{Intro_Text}</p>
-  </section>
-</div>
+<main class="main-content">
 
-<div class="main-content-wrapper">
+  <!-- for each {Module} : include {Module} -->
 
-  <!-- include {Breadcrumbs} -->
+  <!-- if (is homepage) : -->
+    <!-- include {Default_Pre_Footer} -->
+  <!-- else -->
+    <!-- include {Simple_Pre_Footer} -->
+  <!-- /if -->
 
-  <main class="main-content">
-
-    <div class="main-section content-area">
-      <section class="container">
-        {Body}
-      </section>
-    </div>
-
-    <!-- for each {Module} : include {Module} -->
-
-  </main>
-
-  <!-- include {Quick_Links} -->
-
-</div>
+</main>
 
 <!-- include {Footer} -->
 ```
