@@ -6,6 +6,7 @@ var homePageSlider = new Swiper('#home-page-slider', {
   followFinger: false,
   autoHeight: true,
   threshold: 16,
+  slideClass: 'hp-slide',
   autoplay: {
     delay: 5000
   },

@@ -15,6 +15,7 @@
 }
 
 .hp-slide {
+  @extend .swiper-slide;
   .image-container,
   .text-container {
     opacity: 0;
@@ -63,6 +64,7 @@
 
 .hp-slide .slide-content--outer {
   @include contain;
+  @include flex;
   width: 100%;
 }
 
@@ -139,5 +141,22 @@
   @media (min-width: $l) {
     padding-top: 5em;
     padding-bottom: 5em;
+  }
+}
+
+.hp-slide.text-left {
+  .image-container {
+    text-align: right;
+  }
+  .slide-content--outer {
+    justify-content: flex-start;
+  }
+}
+.hp-slide.text-right {
+  .image-container {
+    text-align: left;
+  }
+  .slide-content--outer {
+    justify-content: flex-end;
   }
 }

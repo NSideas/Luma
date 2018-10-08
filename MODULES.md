@@ -52,7 +52,7 @@ The Main Nav should display links to all the main pages of the site.
 
 ## Header Top Menu
 
-The Main Nav should display links to all the main pages of the site.
+This is the part of the header that is above the main nav.
 
 #### Fields
 * **Menu Item** – *repeater*
@@ -77,6 +77,51 @@ The Main Nav should display links to all the main pages of the site.
   <span class="fa fa-chevron-down"></span>
 </div>
 ```
+
+
+
+
+
+## Home Page Slider
+The Home Page Slider is a module that consists of the repeatable item, **Slide**. The images in the slider should all be the same size, at least 1200px wide and have an aspect ratio of approximately 2:1.
+
+#### Fields
+* **Slides** – *repeater*
+  * **Image** – *image*
+  * **Text** – *plain text*
+  * **Link** – *plain text*
+
+
+```html
+
+<div id="home-page-slider" class="swiper-container">
+  <div class="swiper-wrapper">
+
+    <!-- for each {Slide} : -->
+    <div class="swiper-slide hp-slide">
+      <div class="image-container align-left">
+        <img src="uploads/luma-home-1-grateful.jpg" alt="Grateful">
+      </div>
+      <div class="text-container">
+        <div class="slide-content--outer flex--align-right">
+          <section class="slide-content--inner">
+            <h2 class="slide-text">I’m grateful to have an advisor who understands all that I juggle.</h2>
+            <a class="cta-link" href="#">Learn how we get to know you</a>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- /for each -->
+
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+```
+
+
+
+
+
 
 
 
