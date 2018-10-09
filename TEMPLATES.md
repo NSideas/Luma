@@ -9,8 +9,6 @@ This template is used for all basic pages.
 
 #### Fields
 * **Title** – *plain text*
-* **Intro Text** – *plain text*
-* **Body** – *rich text*
 * **Modules** – *page sections*
 
 
@@ -18,15 +16,7 @@ This template is used for all basic pages.
 <!-- include {Header} -->
 
 <main class="main-content">
-
   <!-- for each {Module} : include {Module} -->
-
-  <!-- if (is homepage) : -->
-    <!-- include {Default_Pre_Footer} -->
-  <!-- else -->
-    <!-- include {Simple_Pre_Footer} -->
-  <!-- /if -->
-
 </main>
 
 <!-- include {Footer} -->

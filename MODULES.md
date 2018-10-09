@@ -222,6 +222,111 @@ The Staff List is used to display all the team members on the [leadership page](
 
 
 
+## Upcoming Event
+
+#### Fields
+* **Title** – *plain text*
+* **Date** – *plain text*
+* **Time** – *plain text*
+* **Image** – *image*
+* **Description** – *rich text*
+* **Registration Link** – *plain text*
+
+```html
+<div class="upcoming-event">
+  <img class="grid-4" src="{Image -> URL}" alt="{Image -> alt}">
+  <section class="grid-8">
+    <h3 class="event-name">{Title}</h3>
+    <h4 class="event-date-time">{Date} @ {Time}</h4>
+    <div class="event-body">
+      <p>{Description}</p>
+    </div>
+    <a class="register-link overlay-trigger" href="{Registration_Link}">Resgister</a>
+  </section>
+</div>
+```
+
+
+
+
+
+
+## Upcoming Events List
+
+The Upcoming Event List shows the three nearest upcoming events.
+
+```html
+<div class="upcoming-event-list">
+  <!-- for each {Upcoming_Event} : include {Upcoming_Event} -->
+</div>
+```
+
+
+
+
+
+## Past Event
+
+#### Fields
+* **Title** – *plain text*
+* **Date** – *plain text*
+* **Description** – *rich text*
+* **Images** – *repeater*
+  * **Photo** – *image*
+  * **Caption** – *plain text*
+
+```html
+<div class="past-event">
+  <section class="contain">
+    <h4 class="past-event-date">{Date}</h4>
+    <h4 class="past-event-name">{Title}</h4>
+    <div class="event-body">
+      {Description}
+    </div>
+    <!-- if {Images} : -->
+    <div class="event-photos flex">
+      <!-- for each {Image} : -->
+      <figure>
+        {Photo}
+        <!-- if {Caption} : -->
+        <figcaption>{Caption}</figcaption>
+        <!-- /if -->
+      </figure>
+      <!-- /for each -->
+    </div>
+    <!-- /if -->
+  </section>
+</div>
+```
+
+
+
+
+
+## Past Event List
+
+The Past Event List shows the four most recent past events. Due to complexity of this layout, it is important that there are always four items in this list.
+
+```html
+<div id="past-events" class="bg-color--brown">
+  <div class="inner-wrap flex">
+    <header>
+      <section class="contain">
+        <h2 class="section-title">Past events</h2>
+      </section>
+    </header>
+    <!-- include {Past_Event(1)} -->
+    <!-- include {Past_Event(2)} -->
+    <!-- include {Past_Event(3)} -->
+    <!-- include {Past_Event(4)} -->
+  </div>
+</div>
+```
+
+
+
+
+
 ## Pre-Footer
 
 The Pre-Footer is included on the homepage, just above the footer. It is used to display relevant information and links.
