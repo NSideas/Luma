@@ -109,6 +109,10 @@ p + .cta-link {
   margin-top: 0;
 }
 
+.content-area .cta-link:not(:last-child) {
+  margin-bottom: 2em;
+}
+
 .btn-close {
   cursor: pointer;
   width: 20px;

@@ -113,18 +113,23 @@ ul.filter-options {
 .news-pagination {
   padding-bottom: 2.5em;
   @include flex;
-  @media (max-width: $l - 1) {
-    justify-content: space-between;
-    &.first-page {
-      justify-content: flex-end;
-    }
-    &.last-page {
-      justify-content: flex-start;
+}
+
+@media (max-width: $l - 1) {
+  .pagination-next,
+  .pagination-prev {
+    width: 50%;
+  }
+  .pagination-next {
+    text-align: right;
+    &:first-child {
+      width: 100%
     }
   }
 }
 
-.pagination-link {
+
+.news-pagination a {
   @include arrow_link;
   font-weight: 400;
   margin: 0 1em;
