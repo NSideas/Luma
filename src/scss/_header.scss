@@ -7,11 +7,10 @@
   min-height: 100px;
   @media (min-width: $xl) {
     padding-top: 14px;
-    min-height: 194px;
+    height: 194px;
   }
   @media (min-width: $xxl) {
     padding-top: 26px;
-    min-height: 170px;
   }
 }
 
@@ -39,29 +38,40 @@
 }
 
 
-#header.fixed .header-container {
+#header.fixed {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
   width: 100%;
+  min-height: 0;
   height: 56px;
   margin: 0;
   padding-top: 10px;
-  padding-bottom: 0;
   background: white;
   box-shadow: 0 0 2px rgba(black, .2);
   opacity: 0;
   animation: .5s ease fadein forwards;
   @media (min-width: $xl) {
+    height: 66px;
+  }
+}
+
+#header.fixed {
+  #toggle-top-menu,
+  .header-top-container {
+    display: none;
+  }
+}
+
+#header.fixed .header-container {
+  padding-bottom: 0;
+  margin-top: 0;
+  @media (min-width: $xl) {
     height: auto;
     @include flex__center_y;
     justify-content: space-between;
-    padding-bottom: 10px;
-  }
-  @media (min-width: $xxl) {
-    width: 100%;
-    max-width: none;
+    padding-top: 0;
   }
 }
 
@@ -72,8 +82,11 @@
   }
 }
 
-#header.fixed #menu-toggle {
-  top: 10px;
+#header.fixed + .main-content {
+  padding-top: 100px;
+  @media (min-width: $xl) {
+    padding-top: 192px;
+  }
 }
 
 .logo-wrap {
@@ -93,6 +106,9 @@
     position: relative;
     z-index: 10;
   }
+}
+
+#header:not(.fixed) .logo-wrap {
   @media (min-width: $xxl) {
     top: 2px;
   }

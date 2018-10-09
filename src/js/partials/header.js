@@ -93,12 +93,13 @@ function headerResize() {
 // Fix header on scroll
 
 var header_fixed = false;
+var headerScrollTrigger = mq_xl.matches ? 200 : 120;
 
 function headerScroll() {
-  if (window.scrollY > 120 && !header_fixed) {
+  if (window.scrollY > headerScrollTrigger && !header_fixed) {
     $('#header').addClass('fixed');
     header_fixed = true;
-  } else if (window.scrollY <= 120) {
+  } else if (window.scrollY <= headerScrollTrigger) {
     $('#header').removeClass('fixed');
     header_fixed = false;
   }
