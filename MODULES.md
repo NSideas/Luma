@@ -199,22 +199,24 @@ The Staff List is used to display all the team members on the [leadership page](
   * **Bio** – *rich text*
 
 ```html
-<div id="staff-list" class="grid-container">
+<div id="staff-list" class="contain">
+  <div id="staff-list--inner" class="grid-container">
 
-  <!-- for each {Staff_Member} : -->
-  <div id="{Name}" class="team-member">
-    <a class="team-member-link" href="#{Name}">
-      <img class="team-member-photo" src="{Portrait -> URL}" alt="{Name}">
-      <h4 class="team-member-name">{Name}{Suffix}</h4>
-      <h5 class="team-member-title">{Title}</h5>
-    </a>
-    <div class="team-member-bio">
-      {Bio}
-      <div class="btn-close"></div>
+    <!-- for each {Staff_Member} : -->
+    <div id="{Name}" class="team-member">
+      <a class="team-member-link" href="#{Name}">
+        <img class="team-member-photo" src="{Portrait -> URL}" alt="{Name}">
+        <h4 class="team-member-name">{Name}{Suffix}</h4>
+        <h5 class="team-member-title">{Title}</h5>
+      </a>
+      <div class="team-member-bio">
+        {Bio}
+        <div class="btn-close"></div>
+      </div>
     </div>
-  </div>
-  <!-- /for each -->
+    <!-- /for each -->
 
+  </div>
 </div>
 ```
 

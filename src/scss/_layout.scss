@@ -100,11 +100,8 @@ picture {
   }
 }
 
-.banner-img {
+.less-padding-bottom {
   padding-bottom: 0;
-  img {
-    width: 100%;
-  }
   @media (min-width: $l) {
     padding-bottom: 1.5em;
   }
@@ -120,12 +117,9 @@ picture {
 
 // Grid
 
-.grid-container {
-  @include flex;
-}
-
-.v-align-center {
-  align-items: center;
+.grid-container,
+.two-column-section {
+  @extend .flex;
 }
 
 $column-count: 12;
@@ -171,6 +165,7 @@ $gutter: 42px;
 // Hero
 
 .hero--70-30 {
+  @include flex__center_y;
   padding-top: 1em;
   .section-title {
     margin-bottom: 0;

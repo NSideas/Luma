@@ -2,8 +2,8 @@
 // Team
 
 function staffList() {
-  var containWidth = $('#staff-list').width();
-  var containLeft = $('#staff-list')[0].getBoundingClientRect().x;
+  var containWidth = $('#staff-list--inner').innerWidth();
+  var containLeft = $('#staff-list--inner')[0].getBoundingClientRect().x;
   $('.team-member-bio').each(function() {
     $(this).css('left', '0');
     $(this).width(containWidth);

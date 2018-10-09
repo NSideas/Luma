@@ -44,13 +44,15 @@ Modules referenced here: [News Article Teaser](MODULES.md#news-article-teaser), 
 
 <main class="main-content">
 
-  <div class="main-section intro-section contain">
-    <h2 class="section-title">{Title}</h2>
-    <a class="cta-link" href="{CTA_Link_URL}">{CTA_Link_Text}</a>
+  <div class="main-section">
+    <div class="intro-section contain">
+      <h2 class="section-title">{Title}</h2>
+      <a class="cta-link" href="{CTA_Link_URL}">{CTA_Link_Text}</a>
+    </div>
   </div>
 
-  <div id="news" class="main-section contain">
-    <div class="news-section grid-container">
+  <div id="news" class="main-section">
+    <div class="news-section grid-container contain">
 
       <div class="news-container">
 
@@ -106,13 +108,15 @@ This template is used for all News Articles. The **Intro** field is not referenc
 
 <main class="main-content">
 
-  <div class="main-section intro-section contain">
-    <h2 class="section-title">{Informing_Views -> Title}</h2>
-    <a class="cta-link" href="{Informing_Views -> CTA_Link_URL}">{Informing_Views -> CTA_Link_Text}</a>
+  <div class="main-section">
+    <div class="intro-section contain">
+      <h2 class="section-title">{Informing_Views -> Title}</h2>
+      <a class="cta-link" href="{Informing_Views -> CTA_Link_URL}">{Informing_Views -> CTA_Link_Text}</a>
+    </div>
   </div>
 
-  <div id="news" class="main-section contain">
-    <div class="news-section grid-container">
+  <div id="news" class="main-section">
+    <div class="news-section grid-container contain">
 
       <div class="news-container">
 

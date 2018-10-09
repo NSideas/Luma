@@ -11,13 +11,14 @@
 
 .team-member {
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   @media (min-width: $l) {
     width: 45%;
   }
   @media (min-width: $xl) {
     @include grid(4);
     margin-bottom: 2em;
+    padding-top: 1em;
   }
 }
 
@@ -54,18 +55,20 @@
 
 .team-member-bio {
   position: relative;
-  padding-top: 1em;
+  overflow: hidden;
   height: 1px;
   visibility: hidden;
   .team-member.active & {
     visibility: visible;
     height: auto;
+    padding-top: 2em;
+    margin-top: 1em;
   }
 }
 
 .team-member .btn-close {
   position: absolute;
-  top: -8px;
+  top: 0;
   right: 5px;
   width: 16px;
   height: 16px;
