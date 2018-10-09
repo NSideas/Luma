@@ -14,10 +14,14 @@ function closeFormOverlay($form) {
   $('body').removeClass('no-scroll');
 }
 
-$('.overlay-trigger').click(function(e) {
+$('a[href^="#"]').click(function(e) {
   e.preventDefault();
-  var overlay = $(this).attr('href');
-  openFormOverlay($(overlay));
+  var target = $(this).attr('href');
+  if ($(target) && $(target).hasClass('overlay-module')) {
+    openFormOverlay($(target));
+  } else {
+    window.location.href = target;
+  }
 });
 
 $('.overlay-module .btn-close').click(function() {
