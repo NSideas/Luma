@@ -26,55 +26,59 @@ This template is used for all basic pages.
 
 
 
-## About You Template
+## News Feed Template
 
-This template is used for all the *About You* pages.
+This template is used for the *Informing Views* page.
 
 #### Fields
 * **Title** – *plain text*
-* **Intro Text** – *plain text*
-* **Call to Action Button** – *field group*
-  * **Link Text** – *plain text*
-  * **Link Destination** – *URL*
-* **Body** – *rich text*
-* **Primary Color** – *select*
-  * Options: Purple, Blue, Teal, Green, Red, Gold
-* **Background Photo** – *image*
-* **Modules** – *page sections*
+* **CTA Link URL** – *plain text*
+* **CTA Link Text** – *plain text*
+
+
+Modules referenced here: [News Article Teaser](MODULES.md#news-article-teaser), [News Filters](MODULES.md#news-filters)
 
 
 ```html
 <!-- include {Header} -->
 
-<div class="hero-img" style="background-image: url({Background_Photo})"></div>
+<main class="main-content">
 
-<div class="main-content-wrapper">
+  <div class="main-section intro-section contain">
+    <h2 class="section-title">{Title}</h2>
+    <a class="cta-link" href="{CTA_Link_URL}">{CTA_Link_Text}</a>
+  </div>
 
-  <!-- include {Breadcrumbs} -->
+  <div id="news" class="main-section contain">
+    <div class="news-section grid-container">
 
-  <main class="main-content">
+      <div class="news-container">
 
-    <div class="page-intro">
-      <section class="container">
-        <h1 class="page-title">{Title}</h1>
-        <p class="intro-paragraph">{Intro_Text}</p>
-        <a class="btn btn--large" href="{Link_Destination}">{Link_Text}</a>
-      </section>
+        <ul class="news-list">
+          <!-- for each {News_Article} : include {News_Article_Teaser} -->
+        </ul>
+
+        <div class="news-pagination">
+          <!-- if (not last page) : -->
+          <span class="pagination-next">
+            <a class="next-page" href="{Next_Page_URL}" rel="next">Next</a>
+          </span>
+          <!-- /if -->
+          <!-- if (not first page) : -->
+          <span class="pagination-prev">
+            <a class="prev-page" href="{Prev_Page_URL}" rel="prev">Previous</a>
+          </span>
+          <!-- /if -->
+        </div>
+
+      </div>
+
+      <!-- include {News_Filters} -->
+
     </div>
+  </div>
 
-    <div class="main-section content-area">
-      <section class="container">
-        {Body}
-      </section>
-    </div>
-
-    <!-- for each {Module} : include {Module} -->
-
-  </main>
-
-</div>
-
-<!-- include {Quick_Links} -->
+</main>
 
 <!-- include {Footer} -->
 ```
@@ -89,164 +93,72 @@ This template is used for all News Articles. The **Intro** field is not referenc
 
 #### Fields
 * **Title** – *plain text*
-* **Intro** – *plain text*
+* **Date** – *plain text*
 * **Category** – *plain text*
-* **Featured** – *true/false*
-* **Body** – *rich text*
-
-
-```html
-<!-- include {Header} -->
-
-<div class="page-intro--default">
-  <section class="container">
-    <h1 class="page-title">{News_and_Insights -> Title}</h1>
-    <p class="intro-paragraph">{News_and_Insights -> Intro_Text}</p>
-  </section>
-</div>
-
-<div class="main-content-wrapper">
-
-  <!-- include {Breadcrumbs} -->
-
-  <main class="main-content">
-
-    <div class="main-section content-area">
-      <article class="news-article-content container">
-        <h2>{Title}</h2>
-        {Body}
-      </article>
-    </div>
-
-    <div class="category-label container">
-      <p class="sans">Category:  <a href="{Category -> Link}">{Category -> Name}</a></p>
-    </div>
-
-  </main>
-
-  <!-- include {Related_News_List} -->
-  <!-- include {Quick_Links} -->
-
-</div>
-
-<!-- include {Footer} -->
-```
-
-
-
-
-
-
-## News Feed Template
-
-This template is used for the *News & Insights* page. All news articles and category pages will inherit the **Primary Color** selected in this page. The most recent "Featured" news article will display first, followed by all other news articles in chronological order.
-
-#### Fields
-* **Title** – *plain text*
-* **Intro Text** – *plain text*
-* **Primary Color** – *select*
-  * Options: Purple, Blue, Teal, Green, Red, Gold
-
-
-Modules referenced here: [Category Filters](MODULES.md#category-filters), [News Article Teaser](MODULES.md#news-article-teaser)
-
-
-```html
-<!-- include {Header} -->
-
-<div class="page-intro--default">
-  <section class="container">
-    <h1 class="page-title">{Title}</h1>
-    <p class="intro-paragraph">{Intro_Text}</p>
-  </section>
-</div>
-
-<div class="main-content-wrapper">
-
-  <!-- include {Breadcrumbs} -->
-
-  <main class="main-content">
-
-    <!-- include {Category_Filters} -->
-
-    <div id="featured-article" class="main-section">
-      <div class="container">
-        <!-- include {Featured_News_Article_Teaser} -->
-      </div>
-    </div>
-
-    <div class="pattern-separator"></div>
-
-    <div id="news-feed" class="main-section">
-      <div class="container">
-        <!-- for each {News_Article} : include {News_Article_Teaser} -->
-      </div>
-    </div>
-
-    <div class="news-pagination container">
-      <!-- if (not last page) : -->
-      <span class="pagination-older">
-        <a href="news-and-insights-page-2.html">&lt; Older Articles</a>
-      </span>
-      <!-- if (not first page) : -->
-      <span class="pagination-newer">
-        <a href="news-and-insights.html">Newer Articles &gt;</a>
-      </span>
-    </div>
-
-  </main>
-
-  <!-- include {Quick_Links} -->
-
-</div>
-
-<!-- include {Footer} -->
-```
-
-
-
-
-
-## Story Template
-
-This template is used for all *Story* pages. The **Intro**, **Link Text** and **Mini Portrait** fields are not referenced in this template—they are used for the [Story Teaser](MODULES.md#story-teaser).
-
-#### Fields
-* **Title** – *plain text*
-* **Intro** – *plain text*
-* **Link Text** – *plain text*
-* **Mini Portrait** – *image*
 * **Featured Image** – *image*
+* **Show Featured Image in Post** – *true/false*
+* **Intro** – *plain text*
 * **Body** – *rich text*
-* **Disclaimer** – *plain text*
-* **Primary Color** – *select*
-  * Options: Purple, Blue, Teal, Green, Red, Gold
+
 
 ```html
 <!-- include {Header} -->
 
-<div class="main-content-wrapper">
+<main class="main-content">
 
-  <!-- include {Breadcrumbs} -->
+  <div class="main-section intro-section contain">
+    <h2 class="section-title">{Informing_Views -> Title}</h2>
+    <a class="cta-link" href="{Informing_Views -> CTA_Link_URL}">{Informing_Views -> CTA_Link_Text}</a>
+  </div>
 
-  <main class="main-content">
-    <div class="container">
+  <div id="news" class="main-section contain">
+    <div class="news-section grid-container">
 
-      <article class="story main-section">
-        <h1 class="page-title">{Title}</h1>
-        <img class="featured-image" src="{Featured_Image}" alt="{Featured_Image(alt)}">
-        <div class="content-area">
-          {Body}
+      <div class="news-container">
+
+        <article class="single-post">
+          <header>
+            <h5 class="post-date">{Date}</h5>
+            <h3 class="post-title">{Title}</h3>
+          </header>
+          <!-- if {Show_Featured_Image_in_Post} : -->
+          <div class="featured-image">
+            {Featured_Image}
+          </div>
+          <!-- /if -->
+          <div class="post-content">
+            {Body}
+          </div>
+        </article>
+
+        <div class="news-pagination">
+          <!-- if (not last page) : -->
+          <span class="pagination-next">
+            <a class="next-page" href="{Next_Post_URL}" rel="next">Next</a>
+          </span>
+          <!-- /if -->
+          <!-- if (not first page) : -->
+          <span class="pagination-prev">
+            <a class="prev-page" href="{Prev_Post_URL}" rel="prev">Previous</a>
+          </span>
+          <!-- /if -->
         </div>
-        <p class="disclaimer small">{Disclaimer}</p>
-      </article>
+
+      </div>
+
+      <!-- include {News_Filters} -->
 
     </div>
-  </main>
+  </div>
 
-  <!-- include {Recent_Story_List} -->
-
-</div>
+</main>
 
 <!-- include {Footer} -->
 ```
+
+
+
+
+---
+---
+---

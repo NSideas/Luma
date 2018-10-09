@@ -283,18 +283,14 @@ The Upcoming Event List shows the three nearest upcoming events.
     <div class="event-body">
       {Description}
     </div>
-    <!-- if {Images} : -->
     <div class="event-photos flex">
       <!-- for each {Image} : -->
       <figure>
         {Photo}
-        <!-- if {Caption} : -->
         <figcaption>{Caption}</figcaption>
-        <!-- /if -->
       </figure>
       <!-- /for each -->
     </div>
-    <!-- /if -->
   </section>
 </div>
 ```
@@ -323,6 +319,63 @@ The Past Event List shows the four most recent past events. Due to complexity of
 </div>
 ```
 
+
+
+
+
+## News Article Teaser
+
+News Article Teasers appear in the news feed and link to their full articles.
+
+```html
+<li class="news-item">
+  <a class="featured-image" href="{News_Article -> URL}">
+    {News_Article -> Featured_Image}
+  </a>
+  <section class="post-info">
+    <h5 class="post-date">{News_Article -> Date}</h5>
+    <h3 class="post-title">
+      <a href="{News_Article -> URL}">{News_Article -> Title}</a>
+    </h3>
+    <p class="content-preview">
+      {News_Article -> Intro}
+      <a class="more-link" href="{News_Article -> URL}">More</a>
+    </p>
+  </section>
+</li>
+```
+
+
+
+
+
+## News Filters
+
+This module allows the user to filter posts by category and month. The options listed within each section should be dynamically populated as articles are posted to the site.
+
+```html
+<aside class="news-filters">
+
+  <section class="news-filter--category">
+    <h4>Category</h4>
+    <ul class="filter-options">
+      <!-- for each {Category} : -->
+      <li><a href="{Category -> URL}">{Category -> Name}</a></li>
+      <!-- /for each -->
+    </ul>
+  </section>
+
+  <section class="news-filter--archive">
+    <h4>Archives</h4>
+    <ul class="filter-options">
+      <!-- for each {Month} : -->
+      <li><a href="{Month -> URL}">{Month -> Name}</a></li>
+      <!-- / for each -->
+    </ul>
+  </section>
+
+</aside>
+```
 
 
 
