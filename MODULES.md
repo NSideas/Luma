@@ -13,7 +13,7 @@ Editable fields are referenced in the code samples inside of curly braces. Eg. *
 * [Block Lists](#block-lists)
 * [Full Width Image](#full-width-image)
 * [Responsive Image](#responsive-image)
-* [Staff List](#responsive-image)
+* [Staff List](#staff-list)
 * [Hero 70-30](#hero-70-30)
 * [Upcoming Event](#upcoming-event)
 * [Upcoming Events List](#upcoming-events-list)
@@ -31,7 +31,7 @@ Editable fields are referenced in the code samples inside of curly braces. Eg. *
 
 ## Main Nav
 
-The Main Nav should display links to all the main pages of the site. This module is indluded in both the [Header](#STRUCTURE.md#header) and the [Footer](#STRUCTURE.md#footer).
+The Main Nav should display links to all the main pages of the site. This module is indluded in both the [Header](STRUCTURE.md#header) and the [Footer](STRUCTURE.md#footer).
 
 #### Fields
 * **Main Nav Item** – *repeater*
@@ -67,7 +67,7 @@ The Main Nav should display links to all the main pages of the site. This module
 
 ## Header Top Menu
 
-This is the part of the [Header](#STRUCTURE.md#header) that is above the main nav.
+This is the part of the [Header](STRUCTURE.md#header) that is above the main nav.
 
 #### Fields
 * **Menu Item** – *repeater*
@@ -613,3 +613,7 @@ The Secondary Nav displays links to secondary pages in the [Footer](STRUCTURE.md
   <!-- /for each -->
 </ul>
 ```
+
+---
+
+[Back to Top](#Modules)
