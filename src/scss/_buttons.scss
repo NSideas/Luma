@@ -93,6 +93,15 @@ input[type="submit"] {
   }
 }
 
+a.btn {
+  @include ui_button_primary;
+  display: inline-block;
+  margin-top: 1em;
+  &:hover {
+    color: white;
+  }
+}
+
 .cta-link {
   @include arrow_link('right');
   margin-top: 1.5em;
