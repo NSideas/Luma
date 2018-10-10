@@ -10,6 +10,7 @@ Editable fields are referenced in the code samples inside of curly braces. Eg. *
 * [Header Top Menu](#header-top-menu)
 * [Home Page Slider](#home-page-slider)
 * [Content Area](#content-area)
+* [Two Column Section](#two-column-section)
 * [Block Lists](#block-lists)
 * [Full Width Image](#full-width-image)
 * [Responsive Image](#responsive-image)
@@ -36,7 +37,7 @@ The Main Nav should display links to all the main pages of the site. This module
 #### Fields
 * **Main Nav Item** – *repeater*
   * **Page** – *post object*
-  * **Sub Nav Item** – *repeater (optional)*
+  * **Sub Nav Item** – *repeater*
     * **Page** – *post object*
 
 
@@ -148,6 +149,29 @@ The Content Area displays the contents of a rich text or [WYSISYG](https://en.wi
 ```html
 <div class="content-area contain">
   {Body}
+</div>
+```
+
+
+
+
+
+## Two Column Section
+
+Use this module if you need a two column layout.
+
+#### Fields
+* **Left Column** – *rich text*
+* **Right Column** – *rich text*
+
+```html
+<div class="two-column-section contain">
+  <div class="content-area grid-6">
+    {Left_Column}
+  </div>
+  <div class="content-area grid-6">
+    {Right_Column}
+  </div>
 </div>
 ```
 
@@ -286,7 +310,7 @@ The Staff List is used to display all the team members on the [leadership page](
 #### Fields
 * **Staff Member** – *repeater*
   * **Name** – *plain text*
-  * **Suffix** – *plain text (optional)*
+  * **Suffix** – *plain text*
   * **Title** – *plain text*
   * **Portrait** – *image*
   * **Bio** – *rich text*

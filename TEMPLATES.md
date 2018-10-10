@@ -159,10 +159,3 @@ This template is used for all News Articles. The **Intro** field is not referenc
 
 <!-- include {Footer} -->
 ```
-
-
-
-
----
----
----

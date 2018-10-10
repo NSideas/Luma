@@ -20,7 +20,7 @@ For example, the body tag on "Wealth Planning" should look like this:
 
 The Header should be the first element after the opening body tag.
 
-Modules referenced here: [Header Top Menu](#), [Main Nav](#)
+Modules referenced here: [Header Top Menu](MODULES.md#header-top-menu), [Main Nav](MODULES.md#main-nav)
 
 ```html
 <header id="header">
@@ -59,7 +59,7 @@ The Main Sections are essentially the building blocks of each page. Most modules
 
 ```html
 <div id="{Module -> Name}" class="main-section">
-  {Module}
+  <!-- include {Module} -->
 </div>
 ```
 
@@ -67,7 +67,7 @@ Main Sections can have background colors and inner shadows. To apply a backgroun
 
 ```html
 <div id="{Module -> Name}" class="main-section bg-color--beige">
-  {Module}
+  <!-- include {Module} -->
 </div>
 ```
 
@@ -75,7 +75,7 @@ To add an inner shadow, use one the following class names: `top-shadow`, `bottom
 
 ```html
 <div id="{Module -> Name}" class="main-section bg-color--beige top-shadow">
-  {Module}
+  <!-- include {Module} -->
 </div>
 ```
 
@@ -96,19 +96,11 @@ If multiple modules are contained within a Main Section, they should each be wra
 
 
 
-
-
-
-
-
-
-
-
 ## Footer
 
 The Footer should be the last element on the page, just before the script tags.
 
-Modules referenced here: [Footer Contact Info](MODULES.md#footer-contact-info), [Main Nav](#), [Secondary Nav](#)
+Modules referenced here: [Footer Contact Info](MODULES.md#footer-contact-info), [Main Nav](MODULES.md#main-nav), [Secondary Nav](MODULES.md#secondary-nav)
 
 ```html
 <footer id="footer" class="bg-color--brown">
