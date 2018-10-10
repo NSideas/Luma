@@ -3,9 +3,9 @@
 // Events
 
 .upcoming-event-list {
-  padding: 1.25em 0;
+  padding-bottom: 1.25em;
   @media (min-width: $l) {
-    padding: 2em 0;
+    padding-bottom: 2em;
   }
 }
 

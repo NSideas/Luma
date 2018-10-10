@@ -140,16 +140,18 @@ Block Lists are styled lists with that contain block-level HTML elements within 
   * **Content** – *rich text*
 
 ```html
-<ul class="block-list grid-container">
+<div class="contain">
+  <ul class="block-list grid-container">
 
-  <!-- for each {Block_List_Item} : -->
-  <li class="block-list-item grid-4">
-    {Image}
-    {Content}
-  </li>
-  <!-- /for each -->
+    <!-- for each {Block_List_Item} : -->
+    <li class="block-list-item grid-4">
+      {Image}
+      {Content}
+    </li>
+    <!-- /for each -->
 
-</ul>
+  </ul>
+</div>
 ```
 
 
@@ -166,21 +168,52 @@ The Compact Block List consists of a single column of list items. Each item is c
     * Options: light-red, dark-red, purple, blue, green
 
 ```html
-<ul class="block-list--compact">
+<div class="contain">
+  <ul class="block-list--compact">
 
-  <!-- for each {Block_List_Item} : -->
-  <li class="block-list-item">
-    <div class="inner-wrap flex">
-      {Icon}
-      <section>
-        <h4 class="{Color}">{Title}</h4>
-        {Content}
-      </section>
-    </div>
-  </li>
-  <!-- /for each -->
+    <!-- for each {Block_List_Item} : -->
+    <li class="block-list-item">
+      <div class="inner-wrap flex">
+        {Icon}
+        <section>
+          <h4 class="{Color}">{Title}</h4>
+          {Content}
+        </section>
+      </div>
+    </li>
+    <!-- /for each -->
 
-</ul>
+  </ul>
+</div>
+```
+
+
+### Process Diagram
+
+The Process Diagram is used to illustrate a multi-step process.
+
+#### Fields
+* **Process Item** – *repeater*
+  * **Header** – *image*
+  * **Content** – *plain text*
+
+```html
+<div class="contain">
+  <ul class="process-diagram grid-container">
+
+    <!-- for each {Process_Item} : -->
+    <li class="process-item grid-4">
+      <header>
+        <h4>{Header}</h4>
+      </header>
+      <div class="content">
+        <p>{Content}</p>
+      </div>
+    </li>
+    <!-- /for each -->
+
+  </ul>
+</div>
 ```
 
 
@@ -258,7 +291,7 @@ The Staff List is used to display all the team members on the [leadership page](
 The Upcoming Event List shows the three nearest upcoming events.
 
 ```html
-<div class="upcoming-event-list">
+<div class="upcoming-event-list contain">
   <!-- for each {Upcoming_Event} : include {Upcoming_Event} -->
 </div>
 ```
