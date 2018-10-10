@@ -212,9 +212,14 @@
 }
 
 #toggle-top-menu span {
-  color: rgba($brown, .7);
-  font-size: .875em;
+  width: 12px;
+  height: 12px;
   margin-top: 3px;
+  background-image: url('/dist/img/icn-chevron-down.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .7;
 }
 
 .header-top-container.open + #toggle-top-menu span {
