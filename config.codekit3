@@ -1161,6 +1161,13 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/src/kit/404.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/site/404.html",
+		"oF": 0
+		},
 	"/src/kit/contact-us.kit": {
 		"cB": 0,
 		"ft": 2048,
