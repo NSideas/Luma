@@ -517,6 +517,13 @@
 		"oAP": "/site/default-template.html",
 		"oF": 0
 		},
+	"/site/forms.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/site/forms.html",
+		"oF": 0
+		},
 	"/site/helping-you.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -578,13 +585,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/site/providing-community.html",
-		"oF": 0
-		},
-	"/site/styleguide.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/site/styleguide.html",
 		"oF": 0
 		},
 	"/site/understanding-women.html": {
@@ -1168,6 +1168,13 @@
 		"oAP": "/site/contact-us.html",
 		"oF": 0
 		},
+	"/src/kit/forms.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/site/forms.html",
+		"oF": 0
+		},
 	"/src/kit/helping-you.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1460,13 +1467,6 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "/site/providing-community.html",
-		"oF": 0
-		},
-	"/src/kit/styleguide.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "/site/styleguide.html",
 		"oF": 0
 		},
 	"/src/kit/templates/default-template.kit": {

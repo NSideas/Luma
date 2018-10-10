@@ -59,7 +59,6 @@ This is the part of the header that is above the main nav.
   * **Title** – *plain text*
   * **URL** – *plain text*
 
-
 ```html
 <div class="header-top-container contain">
   <ul class="header-top-menu">
@@ -119,11 +118,6 @@ The Home Page Slider is a module that consists of the repeatable item, **Slide**
   <div class="swiper-pagination"></div>
 </div>
 ```
-
-
-
-
-
 
 
 
@@ -219,6 +213,40 @@ The Process Diagram is used to illustrate a multi-step process.
 
 
 
+
+## Full Width Image
+
+This module contains an image that spans the full width of the browser. It is important that this module does not get nested within a `.main-section` or `.contain`.
+
+#### Fields
+* **Image** – *image*
+
+```html
+<div class="full-width-img">
+  {Image}
+</div>
+```
+
+
+
+## Responsive Image
+
+In some cases, you may want to use a different version of an image at a specific screen width. For this scenario, the `picture` element is used.
+
+#### Fields
+* **Default Image** – *image*
+* **Large Image** – *image*
+* **Breakpoint** – *number*
+
+```html
+<picture class="attachment-img">
+  <source srcset="{Large_Image -> URL}" media="(min-width: {Breakpoint}px)">
+  <img src="{Default_Image -> URL}" alt="{Default_Image -> alt}">
+</picture>
+```
+
+
+
 ## Staff List
 
 The Staff List is used to display all the team members on the [leadership page](#).
@@ -280,7 +308,6 @@ The Staff List is used to display all the team members on the [leadership page](
   </section>
 </div>
 ```
-
 
 
 
@@ -415,6 +442,31 @@ This module allows the user to filter posts by category and month. The options l
 
 
 
+## Form Overlay
+
+The Form Overlay is a module that contains a form and is hidden by default. The overlay becomes visible when a user clicks on its trigger. For examples of forms, see the [forms page](http://dev.bigfatideas.com/Luma/site/forms.html) on the demo site.
+
+#### Fields
+**Form** – *module*
+
+```html
+<div id="{Form -> Name}" class="overlay-module">
+  <div class="overlay-module--outer-wrap">
+    <div class="overlay-module--inner-wrap">
+
+      <div class="close-button-container">
+        <div class="btn-close"></div>
+      </div>
+
+      {Form}
+      
+    </div>
+  </div>
+</div>
+```
+
+
+
 ## Pre-Footer
 
 The Pre-Footer is included on the homepage, just above the footer. It is used to display relevant information and links.
@@ -429,28 +481,24 @@ The Pre-Footer is included on the homepage, just above the footer. It is used to
   * **Content** – *rich text*
 
 ```html
-<div class="main-section pre-footer--default">
-  <div class="contain">
-    <ul class="block-list grid-container">
+<div class="pre-footer--default contain">
+  <ul class="block-list grid-container">
 
-      <!-- for each {Pre_Footer_Item} : -->
-      <li class="block-list-item grid-4">
-        <header>
-          <h2>{Header}</h2>
-          <a class="cta-link" href="{Link_URL}">{Link_Text}</a>
-        </header>
-        <div class="content">
-          {Content}
-        </div>
-      </li>
-      <!-- /for each -->
+    <!-- for each {Pre_Footer_Item} : -->
+    <li class="block-list-item grid-4">
+      <header>
+        <h2>{Header}</h2>
+        <a class="cta-link" href="{Link_URL}">{Link_Text}</a>
+      </header>
+      <div class="content">
+        {Content}
+      </div>
+    </li>
+    <!-- /for each -->
 
-    </ul>
-
-  </div>
+  </ul>
 </div>
 ```
-
 
 
 
@@ -459,21 +507,19 @@ The Pre-Footer is included on the homepage, just above the footer. It is used to
 The Basic Pre-Footer is the same as the Pre-Footer except it does not have a content area. It is included on all basic pages, just above the footer.
 
 ```html
-<div class="main-section pre-footer--simple top-shadow">
-  <div class="contain">
-    <ul class="block-list grid-container">
+<div class="pre-footer--simple contain">
+  <ul class="block-list grid-container">
 
-      <!-- for each {Pre_Footer_Item} : -->
-      <li class="block-list-item grid-4">
-        <header>
-          <h2>{Header}</h2>
-          <a class="cta-link" href="{Link_URL}">{Link_Text}</a>
-        </header>
-      </li>
-      <!-- /for each -->
+    <!-- for each {Pre_Footer_Item} : -->
+    <li class="block-list-item grid-4">
+      <header>
+        <h2>{Header}</h2>
+        <a class="cta-link" href="{Link_URL}">{Link_Text}</a>
+      </header>
+    </li>
+    <!-- /for each -->
 
-    </ul>
-  </div>
+  </ul>
 </div>
 ```
 
