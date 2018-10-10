@@ -8,6 +8,21 @@ Editable fields are referenced in the code samples inside of curly braces. Eg. *
 
 * [Main Nav](#main-nav)
 * [Header Top Menu](#header-top-menu)
+* [Home Page Slider](#home-page-slider)
+* [Content Area](#content-area)
+* [Block Lists](#block-lists)
+* [Full Width Image](#full-width-image)
+* [Responsive Image](#responsive-image)
+* [Staff List](#responsive-image)
+* [Hero 70-30](#hero-70-30)
+* [Upcoming Event](#upcoming-event)
+* [Upcoming Events List](#upcoming-events-list)
+* [Past Event](#past-event)
+* [Past Events List](#past-events-list)
+* [News Article Teaser](#news-article-teaser)
+* [News Filters](#news-filters)
+* [Form Overlay](#form-overlay)
+* [Pre-Footer](#pre-footer)
 * [Footer Contact Info](#footer-contact-info)
 * [Secondary Nav](#secondary-nav)
 
@@ -16,7 +31,7 @@ Editable fields are referenced in the code samples inside of curly braces. Eg. *
 
 ## Main Nav
 
-The Main Nav should display links to all the main pages of the site.
+The Main Nav should display links to all the main pages of the site. This module is indluded in both the [Header](#STRUCTURE.md#header) and the [Footer](#STRUCTURE.md#footer).
 
 #### Fields
 * **Main Nav Item** – *repeater*
@@ -52,7 +67,7 @@ The Main Nav should display links to all the main pages of the site.
 
 ## Header Top Menu
 
-This is the part of the header that is above the main nav.
+This is the part of the [Header](#STRUCTURE.md#header) that is above the main nav.
 
 #### Fields
 * **Menu Item** – *repeater*
@@ -116,6 +131,23 @@ The Home Page Slider is a module that consists of the repeatable item, **Slide**
 
   </div>
   <div class="swiper-pagination"></div>
+</div>
+```
+
+
+
+
+
+## Content Area
+
+The Content Area displays the contents of a rich text or [WYSISYG](https://en.wikipedia.org/wiki/WYSIWYG) editor.
+
+#### Fields
+* **Body** – *rich text*
+
+```html
+<div class="content-area contain">
+  {Body}
 </div>
 ```
 
@@ -285,6 +317,29 @@ The Staff List is used to display all the team members on the [leadership page](
 
 
 
+## Hero 70-30
+
+This module is used to display an image and a short text heading side-by-side.
+
+#### Fields
+* **Image** – *image*
+* **Text** – *plain text*
+
+```html
+<div class="hero--70-30 contain">
+  <div class="img-column">
+    {Image}
+  </div>
+  <div class="text-column">
+    <h2 class="section-title">{Text}</h2>
+  </div>
+</div>
+```
+
+
+
+
+
 ## Upcoming Event
 
 #### Fields
@@ -308,8 +363,6 @@ The Staff List is used to display all the team members on the [leadership page](
   </section>
 </div>
 ```
-
-
 
 
 
@@ -359,9 +412,7 @@ The Upcoming Event List shows the three nearest upcoming events.
 
 
 
-
-
-## Past Event List
+## Past Events List
 
 The Past Event List shows the four most recent past events. Due to complexity of this layout, it is important that there are always four items in this list.
 
@@ -459,7 +510,7 @@ The Form Overlay is a module that contains a form and is hidden by default. The 
       </div>
 
       {Form}
-      
+
     </div>
   </div>
 </div>
@@ -544,6 +595,8 @@ The Basic Pre-Footer is the same as the Pre-Footer except it does not have a con
 
 
 ## Secondary Nav
+
+The Secondary Nav displays links to secondary pages in the [Footer](STRUCTURE.md#footer).
 
 #### Fields
 
