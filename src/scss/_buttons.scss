@@ -143,15 +143,19 @@ p + .cta-link {
 }
 
 #btn-scroll-top {
-  @include flex__center;
+  display: block;
   width: inherit;
   height: inherit;
-  font-size: 1.25em;
   border: solid 1px;
   color: black;
   transition: all .2s;
+  background-image: url('../img/icn-chevron-up.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px;
   .no-touch &:hover {
     color: $red-2;
+    background-image: url('../img/icn-chevron-up-red.svg');
   }
   @media (max-width: $m - 1) {
     display: none;
