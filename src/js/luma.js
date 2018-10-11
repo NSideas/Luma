@@ -13,7 +13,7 @@ function globalResizeHandler() {
   }
 }
 
-window.addEventListener('resize', debounce(globalResizeHandler, 100));
+window.addEventListener('resize', debounce(globalResizeHandler, 300));
 
 var top_button_visible = false;
 
@@ -38,7 +38,10 @@ function globalScrollHandler() {
   }
   timeout = setTimeout(function() {
     headerScroll();
-  }, 150);
+    if (mq_medium.matches) {
+      toggleScrollTop(window.innerHeight/2);
+    }
+  }, 250);
 }
 
-window.addEventListener('scroll', throttle(globalScrollHandler, 100));
+window.addEventListener('scroll', throttle(globalScrollHandler, 200));

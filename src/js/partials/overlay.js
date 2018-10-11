@@ -17,6 +17,9 @@ function closeFormOverlay($form) {
 $('a[href^="#"]').click(function(e) {
   e.preventDefault();
   var target = $(this).attr('href');
+  if (target === '#') {
+    return false;
+  }
   if ($(target) && $(target).hasClass('overlay-module')) {
     openFormOverlay($(target));
   } else {

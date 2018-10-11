@@ -44,6 +44,4 @@ function smoothScrollTop(e) {
   });
 }
 
-if (!bowser.firefox) {
-  scrollTopBtn.addEventListener('click', smoothScrollTop);
-}
+scrollTopBtn.addEventListener('click', smoothScrollTop);
