@@ -52,6 +52,7 @@ $placeholder-text: rgba(black, .4);
   font-weight: inherit;
   font-size: inherit;
   background: white;
+  line-height: inherit;
   padding: .75em;
   border: solid 1px $gray-2;
   &:focus {
