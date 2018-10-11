@@ -105,7 +105,7 @@ Modules referenced here: [Footer Contact Info](MODULES.md#footer-contact-info), 
 ```html
 <footer id="footer" class="bg-color--brown">
 
-  <div class="contain--wide grid-container">
+  <div class="contain grid-container">
 
     <div class="grid-4">
       <a class="logo" href="{Home_Page_URL}">
@@ -122,9 +122,7 @@ Modules referenced here: [Footer Contact Info](MODULES.md#footer-contact-info), 
   </div>
 
   <div id="scroll-top-container">
-    <a id="btn-scroll-top" href="#" title="Scroll to top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
+    <a id="btn-scroll-top" href="#" title="Scroll to top"></a>
   </div>
 
 </footer>
