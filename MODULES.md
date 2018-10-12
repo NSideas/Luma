@@ -163,6 +163,7 @@ Use this module if you need a two column layout.
 #### Fields
 * **Left Column** – *rich text*
 * **Right Column** – *rich text*
+* **Vertical Align Center** – *true/false*
 
 ```html
 <div class="two-column-section contain">
@@ -173,6 +174,13 @@ Use this module if you need a two column layout.
     {Right_Column}
   </div>
 </div>
+```
+
+If **Vertical Align Center** is set to *true*, the class name `center-y` should be appended to the wrapper.
+
+```html
+<div class="two-column-section center-y contain">
+...
 ```
 
 
