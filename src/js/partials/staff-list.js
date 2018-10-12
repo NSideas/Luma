@@ -3,11 +3,11 @@
 
 function staffList() {
   var containWidth = $('#staff-list--inner').innerWidth();
-  var containLeft = $('#staff-list--inner')[0].getBoundingClientRect().x;
+  var containLeft = $('#staff-list--inner')[0].getBoundingClientRect().left;
   $('.team-member-bio').each(function() {
     $(this).css('left', '0');
     $(this).width(containWidth);
-    var leftOffset = $(this)[0].getBoundingClientRect().x;
+    var leftOffset = $(this)[0].getBoundingClientRect().left;
     if (leftOffset !== containLeft) {
       var difference = leftOffset - containLeft;
       $(this).css('left', '-' + difference + 'px');
