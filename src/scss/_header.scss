@@ -60,7 +60,7 @@
 #header.fixed {
   #toggle-top-menu,
   .header-top-container {
-    display: none;
+    display: none !important;
   }
 }
 
