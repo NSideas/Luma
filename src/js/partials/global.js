@@ -12,6 +12,8 @@ var mq_xl = window.matchMedia('(min-width: 960px)');
 // Browser test
 if (bowser.msie) {
   $('html').addClass('ie');
+} else if (bowser.msedge) {
+  $('html').addClass('msedge');
 } else if (bowser.firefox) {
   $('html').addClass('firefox');
 }

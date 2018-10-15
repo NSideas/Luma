@@ -35,7 +35,8 @@
   font-size: 1.6em;
   position: relative;
   top: .12em;
-  .firefox & {
+  .firefox &,
+  .msedge & {
     top: 0;
   }
 }
