@@ -25,7 +25,7 @@ $('.team-member-link').click(function(e) {
   $teamMember.siblings().removeClass('active');
   $teamMember.toggleClass('active');
   var amountToScroll = $teamMember.offset().top;
-  amountToScroll -= mq_xl.matches ? 110 : 90;
+  amountToScroll -= mediaMatches('xl') ? 110 : 90;
   $(document).scrollTop(amountToScroll);
 });
 

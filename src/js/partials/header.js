@@ -75,7 +75,7 @@ $('#toggle-top-menu').click(function() {
 // Handle menu open/close states on resize
 
 function headerResize() {
-  if (mq_large.matches) {
+  if (mediaMatches('large')) {
     if (nav_is_open || top_menu_is_open) {
       $('#header-nav').attr('style', '').removeClass('open');
       $('#menu-toggle').removeClass('nav-open');
@@ -93,7 +93,7 @@ function headerResize() {
 // Fix header on scroll
 
 var header_fixed = false;
-var headerScrollTrigger = mq_xl.matches ? 200 : 120;
+var headerScrollTrigger = mediaMatches('xl') ? 200 : 120;
 
 function headerScroll() {
   if (window.scrollY > headerScrollTrigger && !header_fixed) {

@@ -2,13 +2,6 @@
 // GLOBAL
 
 
-// Media Queries
-var mq_small = window.matchMedia('(min-width: 480px)');
-var mq_medium = window.matchMedia('(min-width: 720px)');
-var mq_large = window.matchMedia('(min-width: 860px)');
-var mq_xl = window.matchMedia('(min-width: 960px)');
-
-
 // Browser test
 if (bowser.msie) {
   $('html').addClass('ie');
@@ -16,6 +9,19 @@ if (bowser.msie) {
   $('html').addClass('msedge');
 } else if (bowser.firefox) {
   $('html').addClass('firefox');
+}
+
+
+// Media Queries
+var mq = bowser.msie ? null : {
+  small: window.matchMedia('(min-width: 480px)'),
+  medium: window.matchMedia('(min-width: 720px)'),
+  large: window.matchMedia('(min-width: 860px)'),
+  xl: window.matchMedia('(min-width: 960px)')
+};
+
+function mediaMatches(condition) {
+  return mq === null ? false : mq[condition].matches;
 }
 
 // Touch screen test

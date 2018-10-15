@@ -36,6 +36,7 @@
   position: relative;
   top: .12em;
   .firefox &,
+  .ie &,
   .msedge & {
     top: 0;
   }
@@ -93,6 +94,17 @@ input[type="submit"] {
     }
   }
 }
+
+.ie {
+  button,
+  button[type="submit"],
+  input[type="submit"] {
+    &.btn-arrow:after {
+      top: .1em;
+    }
+  }
+}
+
 
 a.btn {
   @include ui_button_primary;

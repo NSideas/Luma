@@ -33,12 +33,12 @@ var timeout;
 function globalScrollHandler() {
   clearTimeout(timeout);
   headerScroll();
-  if (mq_medium.matches) {
+  if (mediaMatches('medium')) {
     toggleScrollTop(window.innerHeight/2);
   }
   timeout = setTimeout(function() {
     headerScroll();
-    if (mq_medium.matches) {
+    if (mediaMatches('medium')) {
       toggleScrollTop(window.innerHeight/2);
     }
   }, 250);
