@@ -1181,16 +1181,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/src/js/vendor/swiper.min.js": {
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dist/js/swiper.min.min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
 	"/src/kit/404.kit": {
 		"cB": 0,
 		"ft": 2048,

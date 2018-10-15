@@ -20,10 +20,6 @@ $max_width: 1200px;
   max-width: 700px;
 }
 
-.contain--wide {
-  @include contain;
-}
-
 .main-section {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
