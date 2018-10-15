@@ -23,6 +23,12 @@ The Header should be the first element after the opening body tag.
 Modules referenced here: [Header Top Menu](MODULES.md#header-top-menu), [Main Nav](MODULES.md#main-nav)
 
 ```html
+<!--[if lte IE 9]>
+<div class="browserupgrade">
+  <p>You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+</div>
+<![endif]-->
+
 <header id="header">
 
   <!-- include {Header_Top_Menu} -->
