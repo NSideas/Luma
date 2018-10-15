@@ -95,17 +95,6 @@ input[type="submit"] {
   }
 }
 
-.ie {
-  button,
-  button[type="submit"],
-  input[type="submit"] {
-    &.btn-arrow:after {
-      top: .1em;
-    }
-  }
-}
-
-
 a.btn {
   @include ui_button_primary;
   display: inline-block;

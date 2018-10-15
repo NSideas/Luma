@@ -4,7 +4,7 @@
 
 // Browser test
 if (bowser.msie) {
-  $('html').addClass('ie');
+  $('html').addClass(bowser.version > 9 ? 'ie' : 'ie-old');
 } else if (bowser.msedge) {
   $('html').addClass('msedge');
 } else if (bowser.firefox) {

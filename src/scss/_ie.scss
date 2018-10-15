@@ -1,0 +1,25 @@
+
+
+// General IE styles
+
+.ie {
+  button,
+  button[type="submit"],
+  input[type="submit"] {
+    &.btn-arrow:after {
+      top: .1em;
+    }
+  }
+}
+
+
+
+// IE 9 and below
+
+.ie-old {
+  @extend .ie;
+}
+
+.ie-old #home-page-slider {
+  display: none;
+}
