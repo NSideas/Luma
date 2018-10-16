@@ -46,10 +46,7 @@ var scrollTopBtn = document.getElementById('btn-scroll-top');
 
 function smoothScrollTop(e) {
   e.preventDefault();
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
+  $('html, body').animate({scrollTop:0}, 500);
 }
 
 scrollTopBtn.addEventListener('click', smoothScrollTop);
