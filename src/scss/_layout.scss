@@ -38,9 +38,6 @@ $max_width: 1200px;
   @media (min-width: $m) {
     padding-top: 2em;
   }
-  @media (min-width: $l) {
-    padding-top: 3.5em;
-  }
 }
 
 .sub-section:not(:last-child) {

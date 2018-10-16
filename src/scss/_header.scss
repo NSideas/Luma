@@ -6,11 +6,8 @@
   z-index: 10;
   min-height: 100px;
   @media (min-width: $xl) {
-    padding-top: 14px;
-    height: 194px;
-  }
-  @media (min-width: $xxl) {
-    padding-top: 26px;
+    padding-top: 10px;
+    height: 180px;
   }
 }
 
@@ -85,7 +82,7 @@
 #header.fixed + .main-content {
   padding-top: 100px;
   @media (min-width: $xl) {
-    padding-top: 192px;
+    padding-top: 180px;
   }
 }
 
