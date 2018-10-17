@@ -189,7 +189,7 @@ If **Vertical Align Center** is set to *true*, the class name `center-y` should 
 
 ## Block Lists
 
-Block Lists are styled lists with that contain block-level HTML elements within each `li`. They consist of the repeatable field, **Block List Item** which include various sub fields based on the type of list.
+Block Lists are styled lists with that contain block-level HTML elements within each `li`. They consist of the repeatable field, **Block List Item** which can include various sub fields based on the type of list.
 
 
 #### Fields
