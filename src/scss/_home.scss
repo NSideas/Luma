@@ -40,7 +40,8 @@
   max-width: none;
   @media (min-width: $m) {
     width: auto;
-    max-height: 600px;
+    height: 38.5vw;
+    max-height: 60vh;
   }
 }
 
