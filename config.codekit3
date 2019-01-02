@@ -1318,6 +1318,13 @@
 		"oAP": "/site/_past-4.html",
 		"oF": 0
 		},
+	"/src/kit/modules/events/_register-link.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/site/_register-link.html",
+		"oF": 0
+		},
 	"/src/kit/modules/events/_upcoming-1.kit": {
 		"cB": 0,
 		"ft": 2048,
