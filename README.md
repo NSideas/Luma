@@ -9,7 +9,7 @@ A development guide for the Luma Wealth Advisors website.
 
 Production-ready assets (JS, CSS, fonts and images) can be found in the `dist/` folder. The `src/` folder is for development purposes only.
 
-The `site/` folder is the root of the [demo website](http://dev.bigfatideas.com/Luma/site/).
+The `site/` folder is the root of the [demo website](https://nsideas.github.io/Luma/site/).
 
 ### Images
 
